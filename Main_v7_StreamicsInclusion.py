@@ -357,10 +357,10 @@ def clicked():
     # email = entry_email.get()
     email = entry_email.get()
     password = entry_password.get()
+    # Get the user that initiated the script
+    user = email.split("@")[0]
+    user = user.replace('.','_')
     if password == '':
-        # Get the user that initiated the script
-        user = email.split("@")[0]
-        user = user.replace('.','_')
         # Check if there is a file with the password
         user_file_path = user_folder + '/' + user + '.txt'
         pwd_file_present = os.path.exists(user_file_path)
@@ -533,8 +533,34 @@ window.mainloop()
 
 logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + user + '_logfile.txt'
 
+
+# Get the cases for rebuilt and for promotion
+caseids = get_caseids_from_input(raw_input_caseids)
+#caseids_summary = {}
+caseids_rebuilt = get_caseids_from_input(raw_input_caseids_rebuilt)
+caseids_rebuilt_summary = {}
+
+# See if it is for Livit or not
+if Livit.get() == 1:
+    shouldBeLivit = True
+else:
+    shouldBeLivit = False
+
+if streamics.get() == 1:
+    # If the checkbox is checked, keep the Streamics steps
+    promote_in_streamics = True
+else:
+    # If the streamcis checkbox is disabled is disabled
+    if len(caseids_rebuilt) == 0:
+        # If there are no rebeuilt, don't open streamics
+        promote_in_streamics = False
+    else:
+        # If there are rebuilts, do open streamics
+        promote_in_streamics = True
+
+
 # Check if the Excel file with the link between case ID and Streamics order ID is present.
-if os.path.exists(streamicsOrderFile_path):
+if os.path.exists(streamicsOrderFile_path) and promote_in_streamics:
     # Start an instance of Excel
     xlapp = win32com.client.DispatchEx("Excel.Application")
     # Open the workbook in said instance of Excel
@@ -560,30 +586,6 @@ if os.path.exists(streamicsOrderFile_path):
                 if type(ccid) is str and type(coid) is str:
                     print(ccid + '   ' + coid)
                     streamics_order_ids[ccid] = coid
-
-# Get the cases for rebuilt and for promotion
-caseids = get_caseids_from_input(raw_input_caseids)
-#caseids_summary = {}
-caseids_rebuilt = get_caseids_from_input(raw_input_caseids_rebuilt)
-caseids_rebuilt_summary = {}
-
-# See if it is for Livit or not
-if Livit.get() == 1:
-    shouldBeLivit = True
-else:
-    shouldBeLivit = False
-
-if streamics.get() == 1:
-    # If the checkbox is checked, keep the Streamics steps
-    promote_in_streamics = True
-else:
-    # If the streamcis checkbox is disabled is disabled
-    if len(caseids_rebuilt) == 0:
-        # If there are no rebeuilt, don't open streamics
-        promote_in_streamics = False
-    else:
-        # If there are rebuilts, do open streamics
-        promote_in_streamics = True
 
 
 
