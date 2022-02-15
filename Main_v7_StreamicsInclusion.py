@@ -54,7 +54,7 @@ import win32com.client
 
 # Define some variables
 
-testenvironment = 0
+testenvironment = 1
 
 if testenvironment == 0:
     # Live environment
@@ -82,7 +82,22 @@ statusFlowOms = ("Waiting for design parameters","Design","Design rejected","Des
 # Streamics
 #statusFlowStreamics = ("Inbound warehouse","Incoming cap QC","Built","Sent to subcontractor","Returned from subcontractor","End product QC","Ready to ship in Paal","Shipped to customer")
 # Temp for testing purposes
-statusFlowStreamics = ('1210 SLS build breakout + sandblasting','1231 SLS QC specific','1340 SLS color dye','1410 SLS QC after surface finishing','1950 SLS sent for delivery','TEST Paal inbound warehouse','TEST Paal incoming QC cap','TEST Paal Built (Promotion OMS)','TEST Paal sent to subcontractor','TEST Paal Returned from subcontractor','TEST Paal End QC Phits','TEST Paal Ready to ship (Promotion OMS)','TEST Paal Shipped to customer (Promotion OMS)','Post processing finished')
+statusFlowStreamics = ('1210 SLS build breakout + sandblasting',
+'1231 SLS QC specific',
+'1340 SLS color dye',
+'1410 SLS QC after surface finishing',
+'1950 SLS sent for delivery',
+'9410 MOT Inbound warehouse',
+'9420 MOT Incoming cap QC (printed part)',
+'9430 MOT Built',
+'9440 MOT Sent to subcontractor',
+'9450 MOT Returned from subcontractor',
+'9460 MOT End product QC',
+'9470 MOT Ready to ship in Paal',
+'Post processing finished')
+
+test = 1
+
 # Link the Streamics status to the OMS status
 # The first 5 Streamics statuses are linked to the first OMS status, to prevent that incorrect promotions are done in the OMS.
 StreamicsOmsStatusLink = {
@@ -98,8 +113,7 @@ StreamicsOmsStatusLink = {
   statusFlowStreamics[9]: statusFlowOms[5],
   statusFlowStreamics[10]: statusFlowOms[5],
   statusFlowStreamics[11]: statusFlowOms[6],
-  statusFlowStreamics[12]: statusFlowOms[7],
-  statusFlowStreamics[13]: statusFlowOms[7]
+  statusFlowStreamics[12]: statusFlowOms[7]
 }
 
 # Handles
@@ -128,7 +142,7 @@ def click_on_view_orders():
 
 
 def click_all_buttons_overview(xpathsearch_firstall,xpathsearch_secondall):
-    time.sleep(1)
+    time.sleep(5)
     print_with_timestamp('Focus on the first "all" button and click it')
     driver.find_element(By.XPATH, xpathsearch_secondall).click()
     print_with_timestamp('Focus on the second "all" button and click it')
@@ -159,7 +173,7 @@ def check_exists_by_type(elementtype, element_id_or_path, ticker):
     result = False
     x = -1
     while result == False and x <= ticker:
-        x += 1
+        x += 5
         if x > ticker:
             print_with_timestamp('   The script seems to be stuck. Consider restarting the script.')
             x = -1
@@ -226,7 +240,7 @@ def get_current_status_line(page):
         current_status_oms_index = statusFlowOms.index(current_status_oms)
         print_with_timestamp('   OMS: The current status is: ' + current_status_oms + ' (' + str(current_status_oms_index) + ')')
     else:
-        current_status_oms_index = 'X'
+        current_status_oms_index = 99999
         print_with_timestamp('   OMS: The current status is: ' + current_status_oms )
     return current_status_oms, current_status_oms_index
 
@@ -1103,19 +1117,20 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         if first_time_batch == 1:
                             wait_until_element_is_present('id','gs_CaseID',20)
                             time.sleep(0.1)
-                            # Clear the case ID search field
-                            driver.find_element(By.ID, "gs_CaseID").clear()
-                            # Grab the case ID search field
-                            searchinput = driver.find_element(By.ID, "gs_CaseID")
-                            # Insert the case ID into the case ID search field
-                            searchinput.send_keys(caseid)
-                            time.sleep(1)
-                            searchinput.send_keys(Keys.ENTER)
-                        # Click the checkbox of the case
+                        # Clear the case ID search field
+                        driver.find_element(By.ID, "gs_CaseID").clear()
+                        # Grab the case ID search field
+                        searchinput = driver.find_element(By.ID, "gs_CaseID")
+                        # Insert the case ID into the case ID search field
+                        searchinput.send_keys(caseid)
                         time.sleep(1)
+                        searchinput.send_keys(Keys.ENTER)
+                        
+                        # Click the checkbox of the case
+                        time.sleep(2)
                         checkbox_ID = "jqg_ctl00_right_side_GridBatch_" + str(caseid_nr)
                         wait_until_element_is_present('id',checkbox_ID,20)
-                        time.sleep(2)
+                        time.sleep(1)
                         driver.find_element(By.ID, checkbox_ID).click()
                         time.sleep(1)
                         # Click the promotion button
@@ -1187,8 +1202,8 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
             if "Cancelled" in current_status_oms:
                 print_with_timestamp('   OMS: This case is in cancelled status (' + current_status_oms + '). Added to invalid cases.')
                 #register_case_ID('invalid',caseid + " (cancelled)",cc)
-                caseids_summary[caseid]['OMS'] = 'Invalid (cancellend)'
-            if promote_in_oms == False:
+                caseids_summary[caseid]['OMS'] = 'Invalid (cancelled)'
+            if promote_in_oms == False and "Cancelled" not in current_status_oms:
                 print_with_timestamp('   OMS: This case is already has the correct status (' + current_status_oms + '). Added to valid cases.')
                 #register_case_ID('valid',caseid,cc)
                 caseids_summary[caseid]['OMS'] = 'Valid'
@@ -1201,6 +1216,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
             DoNothing = 1
         driver.switch_to.window(driver.window_handles[handle_oms_view_orders])
         time.sleep(0.1)
+        del caseid_nr
 
     # Add the final time stamp
     timestamps.append(datetime.now)
