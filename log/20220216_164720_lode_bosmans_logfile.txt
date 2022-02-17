@@ -1,0 +1,70 @@
+2022-02-16 16:47:28.998    User: lode_bosmans
+2022-02-16 16:47:29.014    Destination status Streamics: Post processing finished
+2022-02-16 16:47:29.019    Destination status OMS: Shipped
+2022-02-16 16:47:29.024     
+2022-02-16 16:47:29.033    The cases to be processed for promotion:
+2022-02-16 16:47:29.043475    RS21-POG-SOH, RS21-VEK-NAS, RS21-ZAH-VUX
+2022-02-16 16:47:29.049     
+2022-02-16 16:47:29.055    The cases to be processed for rebuilt:
+2022-02-16 16:47:29.062398    
+2022-02-16 16:47:29.068     
+2022-02-16 16:47:29.072    Setting up the browser and checking compatability
+2022-02-16 16:47:30.560    Chrome browser version: 98
+2022-02-16 16:47:30.565    Chromedriver version: 98
+2022-02-16 16:47:30.572    Versions match
+2022-02-16 16:47:34.068     
+2022-02-16 16:47:34.072    Focus on the "view orders" button and click it
+2022-02-16 16:47:34.079     
+2022-02-16 16:47:42.057    Focus on the first "all" button and click it
+2022-02-16 16:47:42.111    Focus on the second "all" button and click it
+2022-02-16 16:47:42.291     
+2022-02-16 16:47:57.864    Opening batch promotion in a new tab
+2022-02-16 16:47:58.577    Focus on the batch promotion "all" button and click it
+2022-02-16 16:47:58.584     
+2022-02-16 16:48:03.746     
+2022-02-16 16:48:03.754    Processing: RS21-POG-SOH (1/3)
+2022-02-16 16:48:07.149       OMS: Linked to id: 65284
+2022-02-16 16:48:08.193       OMS: The current status is: Shipped (7)
+2022-02-16 16:48:08.198       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-02-16 16:48:08.438     
+2022-02-16 16:48:08.448    Processing: RS21-VEK-NAS (2/3)
+2022-02-16 16:48:11.823       OMS: Linked to id: 65285
+2022-02-16 16:48:12.866       OMS: The current status is: Shipped (7)
+2022-02-16 16:48:12.871       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-02-16 16:48:13.117     
+2022-02-16 16:48:13.121    Processing: RS21-ZAH-VUX (3/3)
+2022-02-16 16:48:16.439       OMS: Linked to id: 65286
+2022-02-16 16:48:17.465       OMS: The current status is: Shipped (7)
+2022-02-16 16:48:17.470       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-02-16 16:48:17.727     
+2022-02-16 16:48:17.737     
+2022-02-16 16:48:17.746    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.752    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.757    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.763     
+2022-02-16 16:48:17.768    Full summary
+2022-02-16 16:48:17.774     
+2022-02-16 16:48:17.779    Scrapped parts
+2022-02-16 16:48:17.784    --------------
+2022-02-16 16:48:17.789    None
+2022-02-16 16:48:17.794     
+2022-02-16 16:48:17.799    Promotions         Streamics   +   OMS
+2022-02-16 16:48:17.805    ------------------------------------------
+2022-02-16 16:48:17.809    RS21-POG-SOH:      Valid           Valid
+2022-02-16 16:48:17.815    RS21-VEK-NAS:      Valid           Valid
+2022-02-16 16:48:17.821    RS21-ZAH-VUX:      Valid           Valid
+2022-02-16 16:48:17.825     
+2022-02-16 16:48:17.831    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.837    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.842    ---------------------------------------------------------------------- 
+2022-02-16 16:48:17.848     
+2022-02-16 16:48:17.853    Take action for the following cases
+2022-02-16 16:48:17.858     
+2022-02-16 16:48:17.864    Scrapped parts
+2022-02-16 16:48:17.869    --------------
+2022-02-16 16:48:17.874    None
+2022-02-16 16:48:17.879     
+2022-02-16 16:48:17.884    Promotions         Streamics   +   OMS
+2022-02-16 16:48:17.889    ------------------------------------------
+2022-02-16 16:48:17.894    None
+2022-02-16 16:48:17.900     

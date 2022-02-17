@@ -1,0 +1,20 @@
+2022-02-16 16:41:59.857    User: lode_bosmans
+2022-02-16 16:41:59.861    Destination status Streamics: Post processing finished
+2022-02-16 16:41:59.865    Destination status OMS: Shipped
+2022-02-16 16:41:59.870     
+2022-02-16 16:41:59.875    The cases to be processed for promotion:
+2022-02-16 16:41:59.880288    RS21-AAA-ABK, RS21-AAA-ABJ, RS21-AAA-ABI
+2022-02-16 16:41:59.884     
+2022-02-16 16:41:59.891    The cases to be processed for rebuilt:
+2022-02-16 16:41:59.896246    
+2022-02-16 16:41:59.900     
+2022-02-16 16:41:59.905    Setting up the browser and checking compatability
+2022-02-16 16:42:01.322    Chrome browser version: 98
+2022-02-16 16:42:01.326    Chromedriver version: 98
+2022-02-16 16:42:01.330    Versions match
+2022-02-16 16:42:14.836     
+2022-02-16 16:42:14.841    Focus on the "view orders" button and click it
+2022-02-16 16:42:14.847     
+2022-02-16 16:42:21.928    Focus on the first "all" button and click it
+2022-02-16 16:42:21.981    Focus on the second "all" button and click it
+2022-02-16 16:42:22.151     

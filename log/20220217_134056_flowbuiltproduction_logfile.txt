@@ -1,0 +1,23 @@
+2022-02-17 13:41:13.388    User: flowbuiltproduction
+2022-02-17 13:41:13.401    Destination status Streamics: Post processing finished
+2022-02-17 13:41:13.411    Destination status OMS: Shipped
+2022-02-17 13:41:13.431     
+2022-02-17 13:41:13.438    The cases to be processed for promotion:
+2022-02-17 13:41:13.448011    RS22-ZIT-QES, RS22-XEB-MOG, RS22-XEJ-TEB
+2022-02-17 13:41:13.452     
+2022-02-17 13:41:13.460    The cases to be processed for rebuilt:
+2022-02-17 13:41:13.471932    
+2022-02-17 13:41:13.480     
+2022-02-17 13:41:13.485    Setting up the browser and checking compatability
+2022-02-17 13:41:15.116    Chrome browser version: 98
+2022-02-17 13:41:15.122    Chromedriver version: 98
+2022-02-17 13:41:15.127    Versions match
+2022-02-17 13:41:52.921     
+2022-02-17 13:42:32.852    Focus on the first "all" button and click it
+2022-02-17 13:42:32.907    Focus on the second "all" button and click it
+2022-02-17 13:42:33.213     
+2022-02-17 13:42:55.812    Opening batch promotion in a new tab
+2022-02-17 13:43:12.692    Focus on the batch promotion "all" button and click it
+2022-02-17 13:43:17.780     
+2022-02-17 13:43:53.430     
+2022-02-17 13:43:54.301    Processing: RS22-ZIT-QES (1/3)

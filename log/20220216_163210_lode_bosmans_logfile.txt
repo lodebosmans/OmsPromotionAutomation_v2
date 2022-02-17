@@ -1,0 +1,26 @@
+2022-02-16 16:32:23.415    User: lode_bosmans
+2022-02-16 16:32:23.420    Destination status Streamics: Post processing finished
+2022-02-16 16:32:23.425    Destination status OMS: Shipped
+2022-02-16 16:32:23.428     
+2022-02-16 16:32:23.432    The cases to be processed for promotion:
+2022-02-16 16:32:23.436994    RS21-AAA-ABK, RS21-AAA-ABJ, RS21-AAA-ABI
+2022-02-16 16:32:23.441     
+2022-02-16 16:32:23.445    The cases to be processed for rebuilt:
+2022-02-16 16:32:23.449395    
+2022-02-16 16:32:23.452     
+2022-02-16 16:32:23.459    Setting up the browser and checking compatability
+2022-02-16 16:32:25.850    Chrome browser version: 98
+2022-02-16 16:32:25.856    Chromedriver version: 98
+2022-02-16 16:32:25.861    Versions match
+2022-02-16 16:32:30.775       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:32:40.363     
+2022-02-16 16:32:40.367    Focus on the "view orders" button and click it
+2022-02-16 16:32:40.371     
+2022-02-16 16:32:47.552    Focus on the first "all" button and click it
+2022-02-16 16:32:47.602    Focus on the second "all" button and click it
+2022-02-16 16:32:47.777     
+2022-02-16 16:33:03.347    Opening batch promotion in a new tab
+2022-02-16 16:33:04.179    Focus on the batch promotion "all" button and click it
+2022-02-16 16:33:04.183     
+2022-02-16 16:33:09.266     
+2022-02-16 16:33:09.270    Processing: RS21-AAA-ABK (1/3)

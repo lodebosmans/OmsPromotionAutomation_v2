@@ -54,7 +54,7 @@ import win32com.client
 
 # Define some variables
 
-testenvironment = 1
+testenvironment = 0
 
 if testenvironment == 0:
     # Live environment
@@ -142,13 +142,13 @@ def click_on_view_orders():
 
 
 def click_all_buttons_overview(xpathsearch_firstall,xpathsearch_secondall):
-    time.sleep(5)
+    wait_for_loading_to_be_gone()
     print_with_timestamp('Focus on the first "all" button and click it')
     driver.find_element(By.XPATH, xpathsearch_secondall).click()
     print_with_timestamp('Focus on the second "all" button and click it')
     driver.find_element(By.XPATH, xpathsearch_firstall).click()
     print_with_timestamp(' ')
-    time.sleep(15)
+    wait_for_loading_to_be_gone()
     if driver.find_element(By.ID, 'ctl00_right_side_openInNewWindow').is_selected() == False:
         driver.find_element(By.ID, "ctl00_right_side_openInNewWindow").click()
         time.sleep(0.5)
@@ -173,7 +173,7 @@ def check_exists_by_type(elementtype, element_id_or_path, ticker):
     result = False
     x = -1
     while result == False and x <= ticker:
-        x += 5
+        x += 1
         if x > ticker:
             print_with_timestamp('   The script seems to be stuck. Consider restarting the script.')
             x = -1
@@ -245,7 +245,6 @@ def get_current_status_line(page):
     return current_status_oms, current_status_oms_index
 
 def get_production_substatus():
-    #time.sleep(10)
     xpathsearch_streamics_status = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[4]/div[3]/div[3]/div/table/tbody/tr[2]/td[6]'
     wait_until_element_is_present('xpath',xpathsearch_streamics_status,20)
     current_status_oms = driver.find_element(By.XPATH, xpathsearch_streamics_status).text
@@ -421,6 +420,18 @@ def print_summary(caseids_summary,caseids_rebuilt_summary,only_invalid):
         if only_invalid == True:
             if counter_promotions_with_error == 0:
                 print_with_timestamp('None')
+
+def wait_for_loading_to_be_gone():
+    go_on_loading = 0
+    xpath_loading = '/html/body/form/div[3]/div[3]/div/div/div[2]/div/div[2]'
+    while go_on_loading == 0:
+        loading_display = driver.find_element(By.XPATH, xpath_loading).get_attribute('style')
+        if 'none' in loading_display:
+            go_on_loading = 1
+            time.sleep(0.1)
+        else:
+            # Do nothing
+            test = 1
 
 
 # Prepare all necessary stuff to print all output to file
@@ -700,6 +711,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
 
     # Focus on the 'view orders' button and click it
     click_on_view_orders()
+    wait_for_loading_to_be_gone()
 
     # Focus on the first 'all' button and click it
     # print_with_timestamp('Focus on the first "all" button and click it')
@@ -707,18 +719,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
     xpathsearch_firstall_pressed = '//*[@id="ctl00_right_side_RadioButtonStatusFilter"]/label[4]'
     wait_until_element_is_present('xpath',xpathsearch_firstall,20)
     click_all_buttons_overview(xpathsearch_firstall,xpathsearch_secondall)
-    #time.sleep(5)
-    # driver.find_element(By.XPATH, xpathsearch_firstall).click()
-
-    # Focus on the second 'all' button and click it
-    #print_with_timestamp('Focus on the second "all" button and click it')
-    # driver.find_element(By.XPATH, xpathsearch_secondall).click()
-
-    # click_all_buttons_overview(xpathsearch_firstall,xpathsearch_secondall)
-
-    # Check the box to open every case in a new tab
-    # driver.find_element(By.ID, "ctl00_right_side_openInNewWindow").click()
-
 
 
     # Open a second tab with the batch promotions
@@ -727,16 +727,16 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
     driver.switch_to.window(driver.window_handles[handle_oms_batch_promotion])
     time.sleep(0.1)
     driver.get(oms_batch_promotion_path)
-    #time.sleep(15)
+    wait_for_loading_to_be_gone()
 
     # Click the batch promotion all button
     print_with_timestamp('Focus on the batch promotion "all" button and click it')
     print_with_timestamp(' ')
     xpathsearch_batchall = '/html/body/form/div[3]/div[3]/div/div/div[1]/div/span/label[2]/span'
     wait_until_element_is_present('xpath',xpathsearch_batchall,20)  
-    time.sleep(1)
+    wait_for_loading_to_be_gone()
     driver.find_element(By.XPATH, xpathsearch_batchall).click()
-    time.sleep(3)
+    wait_for_loading_to_be_gone()
 
 
     xpathsearch_overview_parts = '/html/body/div[1]/div[2]/div/div/div[3]/div/div/div[1]/span'
@@ -947,7 +947,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
         check_second_all = driver.find_element(By.XPATH, xpathsearch_secondall_pressed).get_attribute('aria-pressed')
         if check_first_all != 'true' or check_second_all != 'true':
             click_all_buttons_overview(xpathsearch_firstall,xpathsearch_secondall)
-         
+        
         
         # Clear the case ID search field
         wait_until_element_is_present('id','gs_CaseID',20)
@@ -956,15 +956,12 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
         searchinput = driver.find_element(By.ID, "gs_CaseID")
         # Insert the case ID into the case ID search field
         searchinput.send_keys(caseid)
-        time.sleep(1)
         searchinput.send_keys(Keys.ENTER)
+        wait_for_loading_to_be_gone()
         # Define the Xpath to the case ID in the result table
         xpathsearch_id = '/html/body/form/div[3]/div[3]/div/div/div[2]/div/div[3]/div[3]/div/table/tbody/tr[2]'
         xpathsearch_caseid = '/html/body/form/div[3]/div[3]/div/div/div[2]/div/div[3]/div[3]/div/table/tbody/tr[2]/td[2]'
         wait_until_element_is_present('xpath',xpathsearch_caseid,20)
-        # element_status = False
-        # while element_status == False:
-        #     element_status = check_exists_by_value('xpath', xpathsearch_caseid, 30, caseid)
         # Grab the case ID in the result table row
         caseid_nr = driver.find_element(By.XPATH, xpathsearch_id).get_attribute("id")
         print_with_timestamp('   OMS: Linked to id: ' + caseid_nr)
@@ -1038,7 +1035,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                             wait_until_element_is_present('xpath',xpathsearch_partslist_button,20)
                             time.sleep(0.1)
                             button = driver.find_element(By.XPATH, xpathsearch_partslist_button)
-                            time.sleep(1)
                             button.click()
                             time.sleep(0.1)
 
@@ -1115,7 +1111,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         except:
                             DoNothing = 1
 
-                        time.sleep(1.5)
+                        time.sleep(0.5)
                         if first_time_batch == 1:
                             wait_until_element_is_present('id','gs_CaseID',20)
                             time.sleep(0.1)
@@ -1125,28 +1121,31 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         searchinput = driver.find_element(By.ID, "gs_CaseID")
                         # Insert the case ID into the case ID search field
                         searchinput.send_keys(caseid)
-                        time.sleep(1)
                         searchinput.send_keys(Keys.ENTER)
+                        wait_for_loading_to_be_gone()
                         
                         # Click the checkbox of the case
-                        time.sleep(2)
+                        time.sleep(0.1)
                         checkbox_ID = "jqg_ctl00_right_side_GridBatch_" + str(caseid_nr)
                         wait_until_element_is_present('id',checkbox_ID,20)
-                        time.sleep(1)
+                        time.sleep(0.1)
+                        wait_for_loading_to_be_gone()
                         driver.find_element(By.ID, checkbox_ID).click()
-                        time.sleep(1)
+                        wait_for_loading_to_be_gone()
                         # Click the promotion button
                         promotion_button_confirm = 'ctl00_right_side_btnPromote'
                         wait_until_element_is_present('id',promotion_button_confirm,20)
                         time.sleep(0.1)
+                        wait_for_loading_to_be_gone()
                         driver.find_element(By.ID, promotion_button_confirm).click()
-                        time.sleep(1)
+                        wait_for_loading_to_be_gone()
                         # Confirm the promotion
                         promotion_button_confirm2 = '/html/body/form/div[8]/div[2]/div/button[1]'
                         wait_until_element_is_present('xpath',promotion_button_confirm2,20)
                         time.sleep(0.1)
+                        wait_for_loading_to_be_gone()
                         driver.find_element(By.XPATH, promotion_button_confirm2).click()
-                        time.sleep(7)
+                        wait_for_loading_to_be_gone()
                         # Confirm the promotion again
                         xpath_conformation_text = '/html/body/form/div[11]/span/div/div'
                         confirmation_text = driver.find_element(By.XPATH, xpath_conformation_text).text
@@ -1156,9 +1155,10 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
 
                         promotion_button_confirm3 = '/html/body/form/div[11]/div[2]/div/button'
                         wait_until_element_is_present('xpath',promotion_button_confirm3,20)
-                        time.sleep(1)
+                        time.sleep(0.1)
+                        wait_for_loading_to_be_gone()
                         driver.find_element(By.XPATH, promotion_button_confirm3).click()
-                        time.sleep(1)
+                        wait_for_loading_to_be_gone()
 
                         # Check if there is still a confirmation button from the last case that failed. If yes, close it first.
                         try:

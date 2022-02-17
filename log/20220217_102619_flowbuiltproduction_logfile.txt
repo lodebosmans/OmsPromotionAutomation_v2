@@ -1,0 +1,503 @@
+2022-02-17 10:26:32.820    User: flowbuiltproduction
+2022-02-17 10:26:32.833    Destination status Streamics: Post processing finished
+2022-02-17 10:26:32.833    Destination status OMS: Shipped
+2022-02-17 10:26:32.849     
+2022-02-17 10:26:32.849    The cases to be processed for promotion:
+2022-02-17 10:26:32.864866    RS22-JIZ-BUC, RS22-ACA-IDE, RS22-ASI-DEM, RS22-MAJ-RAM, RS22-RAV-HOM, RS22-SUK-BUK, RS22-TIN-LEC, RS22-SEL-VIL, RS22-VIT-TIK, RS22-XEV-NOZ, RS22-ZOF-GUZ, RS22-MAV-VOC, RS22-MEP-DAM, RS22-LOJ-ULE, RS22-NUV-IDI, RS22-LUT-UPI, RS22-QAK-VAR, RS22-COJ-VAP, RS22-CUX-NEX, RS22-ECO-CUX, RS22-JAP-CIN, RS22-KEG-QIB, RS22-IPI-IHO, RS22-EXO-TAR, RS22-FIL-KOL, RS22-XOX-CIT, RS22-TIZ-LIK, RS22-POV-GIM, RS22-NOX-NED, RS22-FUB-UFU, RS22-GEX-XUR, RS22-DIC-EZI, RS22-CAT-IGE, RS22-ASO-KET, RS22-FAL-JUQ, RS22-IVO-SUL, RS22-ZIT-QES, RS22-XEB-MOG, RS22-XEJ-TEB
+2022-02-17 10:26:32.864     
+2022-02-17 10:26:32.864    The cases to be processed for rebuilt:
+2022-02-17 10:26:32.879372    
+2022-02-17 10:26:32.879     
+2022-02-17 10:26:32.879    Setting up the browser and checking compatability
+2022-02-17 10:26:36.962    Chrome browser version: 98
+2022-02-17 10:26:36.970    Chromedriver version: 98
+2022-02-17 10:26:36.976    Versions match
+2022-02-17 10:26:40.669     
+2022-02-17 10:26:40.679    Focus on the "view orders" button and click it
+2022-02-17 10:26:40.685     
+2022-02-17 10:26:48.431    Focus on the first "all" button and click it
+2022-02-17 10:26:48.489    Focus on the second "all" button and click it
+2022-02-17 10:26:48.645     
+2022-02-17 10:27:04.217    Opening batch promotion in a new tab
+2022-02-17 10:27:05.023    Focus on the batch promotion "all" button and click it
+2022-02-17 10:27:05.034     
+2022-02-17 10:27:10.130     
+2022-02-17 10:27:10.137    Processing: RS22-JIZ-BUC (1/39)
+2022-02-17 10:27:13.597       OMS: Linked to id: 101792
+2022-02-17 10:27:14.634       OMS: The current status is: Production (4)
+2022-02-17 10:27:16.140       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:27:16.145       OMS: Clicking the "Take order" button.
+2022-02-17 10:27:18.410       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:27:21.783       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:31:31.470       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:31:31.481       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:31:31.655       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:31:56.425       OMS: The current status is: Built (5)
+2022-02-17 10:31:56.430       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:32:19.989       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:32:19.994       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:32:42.641       OMS: The destination status Shipped has been reached.
+2022-02-17 10:32:42.885     
+2022-02-17 10:32:42.897    Processing: RS22-ACA-IDE (2/39)
+2022-02-17 10:32:46.260       OMS: Linked to id: 101613
+2022-02-17 10:32:47.297       OMS: The current status is: Production (4)
+2022-02-17 10:32:48.547       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:32:48.553       OMS: Clicking the "Take order" button.
+2022-02-17 10:32:50.409       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:32:53.752       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:37:00.044       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:37:00.057       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:37:00.239       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:37:25.096       OMS: The current status is: Built (5)
+2022-02-17 10:37:25.100       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:37:48.670       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:37:48.674       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:38:11.174       OMS: The destination status Shipped has been reached.
+2022-02-17 10:38:11.413     
+2022-02-17 10:38:11.418    Processing: RS22-ASI-DEM (3/39)
+2022-02-17 10:38:14.758       OMS: Linked to id: 101615
+2022-02-17 10:38:15.784       OMS: The current status is: Production (4)
+2022-02-17 10:38:17.038       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:38:17.045       OMS: Clicking the "Take order" button.
+2022-02-17 10:38:18.809       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:38:22.136       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:42:28.205       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:42:28.215       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:42:28.402       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:42:53.229       OMS: The current status is: Built (5)
+2022-02-17 10:42:53.237       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:43:16.787       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:43:16.793       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:43:39.371       OMS: The destination status Shipped has been reached.
+2022-02-17 10:43:39.614     
+2022-02-17 10:43:39.624    Processing: RS22-MAJ-RAM (4/39)
+2022-02-17 10:43:43.398       OMS: Linked to id: 101614
+2022-02-17 10:43:44.434       OMS: The current status is: Production (4)
+2022-02-17 10:43:45.768       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:43:45.777       OMS: Clicking the "Take order" button.
+2022-02-17 10:43:47.756       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:43:51.107       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:47:57.275       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:47:57.281       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:47:57.451       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:48:22.234       OMS: The current status is: Built (5)
+2022-02-17 10:48:22.239       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:48:45.793       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:48:45.799       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:49:08.808       OMS: The destination status Shipped has been reached.
+2022-02-17 10:49:09.041     
+2022-02-17 10:49:09.047    Processing: RS22-RAV-HOM (5/39)
+2022-02-17 10:49:12.366       OMS: Linked to id: 101686
+2022-02-17 10:49:13.397       OMS: The current status is: Production (4)
+2022-02-17 10:49:14.833       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:49:14.840       OMS: Clicking the "Take order" button.
+2022-02-17 10:49:16.972       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:49:20.298       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:53:26.352       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:53:26.373       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:53:26.562       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:53:51.434       OMS: The current status is: Built (5)
+2022-02-17 10:53:51.439       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:54:15.302       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:54:15.307       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:54:38.148       OMS: The destination status Shipped has been reached.
+2022-02-17 10:54:38.383     
+2022-02-17 10:54:38.388    Processing: RS22-SUK-BUK (6/39)
+2022-02-17 10:54:41.733       OMS: Linked to id: 101611
+2022-02-17 10:54:42.764       OMS: The current status is: Production (4)
+2022-02-17 10:54:44.033       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 10:54:44.037       OMS: Clicking the "Take order" button.
+2022-02-17 10:54:46.670       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:54:49.994       OMS: The current production substatus is: Streamics (New)
+2022-02-17 10:58:56.387       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 10:58:56.393       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:58:56.564       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:59:21.494       OMS: The current status is: Built (5)
+2022-02-17 10:59:21.502       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 10:59:46.142       OMS: The current status is: Ready to ship (6)
+2022-02-17 10:59:46.147       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:00:08.848       OMS: The destination status Shipped has been reached.
+2022-02-17 11:00:09.095     
+2022-02-17 11:00:09.106    Processing: RS22-TIN-LEC (7/39)
+2022-02-17 11:00:12.504       OMS: Linked to id: 101612
+2022-02-17 11:00:13.543       OMS: The current status is: Production (4)
+2022-02-17 11:00:14.842       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:00:14.848       OMS: Clicking the "Take order" button.
+2022-02-17 11:00:16.780       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:00:20.133       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:04:26.475       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:04:26.485       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:04:26.677       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:04:51.521       OMS: The current status is: Built (5)
+2022-02-17 11:04:51.530       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:05:15.640       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:05:15.649       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:05:38.337       OMS: The destination status Shipped has been reached.
+2022-02-17 11:05:38.579     
+2022-02-17 11:05:38.586    Processing: RS22-SEL-VIL (8/39)
+2022-02-17 11:05:41.941       OMS: Linked to id: 101635
+2022-02-17 11:05:42.973       OMS: The current status is: Production (4)
+2022-02-17 11:05:44.278       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:05:44.284       OMS: Clicking the "Take order" button.
+2022-02-17 11:05:46.011       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:05:49.348       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:09:56.155       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:09:56.160       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:09:56.334       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:10:21.313       OMS: The current status is: Built (5)
+2022-02-17 11:10:21.318       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:10:44.780       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:10:44.787       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:11:07.379       OMS: The destination status Shipped has been reached.
+2022-02-17 11:11:07.620     
+2022-02-17 11:11:07.628    Processing: RS22-VIT-TIK (9/39)
+2022-02-17 11:11:10.978       OMS: Linked to id: 101633
+2022-02-17 11:11:12.010       OMS: The current status is: Production (4)
+2022-02-17 11:11:13.303       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:11:13.311       OMS: Clicking the "Take order" button.
+2022-02-17 11:11:15.111       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:11:18.440       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:15:24.679       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:15:24.685       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:15:24.880       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:15:49.651       OMS: The current status is: Built (5)
+2022-02-17 11:15:49.656       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:16:13.294       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:16:13.302       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:16:35.975       OMS: The destination status Shipped has been reached.
+2022-02-17 11:16:36.222     
+2022-02-17 11:16:36.229    Processing: RS22-XEV-NOZ (10/39)
+2022-02-17 11:16:39.590       OMS: Linked to id: 101814
+2022-02-17 11:16:40.625       OMS: The current status is: Production (4)
+2022-02-17 11:16:41.922       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:16:41.928       OMS: Clicking the "Take order" button.
+2022-02-17 11:16:43.654       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:16:46.984       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:20:53.412       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:20:53.417       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:20:53.596       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:21:18.354       OMS: The current status is: Built (5)
+2022-02-17 11:21:18.359       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:21:42.172       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:21:42.179       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:22:05.156       OMS: The destination status Shipped has been reached.
+2022-02-17 11:22:05.410     
+2022-02-17 11:22:05.416    Processing: RS22-ZOF-GUZ (11/39)
+2022-02-17 11:22:08.767       OMS: Linked to id: 101800
+2022-02-17 11:22:09.795       OMS: The current status is: Production (4)
+2022-02-17 11:22:11.492       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:22:11.500       OMS: Clicking the "Take order" button.
+2022-02-17 11:22:13.769       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:22:17.111       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:26:23.373       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:26:23.382       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:26:23.552       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:26:48.457       OMS: The current status is: Built (5)
+2022-02-17 11:26:48.463       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:27:11.967       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:27:11.973       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:27:34.590       OMS: The destination status Shipped has been reached.
+2022-02-17 11:27:34.826     
+2022-02-17 11:27:34.834    Processing: RS22-MAV-VOC (12/39)
+2022-02-17 11:27:38.191       OMS: Linked to id: 101627
+2022-02-17 11:27:39.220       OMS: The current status is: Production (4)
+2022-02-17 11:27:40.487       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:27:40.492       OMS: Clicking the "Take order" button.
+2022-02-17 11:27:42.135       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:27:45.472       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:31:51.746       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:31:51.762       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:31:51.931       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:32:16.653       OMS: The current status is: Built (5)
+2022-02-17 11:32:16.660       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:32:40.292       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:32:40.297       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:33:03.024       OMS: The destination status Shipped has been reached.
+2022-02-17 11:33:03.271     
+2022-02-17 11:33:03.278    Processing: RS22-MEP-DAM (13/39)
+2022-02-17 11:33:06.623       OMS: Linked to id: 101624
+2022-02-17 11:33:07.654       OMS: The current status is: Production (4)
+2022-02-17 11:33:08.966       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:33:08.971       OMS: Clicking the "Take order" button.
+2022-02-17 11:33:11.149       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:33:14.561       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:37:20.872       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:37:20.884       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:37:21.070       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:37:45.947       OMS: The current status is: Built (5)
+2022-02-17 11:37:45.955       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:38:09.481       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:38:09.486       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:38:32.288       OMS: The destination status Shipped has been reached.
+2022-02-17 11:38:32.528     
+2022-02-17 11:38:32.537    Processing: RS22-LOJ-ULE (14/39)
+2022-02-17 11:38:35.901       OMS: Linked to id: 101632
+2022-02-17 11:38:36.930       OMS: The current status is: Production (4)
+2022-02-17 11:38:38.247       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:38:38.253       OMS: Clicking the "Take order" button.
+2022-02-17 11:38:39.969       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:38:43.318       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:42:49.479       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:42:49.491       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:42:49.675       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:43:14.493       OMS: The current status is: Built (5)
+2022-02-17 11:43:14.498       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:43:38.065       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:43:38.070       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:44:00.868       OMS: The destination status Shipped has been reached.
+2022-02-17 11:44:01.110     
+2022-02-17 11:44:01.116    Processing: RS22-NUV-IDI (15/39)
+2022-02-17 11:44:04.470       OMS: Linked to id: 101631
+2022-02-17 11:44:05.502       OMS: The current status is: Production (4)
+2022-02-17 11:44:06.844       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:44:06.850       OMS: Clicking the "Take order" button.
+2022-02-17 11:44:08.558       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:44:11.896       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:48:18.073       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:48:18.082       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:48:18.268       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:48:43.937       OMS: The current status is: Built (5)
+2022-02-17 11:48:43.946       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:49:07.905       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:49:07.911       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:49:30.648       OMS: The destination status Shipped has been reached.
+2022-02-17 11:49:30.895     
+2022-02-17 11:49:30.904    Processing: RS22-LUT-UPI (16/39)
+2022-02-17 11:49:34.244       OMS: Linked to id: 101625
+2022-02-17 11:49:35.272       OMS: The current status is: Production (4)
+2022-02-17 11:49:36.624       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:49:36.630       OMS: Clicking the "Take order" button.
+2022-02-17 11:49:38.837       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:49:42.167       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:53:48.421       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:53:48.431       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:53:48.602       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:54:13.394       OMS: The current status is: Built (5)
+2022-02-17 11:54:13.401       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:54:36.968       OMS: The current status is: Ready to ship (6)
+2022-02-17 11:54:36.976       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:54:59.636       OMS: The destination status Shipped has been reached.
+2022-02-17 11:54:59.909     
+2022-02-17 11:54:59.921    Processing: RS22-QAK-VAR (17/39)
+2022-02-17 11:55:03.359       OMS: Linked to id: 101625
+2022-02-17 11:55:04.394       OMS: The current status is: Production (4)
+2022-02-17 11:55:05.728       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-02-17 11:55:05.736       OMS: Clicking the "Take order" button.
+2022-02-17 11:55:07.775       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:55:11.177       OMS: The current production substatus is: Streamics (New)
+2022-02-17 11:59:17.266       OMS: The case should be promoted to Streamics (Built)
+2022-02-17 11:59:17.281       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:59:17.483       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-02-17 11:59:27.938       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:33.025       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:38.072       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:43.119       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:48.164       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:53.213       The script seems to be stuck. Consider restarting the script.
+2022-02-17 11:59:58.272       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:03.382       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:08.425       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:13.471       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:18.536       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:23.626       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:28.682       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:33.730       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:38.778       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:43.823       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:48.870       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:53.919       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:00:58.979       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:04.027       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:09.075       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:14.126       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:19.218       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:24.283       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:29.349       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:34.438       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:39.503       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:44.548       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:49.627       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:54.681       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:01:59.739       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:04.788       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:09.837       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:14.884       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:19.935       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:24.980       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:30.029       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:35.079       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:40.148       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:45.192       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:50.267       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:02:55.313       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:00.376       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:05.427       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:10.475       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:15.526       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:20.572       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:25.620       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:30.687       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:35.736       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:40.792       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:45.839       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:50.889       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:03:55.938       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:00.981       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:06.053       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:11.111       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:16.157       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:21.218       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:26.266       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:31.313       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:36.360       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:41.411       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:46.471       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:51.519       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:04:56.580       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:01.625       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:06.677       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:11.726       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:16.775       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:21.832       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:26.884       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:31.938       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:36.984       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:42.042       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:47.091       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:52.144       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:05:57.189       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:02.234       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:07.286       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:12.346       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:17.397       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:22.442       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:27.503       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:32.552       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:37.602       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:42.644       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:47.744       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:52.804       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:06:57.855       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:02.917       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:07.979       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:13.041       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:18.087       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:23.136       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:28.309       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:33.356       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:38.403       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:43.449       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:48.493       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:53.563       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:07:58.608       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:03.654       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:08.759       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:13.806       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:18.853       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:23.899       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:28.944       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:33.987       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:39.032       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:44.076       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:49.123       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:54.168       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:08:59.213       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:04.257       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:09.312       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:14.358       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:19.401       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:24.446       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:29.490       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:34.538       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:39.587       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:44.629       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:49.672       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:54.716       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:09:59.763       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:04.806       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:09.851       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:14.898       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:19.941       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:24.986       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:30.031       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:35.081       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:40.125       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:45.173       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:50.228       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:10:55.275       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:00.324       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:05.402       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:10.445       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:15.489       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:20.537       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:25.585       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:30.629       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:35.678       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:40.724       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:45.769       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:50.830       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:11:55.873       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:00.951       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:06.074       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:11.130       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:16.191       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:21.266       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:26.313       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:31.358       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:36.441       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:41.487       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:46.567       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:51.611       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:12:56.669       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:01.712       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:06.756       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:11.817       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:16.863       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:21.911       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:27.000       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:32.043       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:37.091       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:42.140       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:47.192       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:52.239       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:13:57.281       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:02.324       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:07.371       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:12.430       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:17.477       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:22.536       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:27.601       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:32.651       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:37.696       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:42.741       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:47.790       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:52.835       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:14:57.878       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:02.929       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:07.976       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:13.020       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:18.067       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:23.137       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:28.180       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:33.238       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:38.306       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:43.354       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:48.409       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:53.456       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:15:58.501       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:03.610       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:08.696       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:13.747       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:18.796       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:23.853       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:28.918       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:33.967       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:39.016       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:44.065       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:49.107       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:54.162       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:16:59.220       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:17:04.266       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:17:09.316       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:17:14.358       The script seems to be stuck. Consider restarting the script.
+2022-02-17 12:17:19.401       The script seems to be stuck. Consider restarting the script.

@@ -1,0 +1,35 @@
+2022-02-16 16:54:31.297    User: lode_bosmans
+2022-02-16 16:54:31.308    Destination status Streamics: Post processing finished
+2022-02-16 16:54:31.318    Destination status OMS: Shipped
+2022-02-16 16:54:31.326     
+2022-02-16 16:54:31.331    The cases to be processed for promotion:
+2022-02-16 16:54:31.347001    RS22-SAN-DER
+2022-02-16 16:54:31.350     
+2022-02-16 16:54:31.356    The cases to be processed for rebuilt:
+2022-02-16 16:54:31.363956    
+2022-02-16 16:54:31.368     
+2022-02-16 16:54:31.375    Setting up the browser and checking compatability
+2022-02-16 16:54:32.829    Chrome browser version: 98
+2022-02-16 16:54:32.833    Chromedriver version: 98
+2022-02-16 16:54:32.841    Versions match
+2022-02-16 16:54:36.917     
+2022-02-16 16:54:36.924    Focus on the "view orders" button and click it
+2022-02-16 16:54:36.932     
+2022-02-16 16:54:44.038    Focus on the first "all" button and click it
+2022-02-16 16:54:44.098    Focus on the second "all" button and click it
+2022-02-16 16:54:44.222     
+2022-02-16 16:54:59.820    Opening batch promotion in a new tab
+2022-02-16 16:55:00.543    Focus on the batch promotion "all" button and click it
+2022-02-16 16:55:00.550     
+2022-02-16 16:55:05.626     
+2022-02-16 16:55:05.632    Processing: RS22-SAN-DER (1/1)
+2022-02-16 16:55:12.075       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:17.173       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:22.287       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:27.375       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:32.460       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:37.553       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:42.640       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:47.731       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:52.839       The script seems to be stuck. Consider restarting the script.
+2022-02-16 16:55:57.950       The script seems to be stuck. Consider restarting the script.
