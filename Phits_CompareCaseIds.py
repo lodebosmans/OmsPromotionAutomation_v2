@@ -1,4 +1,3 @@
-
 import os
 import re
 from tkinter import *
@@ -7,17 +6,8 @@ from datetime import datetime
 
 # -----------------------------------------------------------------------------------------------------------
 
-# Define some variables
-
-email_accounts = ("rkia.elhassani@materialise.be","julie.wellens@materialise.be","kobe.machielsen@materialise.be","laura.janssens@materialise.be" ,"mariska.swolfs@materialise.be" , "sander.van.nieuwenhoven@materialise.be", "pieter-jan.lijnen@materialise.be", "lode.bosmans@materialise.be","flowbuiltproduction@gmail.com")
-email_accounts = tuple(sorted(email_accounts))
-
-# -----------------------------------------------------------------------------------------------------------
-
 def print_with_timestamp(input):
     f=open(logfile, "a+")
-    now = datetime.now()
-    now_str = str(now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3])
     # Terminal print
     print(input)
     # File print
@@ -43,11 +33,6 @@ def clicked():
     global user
     raw_input_caseids_shipmentlist  = txt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     raw_input_caseids_scanned  = txt_rebuilt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
-    # email = entry_email.get()
-    email = entry_email.get()
-    # Get the user that initiated the script
-    user = email.split("@")[0]
-    user = user.replace('.','_')
     window.destroy() # Closes the internal loop and lets the script run forward, otherwise it will freeze here.
 
 
@@ -87,18 +72,6 @@ label_input.grid(column=1, row=1)
 txt = Text(window,width=width_inputfield,height=10)
 txt.grid(column=1, row=2)
 
-label_spacer3 = Label(window, text=" ")
-label_spacer3.grid(column=1, row=3)
-
-label_email = Label(window, text="Email address")
-label_email.grid(column=1, row=12)
-
-entry_email = Combobox(window,width=width_inputfield)
-entry_email['values']= ("Choose an email address",) + email_accounts
-
-entry_email.current(0) #set the selected item
-entry_email.grid(column=1, row=13)
-
 label_spacer5 = Label(window, text=" ")
 label_spacer5.grid(column=1, row=14)
 
@@ -118,7 +91,7 @@ txt_rebuilt.grid(column=3, row=2)
 window.mainloop()
 # After the click on the button, the window is destroyed, so data can not be collected again. Check function 'clicked'.
 
-logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + user + '_logfile_comparison_cases.txt'
+logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + '_logfile_comparison_cases.txt'
 
 # Get the cases for rebuilt and for promotion
 caseids_shipmentlist = get_caseids_from_input(raw_input_caseids_shipmentlist)
@@ -141,8 +114,6 @@ def compare_cases(origin_cases, target_cases, in_both_file, exception_file):
 caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box = compare_cases(caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box)
 caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist = compare_cases(caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist)
 
-print_with_timestamp(' ')
-print_with_timestamp('Hi ' + user)
 print_with_timestamp(' ')
 print_with_timestamp('Case in the shipmentlist')
 print_with_timestamp('------------------------')
@@ -173,4 +144,5 @@ print_with_timestamp(' ')
 print(' ')
 print('Script finished.')
 print(' ')
-# outputfile.close()
+
+# input("prompt: ")
