@@ -75,6 +75,7 @@ else:
 oms_path = oms_portal + '/Default.aspx'
 streamics_postprocessing_path_order = streamics_postprocessing_path_general + '/Order/'
 user_folder = './users'
+email_accounts_path = './input/email_accounts.txt'
 
 # Define the status order
 # OMS
@@ -123,7 +124,12 @@ handle_oms_batch_promotion = 2
 handle_oms_order_detail = 3
 handle_streamics_scrap_order = 4
 
-email_accounts = ("rkia.elhassani@materialise.be","julie.wellens@materialise.be","kobe.machielsen@materialise.be","laura.janssens@materialise.be" ,"mariska.swolfs@materialise.be" , "sander.van.nieuwenhoven@materialise.be", "pieter-jan.lijnen@materialise.be", "lode.bosmans@materialise.be","flowbuiltproduction@gmail.com")
+email_accounts = ()
+f=open(email_accounts_path, "r")
+for line in f.readlines():
+    line = line.strip('\n')
+    email_accounts = email_accounts + (line,)
+
 email_accounts = tuple(sorted(email_accounts))
 
 scrapReasons = ("","","","","","","")
