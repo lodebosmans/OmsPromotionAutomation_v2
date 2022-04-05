@@ -2,9 +2,9 @@
 #pip install update
 #pip install chromedriver
 #pip install pypiwin32
-#pip install pandas
 
 # Not required
+#pip install pandas
 #pip install xlrd
 #pip install openpyxl
 
