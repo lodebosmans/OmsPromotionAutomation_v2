@@ -1,0 +1,14 @@
+2022-04-06 17:38:49.263    User: flowbuiltproduction
+2022-04-06 17:38:49.263    Destination status Streamics: Post processing finished
+2022-04-06 17:38:49.263    Destination status OMS: Shipped
+2022-04-06 17:38:49.279     
+2022-04-06 17:38:49.279    The cases to be processed for promotion:
+2022-04-06 17:38:49.279476    RS22-AQI-REC, RS22-IFI-AVU, RS22-GOL-OZE, RS22-INA-TUK, RS22-MEZ-EDU, RS22-UPI-OSO, RS22-VUM-BUV, RS22-OJO-NUN, RS22-SEX-FAB, RS22-NOR-NIJ, RS22-BUX-ODI, RS22-KIZ-RIF, RS22-NOD-JAX, RS22-SIP-LUJ, RS22-VUN-GEQ, RS22-POH-RUS
+2022-04-06 17:38:49.279     
+2022-04-06 17:38:49.295    The cases to be processed for rebuilt:
+2022-04-06 17:38:49.295100    
+2022-04-06 17:38:49.306     
+2022-04-06 17:38:49.306    Setting up the browser and checking compatability
+2022-04-06 17:38:50.790    Chrome browser version: 100
+2022-04-06 17:38:50.790    Chromedriver version: 100
+2022-04-06 17:38:50.790    Versions match

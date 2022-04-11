@@ -1,0 +1,25 @@
+2022-04-06 17:51:01.680    User: lode_bosmans
+2022-04-06 17:51:01.685    Destination status Streamics: Post processing finished
+2022-04-06 17:51:01.690    Destination status OMS: Shipped
+2022-04-06 17:51:01.695     
+2022-04-06 17:51:01.699    The cases to be processed for promotion:
+2022-04-06 17:51:01.707836    RS22-AQI-REC, RS22-IFI-AVU, RS22-GOL-OZE, RS22-INA-TUK, RS22-MEZ-EDU, RS22-UPI-OSO, RS22-VUM-BUV, RS22-OJO-NUN, RS22-SEX-FAB, RS22-NOR-NIJ, RS22-BUX-ODI, RS22-KIZ-RIF, RS22-NOD-JAX, RS22-SIP-LUJ, RS22-VUN-GEQ, RS22-POH-RUS
+2022-04-06 17:51:01.712     
+2022-04-06 17:51:01.716    The cases to be processed for rebuilt:
+2022-04-06 17:51:01.722797    
+2022-04-06 17:51:01.728     
+2022-04-06 17:51:01.733    Setting up the browser and checking compatability
+2022-04-06 17:51:03.263    Chrome browser version: 100
+2022-04-06 17:51:03.269    Chromedriver version: 100
+2022-04-06 17:51:03.278    Versions match
+2022-04-06 17:51:10.112     
+2022-04-06 17:51:10.117    Focus on the "view orders" button and click it
+2022-04-06 17:51:10.120     
+2022-04-06 17:51:12.533    Focus on the first "all" button and click it
+2022-04-06 17:51:12.604    Focus on the second "all" button and click it
+2022-04-06 17:51:12.763     
+2022-04-06 17:51:14.369    Opening batch promotion in a new tab
+2022-04-06 17:51:15.896    Focus on the batch promotion "all" button and click it
+2022-04-06 17:51:15.907     
+2022-04-06 17:51:18.465     
+2022-04-06 17:51:18.476    Processing: RS22-AQI-REC (1/16)

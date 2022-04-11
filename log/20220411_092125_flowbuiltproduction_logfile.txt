@@ -1,0 +1,19 @@
+2022-04-11 09:21:32.800    User: flowbuiltproduction
+2022-04-11 09:21:32.811    Destination status Streamics: Post processing finished
+2022-04-11 09:21:32.821    Destination status OMS: Shipped
+2022-04-11 09:21:32.842     
+2022-04-11 09:21:32.860    The cases to be processed for promotion:
+2022-04-11 09:21:32.870309    RS22-ESA-SIQ, RS22-CUG-NIN, RS22-SAZ-KIG, RS22-PUH-RUG, RS22-PEG-ICI, RS22-ORE-FOS, RS22-LAR-ISU, RS22-JUM-HAD, RS22-JUM-LID, RS22-NOF-MIZ, RS22-NUZ-QEB, RS22-OBI-COK, RS22-VAC-DAP
+2022-04-11 09:21:32.888     
+2022-04-11 09:21:32.906    The cases to be processed for rebuilt:
+2022-04-11 09:21:32.917183    
+2022-04-11 09:21:32.926     
+2022-04-11 09:21:32.936    Setting up the browser and checking compatability
+2022-04-11 09:21:34.793    Chrome browser version: 100
+2022-04-11 09:21:34.808    Chromedriver version: 100
+2022-04-11 09:21:34.827    Versions match
+2022-04-11 09:21:40.219     
+2022-04-11 09:21:40.225    Focus on the "view orders" button and click it
+2022-04-11 09:21:40.230     
+2022-04-11 09:21:43.336    Focus on the first "all" button and click it
+2022-04-11 09:21:43.418    Focus on the second "all" button and click it

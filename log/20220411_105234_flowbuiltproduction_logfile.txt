@@ -1,0 +1,832 @@
+2022-04-11 10:52:53.234    User: flowbuiltproduction
+2022-04-11 10:52:53.234    Destination status Streamics: Post processing finished
+2022-04-11 10:52:53.250    Destination status OMS: Shipped
+2022-04-11 10:52:53.257     
+2022-04-11 10:52:53.264    The cases to be processed for promotion:
+2022-04-11 10:52:53.270205    RS22-ZOP-PUN, RS22-JOX-LEG, RS22-UJE-UMA, RS22-ZAT-DEB, RS22-ESA-SIQ, RS22-XEL-PIX, RS22-CIJ-OCA, RS22-ETI-MIM, RS22-DUJ-RUM, RS22-SIX-GAZ, RS22-ZUD-DOB, RS22-PER-XOD, RS22-VAC-RIJ, RS22-ZAL-VUK, RS22-CUG-NIN, RS22-VAV-HAN, RS22-LOC-KEJ, RS22-CEK-KOX, RS22-FUM-EHU, RS22-OPE-TEF, RS22-PUG-GUG, RS22-OKA-LIG, RS22-SUT-FOP, RS22-GUQ-OZE, RS22-SAZ-KIG, RS22-CIQ-QAG, RS22-ZUD-ESI, RS22-ZIK-VUM, RS22-CIS-ZIB, RS22-PAZ-BIB, RS22-MEG-HOZ, RS22-MES-VIG, RS22-DET-BOD, RS22-NUL-CAX, RS22-PUH-RUG, RS22-FOS-QAF, RS22-VOL-XAN, RS22-KAP-LOF, RS22-AZI-XEV, RS22-TUZ-AFO, RS22-IKE-SIR, RS22-CUT-AGO, RS22-RUH-AKU, RS22-ORE-QAH, RS22-PEG-ICI, RS22-JAJ-FEK, RS22-DUB-POJ, RS22-SUQ-JUD, RS22-DEV-ZEX, RS22-VUL-CAL, RS22-XUZ-HUJ, RS22-JIF-DAR, RS22-SIB-UMU, RS22-MEB-KUT, RS22-ORE-FOS, RS22-VAQ-OZO, RS22-HOZ-QUQ, RS22-ZAT-PAQ, RS22-PEC-HOT, RS22-KEC-ASO, RS22-TOG-SAJ, RS22-ULI-DAX, RS22-ETU-VOF, RS22-LEL-KEQ, RS22-LAR-ISU, RS22-ZUX-DUJ, RS22-IPA-OPO, RS22-IBI-EQU, RS22-XEM-EZA, RS22-VOV-DUD, RS22-UFU-TIT, RS22-ZAH-RAR, RS22-BIH-HAC, RS22-PET-MIK, RS22-JUM-HAD, RS22-VIF-FOV, RS22-KOP-CER, RS22-BIG-LOM, RS22-XUF-MON, RS22-TUZ-ZAS, RS22-UKA-HAB, RS22-QAV-LUQ, RS22-ASE-TIM, RS22-QIG-BOV, RS22-JUM-LID, RS22-BOF-IVE, RS22-XEB-ICE, RS22-NID-TER, RS22-XUM-KOJ, RS22-NIB-VUT, RS22-JAF-ENI, RS22-TEF-PIK, RS22-FAJ-FED, RS22-JAS-ZIC, RS22-NOF-MIZ, RS22-KUP-SIS, RS22-ZUR-SEJ, RS22-BIX-OQI, RS22-UPI-GEQ, RS22-DAZ-GUZ, RS22-BAT-NEB, RS22-DUX-TOT, RS22-HAN-BIN, RS22-IRI-AJO, RS22-NUZ-QEB, RS22-OMU-TIM, RS22-VUC-FOJ, RS22-CEC-SUX, RS22-BAK-ROD, RS22-ZUJ-MOL, RS22-LOQ-ROC, RS22-BEV-JUR, RS22-IPE-MEJ, RS22-FUH-VOM, RS22-OBI-COK, RS22-ICI-KIT, RS22-SAT-MIC, RS22-LID-QUP, RS22-HEC-XUB, RS22-ECU-AQI, RS22-NUT-USA, RS22-ULU-PEJ, RS22-XIJ-BAC, RS22-FAD-IGE, RS22-VAC-DAP, RS22-CEP-LAR, RS22-AQA-KAM, RS22-ZOC-HIT, RS22-PUR-SEF, RS22-ENO-MEQ
+2022-04-11 10:52:53.275     
+2022-04-11 10:52:53.281    The cases to be processed for rebuilt:
+2022-04-11 10:52:53.288288    
+2022-04-11 10:52:53.292     
+2022-04-11 10:52:53.298    Setting up the browser and checking compatability
+2022-04-11 10:52:54.809    Chrome browser version: 100
+2022-04-11 10:52:54.814    Chromedriver version: 100
+2022-04-11 10:52:54.819    Versions match
+2022-04-11 10:52:58.808     
+2022-04-11 10:52:58.824    Focus on the "view orders" button and click it
+2022-04-11 10:52:58.824     
+2022-04-11 10:53:01.921    Focus on the first "all" button and click it
+2022-04-11 10:53:01.973    Focus on the second "all" button and click it
+2022-04-11 10:53:02.138     
+2022-04-11 10:53:03.774    Opening batch promotion in a new tab
+2022-04-11 10:53:05.267    Focus on the batch promotion "all" button and click it
+2022-04-11 10:53:05.267     
+2022-04-11 10:53:07.855     
+2022-04-11 10:53:07.855    Processing: RS22-ZOP-PUN (1/130)
+2022-04-11 10:53:10.693       OMS: Linked to id: 106480
+2022-04-11 10:53:11.722       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:11.738       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:11.969     
+2022-04-11 10:53:11.969    Processing: RS22-JOX-LEG (2/130)
+2022-04-11 10:53:14.809       OMS: Linked to id: 106397
+2022-04-11 10:53:15.834       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:15.834       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:16.097     
+2022-04-11 10:53:16.097    Processing: RS22-UJE-UMA (3/130)
+2022-04-11 10:53:18.900       OMS: Linked to id: 106099
+2022-04-11 10:53:19.942       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:19.942       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:20.206     
+2022-04-11 10:53:20.206    Processing: RS22-ZAT-DEB (4/130)
+2022-04-11 10:53:22.967       OMS: Linked to id: 106502
+2022-04-11 10:53:24.000       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:24.000       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:24.254     
+2022-04-11 10:53:24.254    Processing: RS22-ESA-SIQ (5/130)
+2022-04-11 10:53:27.177       OMS: Linked to id: 106392
+2022-04-11 10:53:28.212       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:28.212       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:28.443     
+2022-04-11 10:53:28.443    Processing: RS22-XEL-PIX (6/130)
+2022-04-11 10:53:31.323       OMS: Linked to id: 106277
+2022-04-11 10:53:32.358       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:32.358       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:32.596     
+2022-04-11 10:53:32.596    Processing: RS22-CIJ-OCA (7/130)
+2022-04-11 10:53:35.411       OMS: Linked to id: 106520
+2022-04-11 10:53:36.462       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:36.462       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:36.716     
+2022-04-11 10:53:36.731    Processing: RS22-ETI-MIM (8/130)
+2022-04-11 10:53:39.561       OMS: Linked to id: 106169
+2022-04-11 10:53:40.579       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:40.595       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:40.834     
+2022-04-11 10:53:40.834    Processing: RS22-DUJ-RUM (9/130)
+2022-04-11 10:53:43.556       OMS: Linked to id: 106140
+2022-04-11 10:53:44.592       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:44.593       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:44.862     
+2022-04-11 10:53:44.862    Processing: RS22-SIX-GAZ (10/130)
+2022-04-11 10:53:48.007       OMS: Linked to id: 106061
+2022-04-11 10:53:49.023       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:49.039       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:49.278     
+2022-04-11 10:53:49.293    Processing: RS22-ZUD-DOB (11/130)
+2022-04-11 10:53:52.052       OMS: Linked to id: 106360
+2022-04-11 10:53:53.079       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:53.079       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:53.327     
+2022-04-11 10:53:53.327    Processing: RS22-PER-XOD (12/130)
+2022-04-11 10:53:56.126       OMS: Linked to id: 106351
+2022-04-11 10:53:57.146       OMS: The current status is: Shipped (7)
+2022-04-11 10:53:57.162       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:53:57.401     
+2022-04-11 10:53:57.416    Processing: RS22-VAC-RIJ (13/130)
+2022-04-11 10:54:00.157       OMS: Linked to id: 106092
+2022-04-11 10:54:01.194       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:01.194       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:01.448     
+2022-04-11 10:54:01.448    Processing: RS22-ZAL-VUK (14/130)
+2022-04-11 10:54:04.226       OMS: Linked to id: 106103
+2022-04-11 10:54:05.246       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:05.261       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:05.487     
+2022-04-11 10:54:05.487    Processing: RS22-CUG-NIN (15/130)
+2022-04-11 10:54:08.328       OMS: Linked to id: 106396
+2022-04-11 10:54:09.378       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:09.378       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:09.632     
+2022-04-11 10:54:09.632    Processing: RS22-VAV-HAN (16/130)
+2022-04-11 10:54:12.403       OMS: Linked to id: 106276
+2022-04-11 10:54:13.444       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:13.448       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:13.674     
+2022-04-11 10:54:13.680    Processing: RS22-LOC-KEJ (17/130)
+2022-04-11 10:54:16.506       OMS: Linked to id: 106384
+2022-04-11 10:54:17.550       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:17.554       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:17.815     
+2022-04-11 10:54:17.826    Processing: RS22-CEK-KOX (18/130)
+2022-04-11 10:54:20.695       OMS: Linked to id: 106526
+2022-04-11 10:54:21.713       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:21.713       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:21.935     
+2022-04-11 10:54:21.941    Processing: RS22-FUM-EHU (19/130)
+2022-04-11 10:54:24.791       OMS: Linked to id: 106382
+2022-04-11 10:54:25.813       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:25.813       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:26.044     
+2022-04-11 10:54:26.044    Processing: RS22-OPE-TEF (20/130)
+2022-04-11 10:54:28.786       OMS: Linked to id: 106472
+2022-04-11 10:54:29.816       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:29.820       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:30.056     
+2022-04-11 10:54:30.061    Processing: RS22-PUG-GUG (21/130)
+2022-04-11 10:54:32.894       OMS: Linked to id: 106135
+2022-04-11 10:54:33.929       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:33.929       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:34.152     
+2022-04-11 10:54:34.152    Processing: RS22-OKA-LIG (22/130)
+2022-04-11 10:54:36.891       OMS: Linked to id: 106333
+2022-04-11 10:54:37.926       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:37.948       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:38.165     
+2022-04-11 10:54:38.170    Processing: RS22-SUT-FOP (23/130)
+2022-04-11 10:54:41.004       OMS: Linked to id: 106102
+2022-04-11 10:54:42.044       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:42.044       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:42.265     
+2022-04-11 10:54:42.269    Processing: RS22-GUQ-OZE (24/130)
+2022-04-11 10:54:45.073       OMS: Linked to id: 106503
+2022-04-11 10:54:46.153       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:46.153       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:46.392     
+2022-04-11 10:54:46.392    Processing: RS22-SAZ-KIG (25/130)
+2022-04-11 10:54:49.185       OMS: Linked to id: 106504
+2022-04-11 10:54:50.213       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:50.215       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:50.450     
+2022-04-11 10:54:50.450    Processing: RS22-CIQ-QAG (26/130)
+2022-04-11 10:54:53.167       OMS: Linked to id: 106113
+2022-04-11 10:54:54.205       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:54.205       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:54.447     
+2022-04-11 10:54:54.447    Processing: RS22-ZUD-ESI (27/130)
+2022-04-11 10:54:57.210       OMS: Linked to id: 106359
+2022-04-11 10:54:58.229       OMS: The current status is: Shipped (7)
+2022-04-11 10:54:58.229       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:54:58.471     
+2022-04-11 10:54:58.471    Processing: RS22-ZIK-VUM (28/130)
+2022-04-11 10:55:01.214       OMS: Linked to id: 106371
+2022-04-11 10:55:02.234       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:02.234       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:02.470     
+2022-04-11 10:55:02.475    Processing: RS22-CIS-ZIB (29/130)
+2022-04-11 10:55:05.282       OMS: Linked to id: 106120
+2022-04-11 10:55:06.305       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:06.310       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:06.543     
+2022-04-11 10:55:06.553    Processing: RS22-PAZ-BIB (30/130)
+2022-04-11 10:55:09.427       OMS: Linked to id: 105926
+2022-04-11 10:55:10.479       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:10.479       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:10.704     
+2022-04-11 10:55:10.706    Processing: RS22-MEG-HOZ (31/130)
+2022-04-11 10:55:13.490       OMS: Linked to id: 106361
+2022-04-11 10:55:14.547       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:14.548       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:14.764     
+2022-04-11 10:55:14.764    Processing: RS22-MES-VIG (32/130)
+2022-04-11 10:55:17.485       OMS: Linked to id: 106529
+2022-04-11 10:55:18.525       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:18.529       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:18.763     
+2022-04-11 10:55:18.773    Processing: RS22-DET-BOD (33/130)
+2022-04-11 10:55:22.574       OMS: Linked to id: 106097
+2022-04-11 10:55:23.598       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:23.602       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:23.869     
+2022-04-11 10:55:23.890    Processing: RS22-NUL-CAX (34/130)
+2022-04-11 10:55:26.933       OMS: Linked to id: 106104
+2022-04-11 10:55:27.954       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:27.959       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:28.210     
+2022-04-11 10:55:28.221    Processing: RS22-PUH-RUG (35/130)
+2022-04-11 10:55:31.013       OMS: Linked to id: 106367
+2022-04-11 10:55:32.035       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:32.040       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:32.269     
+2022-04-11 10:55:32.277    Processing: RS22-FOS-QAF (36/130)
+2022-04-11 10:55:35.030       OMS: Linked to id: 106522
+2022-04-11 10:55:36.074       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:36.080       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:36.298     
+2022-04-11 10:55:36.302    Processing: RS22-VOL-XAN (37/130)
+2022-04-11 10:55:39.054       OMS: Linked to id: 106260
+2022-04-11 10:55:40.076       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:40.081       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:40.302     
+2022-04-11 10:55:40.307    Processing: RS22-KAP-LOF (38/130)
+2022-04-11 10:55:43.147       OMS: Linked to id: 106341
+2022-04-11 10:55:44.173       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:44.173       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:44.405     
+2022-04-11 10:55:44.405    Processing: RS22-AZI-XEV (39/130)
+2022-04-11 10:55:47.135       OMS: Linked to id: 106383
+2022-04-11 10:55:48.156       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:48.161       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:48.403     
+2022-04-11 10:55:48.403    Processing: RS22-TUZ-AFO (40/130)
+2022-04-11 10:55:51.131       OMS: Linked to id: 106481
+2022-04-11 10:55:52.178       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:52.178       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:52.417     
+2022-04-11 10:55:52.417    Processing: RS22-IKE-SIR (41/130)
+2022-04-11 10:55:55.188       OMS: Linked to id: 106141
+2022-04-11 10:55:56.211       OMS: The current status is: Shipped (7)
+2022-04-11 10:55:56.211       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:55:56.475     
+2022-04-11 10:55:56.475    Processing: RS22-CUT-AGO (42/130)
+2022-04-11 10:55:59.233       OMS: Linked to id: 106527
+2022-04-11 10:56:00.252       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:00.252       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:00.468     
+2022-04-11 10:56:00.468    Processing: RS22-RUH-AKU (43/130)
+2022-04-11 10:56:03.269       OMS: Linked to id: 106095
+2022-04-11 10:56:04.334       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:04.334       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:04.558     
+2022-04-11 10:56:04.558    Processing: RS22-ORE-QAH (44/130)
+2022-04-11 10:56:07.533       OMS: Linked to id: 106521
+2022-04-11 10:56:08.550       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:08.556       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:08.773     
+2022-04-11 10:56:08.773    Processing: RS22-PEG-ICI (45/130)
+2022-04-11 10:56:11.671       OMS: Linked to id: 106391
+2022-04-11 10:56:12.708       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:12.708       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:12.952     
+2022-04-11 10:56:12.952    Processing: RS22-JAJ-FEK (46/130)
+2022-04-11 10:56:15.683       OMS: Linked to id: 106385
+2022-04-11 10:56:16.726       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:16.730       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:16.977     
+2022-04-11 10:56:16.977    Processing: RS22-DUB-POJ (47/130)
+2022-04-11 10:56:19.747       OMS: Linked to id: 106366
+2022-04-11 10:56:20.777       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:20.777       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:21.040     
+2022-04-11 10:56:21.040    Processing: RS22-SUQ-JUD (48/130)
+2022-04-11 10:56:23.770       OMS: Linked to id: 106337
+2022-04-11 10:56:24.807       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:24.807       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:25.058     
+2022-04-11 10:56:25.058    Processing: RS22-DEV-ZEX (49/130)
+2022-04-11 10:56:27.848       OMS: Linked to id: 106125
+2022-04-11 10:56:28.866       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:28.866       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:29.083     
+2022-04-11 10:56:29.089    Processing: RS22-VUL-CAL (50/130)
+2022-04-11 10:56:31.830       OMS: Linked to id: 106342
+2022-04-11 10:56:32.858       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:32.874       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:33.113     
+2022-04-11 10:56:33.113    Processing: RS22-XUZ-HUJ (51/130)
+2022-04-11 10:56:35.868       OMS: Linked to id: 106388
+2022-04-11 10:56:36.893       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:36.893       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:37.114     
+2022-04-11 10:56:37.130    Processing: RS22-JIF-DAR (52/130)
+2022-04-11 10:56:39.855       OMS: Linked to id: 106332
+2022-04-11 10:56:40.893       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:40.898       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:41.126     
+2022-04-11 10:56:41.131    Processing: RS22-SIB-UMU (53/130)
+2022-04-11 10:56:43.921       OMS: Linked to id: 106114
+2022-04-11 10:56:44.978       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:44.983       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:45.212     
+2022-04-11 10:56:45.217    Processing: RS22-MEB-KUT (54/130)
+2022-04-11 10:56:48.007       OMS: Linked to id: 106386
+2022-04-11 10:56:49.055       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:49.061       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:49.281     
+2022-04-11 10:56:49.289    Processing: RS22-ORE-FOS (55/130)
+2022-04-11 10:56:52.052       OMS: Linked to id: 106516
+2022-04-11 10:56:53.124       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:53.134       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:53.372     
+2022-04-11 10:56:53.379    Processing: RS22-VAQ-OZO (56/130)
+2022-04-11 10:56:56.269       OMS: Linked to id: 106133
+2022-04-11 10:56:57.293       OMS: The current status is: Shipped (7)
+2022-04-11 10:56:57.298       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:56:57.528     
+2022-04-11 10:56:57.528    Processing: RS22-HOZ-QUQ (57/130)
+2022-04-11 10:57:00.322       OMS: Linked to id: 106473
+2022-04-11 10:57:01.358       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:01.358       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:01.606     
+2022-04-11 10:57:01.615    Processing: RS22-ZAT-PAQ (58/130)
+2022-04-11 10:57:04.380       OMS: Linked to id: 106338
+2022-04-11 10:57:05.399       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:05.399       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:05.599     
+2022-04-11 10:57:05.599    Processing: RS22-PEC-HOT (59/130)
+2022-04-11 10:57:08.396       OMS: Linked to id: 106122
+2022-04-11 10:57:09.417       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:09.422       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:09.640     
+2022-04-11 10:57:09.644    Processing: RS22-KEC-ASO (60/130)
+2022-04-11 10:57:12.376       OMS: Linked to id: 106248
+2022-04-11 10:57:13.403       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:13.411       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:13.635     
+2022-04-11 10:57:13.646    Processing: RS22-TOG-SAJ (61/130)
+2022-04-11 10:57:16.407       OMS: Linked to id: 106284
+2022-04-11 10:57:17.449       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:17.449       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:17.670     
+2022-04-11 10:57:17.670    Processing: RS22-ULI-DAX (62/130)
+2022-04-11 10:57:20.378       OMS: Linked to id: 106528
+2022-04-11 10:57:21.427       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:21.432       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:21.653     
+2022-04-11 10:57:21.657    Processing: RS22-ETU-VOF (63/130)
+2022-04-11 10:57:24.462       OMS: Linked to id: 106478
+2022-04-11 10:57:25.486       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:25.491       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:25.710     
+2022-04-11 10:57:25.714    Processing: RS22-LEL-KEQ (64/130)
+2022-04-11 10:57:28.464       OMS: Linked to id: 106505
+2022-04-11 10:57:29.482       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:29.498       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:29.751     
+2022-04-11 10:57:29.751    Processing: RS22-LAR-ISU (65/130)
+2022-04-11 10:57:32.494       OMS: Linked to id: 106468
+2022-04-11 10:57:33.529       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:33.533       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:33.784     
+2022-04-11 10:57:33.792    Processing: RS22-ZUX-DUJ (66/130)
+2022-04-11 10:57:36.637       OMS: Linked to id: 106270
+2022-04-11 10:57:37.660       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:37.667       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:37.886     
+2022-04-11 10:57:37.890    Processing: RS22-IPA-OPO (67/130)
+2022-04-11 10:57:40.692       OMS: Linked to id: 106377
+2022-04-11 10:57:41.729       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:41.734       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:41.969     
+2022-04-11 10:57:41.977    Processing: RS22-IBI-EQU (68/130)
+2022-04-11 10:57:44.754       OMS: Linked to id: 106347
+2022-04-11 10:57:45.771       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:45.787       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:46.026     
+2022-04-11 10:57:46.026    Processing: RS22-XEM-EZA (69/130)
+2022-04-11 10:57:48.808       OMS: Linked to id: 105937
+2022-04-11 10:57:49.843       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:49.848       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:50.073     
+2022-04-11 10:57:50.073    Processing: RS22-VOV-DUD (70/130)
+2022-04-11 10:57:52.888       OMS: Linked to id: 106519
+2022-04-11 10:57:53.929       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:53.934       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:54.162     
+2022-04-11 10:57:54.167    Processing: RS22-UFU-TIT (71/130)
+2022-04-11 10:57:56.942       OMS: Linked to id: 106356
+2022-04-11 10:57:57.968       OMS: The current status is: Shipped (7)
+2022-04-11 10:57:57.973       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:57:58.197     
+2022-04-11 10:57:58.204    Processing: RS22-ZAH-RAR (72/130)
+2022-04-11 10:58:00.940       OMS: Linked to id: 106525
+2022-04-11 10:58:01.974       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:01.974       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:02.189     
+2022-04-11 10:58:02.189    Processing: RS22-BIH-HAC (73/130)
+2022-04-11 10:58:04.939       OMS: Linked to id: 106506
+2022-04-11 10:58:05.963       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:05.967       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:06.211     
+2022-04-11 10:58:06.215    Processing: RS22-PET-MIK (74/130)
+2022-04-11 10:58:09.015       OMS: Linked to id: 106334
+2022-04-11 10:58:10.041       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:10.041       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:10.288     
+2022-04-11 10:58:10.288    Processing: RS22-JUM-HAD (75/130)
+2022-04-11 10:58:13.023       OMS: Linked to id: 106491
+2022-04-11 10:58:14.088       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:14.104       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:14.358     
+2022-04-11 10:58:14.358    Processing: RS22-VIF-FOV (76/130)
+2022-04-11 10:58:17.169       OMS: Linked to id: 106501
+2022-04-11 10:58:18.214       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:18.214       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:18.476     
+2022-04-11 10:58:18.485    Processing: RS22-KOP-CER (77/130)
+2022-04-11 10:58:21.299       OMS: Linked to id: 106373
+2022-04-11 10:58:22.354       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:22.354       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:22.601     
+2022-04-11 10:58:22.601    Processing: RS22-BIG-LOM (78/130)
+2022-04-11 10:58:26.746       OMS: Linked to id: 106340
+2022-04-11 10:58:27.784       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:27.784       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:28.015     
+2022-04-11 10:58:28.015    Processing: RS22-XUF-MON (79/130)
+2022-04-11 10:58:30.793       OMS: Linked to id: 106269
+2022-04-11 10:58:31.828       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:31.844       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:32.097     
+2022-04-11 10:58:32.097    Processing: RS22-TUZ-ZAS (80/130)
+2022-04-11 10:58:34.886       OMS: Linked to id: 106438
+2022-04-11 10:58:35.909       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:35.909       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:36.125     
+2022-04-11 10:58:36.125    Processing: RS22-UKA-HAB (81/130)
+2022-04-11 10:58:38.914       OMS: Linked to id: 106349
+2022-04-11 10:58:39.951       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:39.953       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:40.185     
+2022-04-11 10:58:40.185    Processing: RS22-QAV-LUQ (82/130)
+2022-04-11 10:58:42.970       OMS: Linked to id: 106476
+2022-04-11 10:58:43.995       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:43.995       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:44.243     
+2022-04-11 10:58:44.243    Processing: RS22-ASE-TIM (83/130)
+2022-04-11 10:58:46.993       OMS: Linked to id: 106126
+2022-04-11 10:58:48.010       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:48.010       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:48.256     
+2022-04-11 10:58:48.256    Processing: RS22-QIG-BOV (84/130)
+2022-04-11 10:58:51.009       OMS: Linked to id: 106243
+2022-04-11 10:58:52.086       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:52.086       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:52.286     
+2022-04-11 10:58:52.286    Processing: RS22-JUM-LID (85/130)
+2022-04-11 10:58:55.078       OMS: Linked to id: 106446
+2022-04-11 10:58:56.102       OMS: The current status is: Shipped (7)
+2022-04-11 10:58:56.102       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:58:56.319     
+2022-04-11 10:58:56.319    Processing: RS22-BOF-IVE (86/130)
+2022-04-11 10:58:59.141       OMS: Linked to id: 106523
+2022-04-11 10:59:00.199       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:00.214       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:00.462     
+2022-04-11 10:59:00.462    Processing: RS22-XEB-ICE (87/130)
+2022-04-11 10:59:04.201       OMS: Linked to id: 106375
+2022-04-11 10:59:05.238       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:05.238       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:05.483     
+2022-04-11 10:59:05.483    Processing: RS22-NID-TER (88/130)
+2022-04-11 10:59:08.238       OMS: Linked to id: 106316
+2022-04-11 10:59:09.258       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:09.268       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:09.488     
+2022-04-11 10:59:09.488    Processing: RS22-XUM-KOJ (89/130)
+2022-04-11 10:59:12.367       OMS: Linked to id: 106263
+2022-04-11 10:59:13.422       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:13.427       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:13.675     
+2022-04-11 10:59:13.680    Processing: RS22-NIB-VUT (90/130)
+2022-04-11 10:59:16.481       OMS: Linked to id: 106436
+2022-04-11 10:59:17.511       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:17.511       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:17.747     
+2022-04-11 10:59:17.747    Processing: RS22-JAF-ENI (91/130)
+2022-04-11 10:59:20.578       OMS: Linked to id: 106518
+2022-04-11 10:59:21.612       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:21.612       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:21.831     
+2022-04-11 10:59:21.831    Processing: RS22-TEF-PIK (92/130)
+2022-04-11 10:59:24.601       OMS: Linked to id: 106251
+2022-04-11 10:59:25.652       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:25.652       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:25.872     
+2022-04-11 10:59:25.872    Processing: RS22-FAJ-FED (93/130)
+2022-04-11 10:59:28.661       OMS: Linked to id: 106390
+2022-04-11 10:59:29.684       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:29.700       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:29.954     
+2022-04-11 10:59:29.954    Processing: RS22-JAS-ZIC (94/130)
+2022-04-11 10:59:32.768       OMS: Linked to id: 106425
+2022-04-11 10:59:33.796       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:33.796       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:34.013     
+2022-04-11 10:59:34.019    Processing: RS22-NOF-MIZ (95/130)
+2022-04-11 10:59:36.829       OMS: Linked to id: 106395
+2022-04-11 10:59:37.847       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:37.847       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:38.063     
+2022-04-11 10:59:38.063    Processing: RS22-KUP-SIS (96/130)
+2022-04-11 10:59:40.793       OMS: Linked to id: 106499
+2022-04-11 10:59:41.811       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:41.811       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:42.048     
+2022-04-11 10:59:42.064    Processing: RS22-ZUR-SEJ (97/130)
+2022-04-11 10:59:44.816       OMS: Linked to id: 106374
+2022-04-11 10:59:45.843       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:45.843       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:46.073     
+2022-04-11 10:59:46.073    Processing: RS22-BIX-OQI (98/130)
+2022-04-11 10:59:48.880       OMS: Linked to id: 106364
+2022-04-11 10:59:49.893       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:49.909       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:50.158     
+2022-04-11 10:59:50.158    Processing: RS22-UPI-GEQ (99/130)
+2022-04-11 10:59:52.937       OMS: Linked to id: 106357
+2022-04-11 10:59:53.955       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:53.955       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:54.171     
+2022-04-11 10:59:54.177    Processing: RS22-DAZ-GUZ (100/130)
+2022-04-11 10:59:57.001       OMS: Linked to id: 106441
+2022-04-11 10:59:58.018       OMS: The current status is: Shipped (7)
+2022-04-11 10:59:58.018       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 10:59:58.221     
+2022-04-11 10:59:58.221    Processing: RS22-BAT-NEB (101/130)
+2022-04-11 11:00:01.007       OMS: Linked to id: 106352
+2022-04-11 11:00:02.025       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:02.025       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:02.241     
+2022-04-11 11:00:02.241    Processing: RS22-DUX-TOT (102/130)
+2022-04-11 11:00:05.095       OMS: Linked to id: 106362
+2022-04-11 11:00:06.121       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:06.121       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:06.340     
+2022-04-11 11:00:06.340    Processing: RS22-HAN-BIN (103/130)
+2022-04-11 11:00:09.142       OMS: Linked to id: 106398
+2022-04-11 11:00:10.161       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:10.161       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:10.394     
+2022-04-11 11:00:10.410    Processing: RS22-IRI-AJO (104/130)
+2022-04-11 11:00:13.219       OMS: Linked to id: 105729
+2022-04-11 11:00:14.245       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:14.245       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:14.461     
+2022-04-11 11:00:14.476    Processing: RS22-NUZ-QEB (105/130)
+2022-04-11 11:00:17.234       OMS: Linked to id: 106139
+2022-04-11 11:00:18.270       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:18.270       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:18.501     
+2022-04-11 11:00:18.506    Processing: RS22-OMU-TIM (106/130)
+2022-04-11 11:00:21.712       OMS: Linked to id: 106370
+2022-04-11 11:00:22.730       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:22.730       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:22.984     
+2022-04-11 11:00:22.984    Processing: RS22-VUC-FOJ (107/130)
+2022-04-11 11:00:27.012       OMS: Linked to id: 106167
+2022-04-11 11:00:28.030       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:28.030       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:28.264     
+2022-04-11 11:00:28.264    Processing: RS22-CEC-SUX (108/130)
+2022-04-11 11:00:31.248       OMS: Linked to id: 106321
+2022-04-11 11:00:32.273       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:32.289       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:32.543     
+2022-04-11 11:00:32.548    Processing: RS22-BAK-ROD (109/130)
+2022-04-11 11:00:35.859       OMS: Linked to id: 106532
+2022-04-11 11:00:36.879       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:36.879       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:37.104     
+2022-04-11 11:00:37.104    Processing: RS22-ZUJ-MOL (110/130)
+2022-04-11 11:00:40.243       OMS: Linked to id: 106437
+2022-04-11 11:00:41.260       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:41.260       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:41.477     
+2022-04-11 11:00:41.477    Processing: RS22-LOQ-ROC (111/130)
+2022-04-11 11:00:44.287       OMS: Linked to id: 106355
+2022-04-11 11:00:45.343       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:45.358       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:45.579     
+2022-04-11 11:00:45.585    Processing: RS22-BEV-JUR (112/130)
+2022-04-11 11:00:48.952       OMS: Linked to id: 106346
+2022-04-11 11:00:49.973       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:49.973       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:50.173     
+2022-04-11 11:00:50.173    Processing: RS22-IPE-MEJ (113/130)
+2022-04-11 11:00:53.367       OMS: Linked to id: 106389
+2022-04-11 11:00:54.388       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:54.388       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:54.589     
+2022-04-11 11:00:54.589    Processing: RS22-FUH-VOM (114/130)
+2022-04-11 11:00:57.289       OMS: Linked to id: 106467
+2022-04-11 11:00:58.353       OMS: The current status is: Shipped (7)
+2022-04-11 11:00:58.353       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:00:58.588     
+2022-04-11 11:00:58.604    Processing: RS22-OBI-COK (115/130)
+2022-04-11 11:01:01.375       OMS: Linked to id: 106508
+2022-04-11 11:01:02.418       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:02.426       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:02.660     
+2022-04-11 11:01:02.665    Processing: RS22-ICI-KIT (116/130)
+2022-04-11 11:01:05.961       OMS: Linked to id: 106381
+2022-04-11 11:01:06.980       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:06.996       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:07.213     
+2022-04-11 11:01:07.228    Processing: RS22-SAT-MIC (117/130)
+2022-04-11 11:01:09.994       OMS: Linked to id: 106168
+2022-04-11 11:01:11.043       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:11.043       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:11.282     
+2022-04-11 11:01:11.282    Processing: RS22-LID-QUP (118/130)
+2022-04-11 11:01:14.151       OMS: Linked to id: 106448
+2022-04-11 11:01:15.195       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:15.211       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:15.443     
+2022-04-11 11:01:15.443    Processing: RS22-HEC-XUB (119/130)
+2022-04-11 11:01:18.219       OMS: Linked to id: 106471
+2022-04-11 11:01:19.238       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:19.238       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:19.470     
+2022-04-11 11:01:19.470    Processing: RS22-ECU-AQI (120/130)
+2022-04-11 11:01:22.372       OMS: Linked to id: 106380
+2022-04-11 11:01:23.403       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:23.403       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:23.619     
+2022-04-11 11:01:23.619    Processing: RS22-NUT-USA (121/130)
+2022-04-11 11:01:27.080       OMS: Linked to id: 106353
+2022-04-11 11:01:28.099       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:28.115       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:28.338     
+2022-04-11 11:01:28.353    Processing: RS22-ULU-PEJ (122/130)
+2022-04-11 11:01:31.146       OMS: Linked to id: 106363
+2022-04-11 11:01:32.167       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:32.182       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:32.383     
+2022-04-11 11:01:32.383    Processing: RS22-XIJ-BAC (123/130)
+2022-04-11 11:01:35.274       OMS: Linked to id: 106130
+2022-04-11 11:01:36.292       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:36.307       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:36.523     
+2022-04-11 11:01:36.523    Processing: RS22-FAD-IGE (124/130)
+2022-04-11 11:01:39.255       OMS: Linked to id: 106394
+2022-04-11 11:01:40.292       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:40.292       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:40.523     
+2022-04-11 11:01:40.523    Processing: RS22-VAC-DAP (125/130)
+2022-04-11 11:01:43.267       OMS: Linked to id: 106393
+2022-04-11 11:01:44.301       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:44.301       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:44.503     
+2022-04-11 11:01:44.503    Processing: RS22-CEP-LAR (126/130)
+2022-04-11 11:01:47.328       OMS: Linked to id: 106358
+2022-04-11 11:01:48.362       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:48.377       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:48.615     
+2022-04-11 11:01:48.615    Processing: RS22-AQA-KAM (127/130)
+2022-04-11 11:01:51.453       OMS: Linked to id: 106387
+2022-04-11 11:01:52.509       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:52.509       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:52.709     
+2022-04-11 11:01:52.709    Processing: RS22-ZOC-HIT (128/130)
+2022-04-11 11:01:55.432       OMS: Linked to id: 106318
+2022-04-11 11:01:56.483       OMS: The current status is: Shipped (7)
+2022-04-11 11:01:56.483       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:01:56.704     
+2022-04-11 11:01:56.720    Processing: RS22-PUR-SEF (129/130)
+2022-04-11 11:01:59.430       OMS: Linked to id: 106062
+2022-04-11 11:02:00.449       OMS: The current status is: Shipped (7)
+2022-04-11 11:02:00.465       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:02:00.704     
+2022-04-11 11:02:00.704    Processing: RS22-ENO-MEQ (130/130)
+2022-04-11 11:02:03.477       OMS: Linked to id: 106524
+2022-04-11 11:02:04.517       OMS: The current status is: Shipped (7)
+2022-04-11 11:02:04.517       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-04-11 11:02:04.734     
+2022-04-11 11:02:04.749     
+2022-04-11 11:02:04.749    ---------------------------------------------------------------------- 
+2022-04-11 11:02:04.749    ---------------------------------------------------------------------- 
+2022-04-11 11:02:04.765    ---------------------------------------------------------------------- 
+2022-04-11 11:02:04.765     
+2022-04-11 11:02:04.765    Full summary
+2022-04-11 11:02:04.780     
+2022-04-11 11:02:04.780    Scrapped parts
+2022-04-11 11:02:04.780    --------------
+2022-04-11 11:02:04.780    None
+2022-04-11 11:02:04.798     
+2022-04-11 11:02:04.802    Promotions         Streamics   +   OMS
+2022-04-11 11:02:04.807    ------------------------------------------
+2022-04-11 11:02:04.811    RS22-ZOP-PUN:      Valid           Valid
+2022-04-11 11:02:04.816    RS22-JOX-LEG:      Valid           Valid
+2022-04-11 11:02:04.819    RS22-UJE-UMA:      Valid           Valid
+2022-04-11 11:02:04.819    RS22-ZAT-DEB:      Valid           Valid
+2022-04-11 11:02:04.819    RS22-ESA-SIQ:      Valid           Valid
+2022-04-11 11:02:04.819    RS22-XEL-PIX:      Valid           Valid
+2022-04-11 11:02:04.835    RS22-CIJ-OCA:      Valid           Valid
+2022-04-11 11:02:04.835    RS22-ETI-MIM:      Valid           Valid
+2022-04-11 11:02:04.835    RS22-DUJ-RUM:      Valid           Valid
+2022-04-11 11:02:04.835    RS22-SIX-GAZ:      Valid           Valid
+2022-04-11 11:02:04.851    RS22-ZUD-DOB:      Valid           Valid
+2022-04-11 11:02:04.851    RS22-PER-XOD:      Valid           Valid
+2022-04-11 11:02:04.851    RS22-VAC-RIJ:      Valid           Valid
+2022-04-11 11:02:04.866    RS22-ZAL-VUK:      Valid           Valid
+2022-04-11 11:02:04.866    RS22-CUG-NIN:      Valid           Valid
+2022-04-11 11:02:04.874    RS22-VAV-HAN:      Valid           Valid
+2022-04-11 11:02:04.874    RS22-LOC-KEJ:      Valid           Valid
+2022-04-11 11:02:04.874    RS22-CEK-KOX:      Valid           Valid
+2022-04-11 11:02:04.874    RS22-FUM-EHU:      Valid           Valid
+2022-04-11 11:02:04.889    RS22-OPE-TEF:      Valid           Valid
+2022-04-11 11:02:04.889    RS22-PUG-GUG:      Valid           Valid
+2022-04-11 11:02:04.889    RS22-OKA-LIG:      Valid           Valid
+2022-04-11 11:02:04.902    RS22-SUT-FOP:      Valid           Valid
+2022-04-11 11:02:04.902    RS22-GUQ-OZE:      Valid           Valid
+2022-04-11 11:02:04.902    RS22-SAZ-KIG:      Valid           Valid
+2022-04-11 11:02:04.902    RS22-CIQ-QAG:      Valid           Valid
+2022-04-11 11:02:04.918    RS22-ZUD-ESI:      Valid           Valid
+2022-04-11 11:02:04.918    RS22-ZIK-VUM:      Valid           Valid
+2022-04-11 11:02:04.918    RS22-CIS-ZIB:      Valid           Valid
+2022-04-11 11:02:04.934    RS22-PAZ-BIB:      Valid           Valid
+2022-04-11 11:02:04.934    RS22-MEG-HOZ:      Valid           Valid
+2022-04-11 11:02:04.934    RS22-MES-VIG:      Valid           Valid
+2022-04-11 11:02:04.934    RS22-DET-BOD:      Valid           Valid
+2022-04-11 11:02:04.949    RS22-NUL-CAX:      Valid           Valid
+2022-04-11 11:02:04.949    RS22-PUH-RUG:      Valid           Valid
+2022-04-11 11:02:04.949    RS22-FOS-QAF:      Valid           Valid
+2022-04-11 11:02:04.949    RS22-VOL-XAN:      Valid           Valid
+2022-04-11 11:02:04.967    RS22-KAP-LOF:      Valid           Valid
+2022-04-11 11:02:04.974    RS22-AZI-XEV:      Valid           Valid
+2022-04-11 11:02:04.979    RS22-TUZ-AFO:      Valid           Valid
+2022-04-11 11:02:04.983    RS22-IKE-SIR:      Valid           Valid
+2022-04-11 11:02:04.987    RS22-CUT-AGO:      Valid           Valid
+2022-04-11 11:02:04.987    RS22-RUH-AKU:      Valid           Valid
+2022-04-11 11:02:04.987    RS22-ORE-QAH:      Valid           Valid
+2022-04-11 11:02:04.987    RS22-PEG-ICI:      Valid           Valid
+2022-04-11 11:02:05.002    RS22-JAJ-FEK:      Valid           Valid
+2022-04-11 11:02:05.002    RS22-DUB-POJ:      Valid           Valid
+2022-04-11 11:02:05.002    RS22-SUQ-JUD:      Valid           Valid
+2022-04-11 11:02:05.018    RS22-DEV-ZEX:      Valid           Valid
+2022-04-11 11:02:05.018    RS22-VUL-CAL:      Valid           Valid
+2022-04-11 11:02:05.018    RS22-XUZ-HUJ:      Valid           Valid
+2022-04-11 11:02:05.018    RS22-JIF-DAR:      Valid           Valid
+2022-04-11 11:02:05.034    RS22-SIB-UMU:      Valid           Valid
+2022-04-11 11:02:05.034    RS22-MEB-KUT:      Valid           Valid
+2022-04-11 11:02:05.034    RS22-ORE-FOS:      Valid           Valid
+2022-04-11 11:02:05.034    RS22-VAQ-OZO:      Valid           Valid
+2022-04-11 11:02:05.049    RS22-HOZ-QUQ:      Valid           Valid
+2022-04-11 11:02:05.049    RS22-ZAT-PAQ:      Valid           Valid
+2022-04-11 11:02:05.049    RS22-PEC-HOT:      Valid           Valid
+2022-04-11 11:02:05.065    RS22-KEC-ASO:      Valid           Valid
+2022-04-11 11:02:05.065    RS22-TOG-SAJ:      Valid           Valid
+2022-04-11 11:02:05.065    RS22-ULI-DAX:      Valid           Valid
+2022-04-11 11:02:05.065    RS22-ETU-VOF:      Valid           Valid
+2022-04-11 11:02:05.080    RS22-LEL-KEQ:      Valid           Valid
+2022-04-11 11:02:05.080    RS22-LAR-ISU:      Valid           Valid
+2022-04-11 11:02:05.080    RS22-ZUX-DUJ:      Valid           Valid
+2022-04-11 11:02:05.096    RS22-IPA-OPO:      Valid           Valid
+2022-04-11 11:02:05.096    RS22-IBI-EQU:      Valid           Valid
+2022-04-11 11:02:05.103    RS22-XEM-EZA:      Valid           Valid
+2022-04-11 11:02:05.103    RS22-VOV-DUD:      Valid           Valid
+2022-04-11 11:02:05.103    RS22-UFU-TIT:      Valid           Valid
+2022-04-11 11:02:05.103    RS22-ZAH-RAR:      Valid           Valid
+2022-04-11 11:02:05.118    RS22-BIH-HAC:      Valid           Valid
+2022-04-11 11:02:05.118    RS22-PET-MIK:      Valid           Valid
+2022-04-11 11:02:05.118    RS22-JUM-HAD:      Valid           Valid
+2022-04-11 11:02:05.134    RS22-VIF-FOV:      Valid           Valid
+2022-04-11 11:02:05.134    RS22-KOP-CER:      Valid           Valid
+2022-04-11 11:02:05.134    RS22-BIG-LOM:      Valid           Valid
+2022-04-11 11:02:05.134    RS22-XUF-MON:      Valid           Valid
+2022-04-11 11:02:05.149    RS22-TUZ-ZAS:      Valid           Valid
+2022-04-11 11:02:05.149    RS22-UKA-HAB:      Valid           Valid
+2022-04-11 11:02:05.149    RS22-QAV-LUQ:      Valid           Valid
+2022-04-11 11:02:05.165    RS22-ASE-TIM:      Valid           Valid
+2022-04-11 11:02:05.165    RS22-QIG-BOV:      Valid           Valid
+2022-04-11 11:02:05.165    RS22-JUM-LID:      Valid           Valid
+2022-04-11 11:02:05.165    RS22-BOF-IVE:      Valid           Valid
+2022-04-11 11:02:05.181    RS22-XEB-ICE:      Valid           Valid
+2022-04-11 11:02:05.181    RS22-NID-TER:      Valid           Valid
+2022-04-11 11:02:05.181    RS22-XUM-KOJ:      Valid           Valid
+2022-04-11 11:02:05.196    RS22-NIB-VUT:      Valid           Valid
+2022-04-11 11:02:05.203    RS22-JAF-ENI:      Valid           Valid
+2022-04-11 11:02:05.203    RS22-TEF-PIK:      Valid           Valid
+2022-04-11 11:02:05.203    RS22-FAJ-FED:      Valid           Valid
+2022-04-11 11:02:05.203    RS22-JAS-ZIC:      Valid           Valid
+2022-04-11 11:02:05.218    RS22-NOF-MIZ:      Valid           Valid
+2022-04-11 11:02:05.218    RS22-KUP-SIS:      Valid           Valid
+2022-04-11 11:02:05.218    RS22-ZUR-SEJ:      Valid           Valid
+2022-04-11 11:02:05.234    RS22-BIX-OQI:      Valid           Valid
+2022-04-11 11:02:05.234    RS22-UPI-GEQ:      Valid           Valid
+2022-04-11 11:02:05.234    RS22-DAZ-GUZ:      Valid           Valid
+2022-04-11 11:02:05.234    RS22-BAT-NEB:      Valid           Valid
+2022-04-11 11:02:05.250    RS22-DUX-TOT:      Valid           Valid
+2022-04-11 11:02:05.250    RS22-HAN-BIN:      Valid           Valid
+2022-04-11 11:02:05.250    RS22-IRI-AJO:      Valid           Valid
+2022-04-11 11:02:05.265    RS22-NUZ-QEB:      Valid           Valid
+2022-04-11 11:02:05.265    RS22-OMU-TIM:      Valid           Valid
+2022-04-11 11:02:05.265    RS22-VUC-FOJ:      Valid           Valid
+2022-04-11 11:02:05.281    RS22-CEC-SUX:      Valid           Valid
+2022-04-11 11:02:05.281    RS22-BAK-ROD:      Valid           Valid
+2022-04-11 11:02:05.281    RS22-ZUJ-MOL:      Valid           Valid
+2022-04-11 11:02:05.281    RS22-LOQ-ROC:      Valid           Valid
+2022-04-11 11:02:05.297    RS22-BEV-JUR:      Valid           Valid
+2022-04-11 11:02:05.303    RS22-IPE-MEJ:      Valid           Valid
+2022-04-11 11:02:05.303    RS22-FUH-VOM:      Valid           Valid
+2022-04-11 11:02:05.303    RS22-OBI-COK:      Valid           Valid
+2022-04-11 11:02:05.303    RS22-ICI-KIT:      Valid           Valid
+2022-04-11 11:02:05.319    RS22-SAT-MIC:      Valid           Valid
+2022-04-11 11:02:05.319    RS22-LID-QUP:      Valid           Valid
+2022-04-11 11:02:05.319    RS22-HEC-XUB:      Valid           Valid
+2022-04-11 11:02:05.334    RS22-ECU-AQI:      Valid           Valid
+2022-04-11 11:02:05.334    RS22-NUT-USA:      Valid           Valid
+2022-04-11 11:02:05.334    RS22-ULU-PEJ:      Valid           Valid
+2022-04-11 11:02:05.334    RS22-XIJ-BAC:      Valid           Valid
+2022-04-11 11:02:05.350    RS22-FAD-IGE:      Valid           Valid
+2022-04-11 11:02:05.350    RS22-VAC-DAP:      Valid           Valid
+2022-04-11 11:02:05.350    RS22-CEP-LAR:      Valid           Valid
+2022-04-11 11:02:05.366    RS22-AQA-KAM:      Valid           Valid
+2022-04-11 11:02:05.366    RS22-ZOC-HIT:      Valid           Valid
+2022-04-11 11:02:05.366    RS22-PUR-SEF:      Valid           Valid
+2022-04-11 11:02:05.366    RS22-ENO-MEQ:      Valid           Valid
+2022-04-11 11:02:05.381     
+2022-04-11 11:02:05.381    ---------------------------------------------------------------------- 
+2022-04-11 11:02:05.381    ---------------------------------------------------------------------- 
+2022-04-11 11:02:05.397    ---------------------------------------------------------------------- 
+2022-04-11 11:02:05.397     
+2022-04-11 11:02:05.403    Take action for the following cases
+2022-04-11 11:02:05.403     
+2022-04-11 11:02:05.403    Scrapped parts
+2022-04-11 11:02:05.403    --------------
+2022-04-11 11:02:05.419    None
+2022-04-11 11:02:05.419     
+2022-04-11 11:02:05.419    Promotions         Streamics   +   OMS
+2022-04-11 11:02:05.435    ------------------------------------------
+2022-04-11 11:02:05.435    None
+2022-04-11 11:02:05.435     

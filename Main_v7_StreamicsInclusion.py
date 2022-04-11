@@ -4,6 +4,11 @@
 #pip install pypiwin32
 #pip install pandas
 
+# Request access (via HEAT) to
+# Streamics
+# MRS - Data Cubes - Streamics
+# Create an OMS account
+
 # Not required
 #pip install xlrd
 #pip install openpyxl
@@ -16,8 +21,6 @@ download_chromedriver_path = "https://sites.google.com/chromium.org/driver/downl
 # Tutorial
 # https://medium.com/python-in-plain-english/create-your-browser-automation-robot-with-python-and-selenium-ed0db1d6d65d
 
-# email = ""
-# password = ""
 
 # Cases to validate to test the script
 # ------------------------------------
@@ -60,10 +63,10 @@ testenvironment = 0
 
 if testenvironment == 0:
     # Live environment
-    streamics_postprocessing_path_general = 'http://leumamsv00001/STREAMICS/PostProcessing'
+    streamics_postprocessing_path_general = 'http://leumamsp00001/STREAMICS/PostProcessing'
     oms_portal = 'https://portal.rsprint.com'
     oms_batch_promotion_path = oms_portal + '/Public/CaseManagement/ViewBatchCaseList.aspx'
-    streamicsOrderFile_path = os.getcwd() + '/input/20211203_caseIDoderIDFetch.xlsm'
+    streamicsOrderFile_path = os.getcwd() + '/input/20220407_caseIDoderIDFetch_v3.xlsm'
     streamics_scrap_part_base = 1
 else:
     # Test environment
@@ -636,6 +639,8 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
         print_with_timestamp('Chrome browser version (' + chrome_browser_version + ') and Chromedriver version (' + chromedriver_version + ') do not match. Please update the Chromedriver!' )
         print_with_timestamp('Please download this from the following url and select version ' + chrome_browser_version + '.x.xxxx.xx.')
         print_with_timestamp(download_chromedriver_path)
+        print_with_timestamp('Exiting code execution. Please run the code again after updating the chromedriver version.')
+        exit()
     else:
         print_with_timestamp('Versions match')
 
@@ -643,7 +648,8 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
         # Open Streamics
         driver.switch_to.window(driver.window_handles[handle_streamics_postprocessing])
         if testenvironment == 0:
-            sdfsf = 1
+            # sdfsf = 1
+            driver.get(streamics_postprocessing_path_general)
         else:
             driver.get(streamics_postprocessing_path_general)
         

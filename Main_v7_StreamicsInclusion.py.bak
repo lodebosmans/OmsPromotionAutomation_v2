@@ -2,9 +2,13 @@
 #pip install update
 #pip install chromedriver
 #pip install pypiwin32
+#pip install pandas
+
+# Request access (via HEAT) to
+# Streamics
+# MRS - Data Cubes - Streamics
 
 # Not required
-#pip install pandas
 #pip install xlrd
 #pip install openpyxl
 
@@ -16,8 +20,6 @@ download_chromedriver_path = "https://sites.google.com/chromium.org/driver/downl
 # Tutorial
 # https://medium.com/python-in-plain-english/create-your-browser-automation-robot-with-python-and-selenium-ed0db1d6d65d
 
-# email = ""
-# password = ""
 
 # Cases to validate to test the script
 # ------------------------------------
