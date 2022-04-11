@@ -148,7 +148,8 @@ def compare_cases(origin_cases, target_cases, in_both_file, exception_file, dont
             if case not in exception_file:
                 exception_file = exception_file + (case,)
         if case not in streamics_order_ids:
-            dont_exist = dont_exist + (case,)
+            if case not in dont_exist:
+                dont_exist = dont_exist + (case,)
     return origin_cases, target_cases, in_both_file, exception_file, dont_exist
 
 caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist = compare_cases(caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist)
