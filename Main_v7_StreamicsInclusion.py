@@ -66,14 +66,14 @@ if testenvironment == 0:
     streamics_postprocessing_path_general = 'http://leumamsp00001/STREAMICS/PostProcessing'
     oms_portal = 'https://portal.rsprint.com'
     oms_batch_promotion_path = oms_portal + '/Public/CaseManagement/ViewBatchCaseList.aspx'
-    streamicsOrderFile_path = os.getcwd() + '/input/20220407_caseIDoderIDFetch_v3.xlsm'
+    streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
     streamics_scrap_part_base = 1
 else:
     # Test environment
     streamics_postprocessing_path_general = 'http://leumamsv00001/STREAMICSV/PostProcessing'
     oms_portal = 'https://rsprintuat.materialise.net/rsprint/Public'
     oms_batch_promotion_path = oms_portal + '/CaseManagement/ViewBatchCaseList.aspx'
-    streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_caseIDorderIDFetch.xlsm'
+    streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_CaseIdOrderIdMatch.xlsm'
     streamics_scrap_part_base = streamics_postprocessing_path_general + '/Part/'
     
 
@@ -354,7 +354,7 @@ def clicked():
     global email
     global password
     global user
-    raw_input_caseids  = txt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
+    raw_input_caseids = txt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     raw_input_caseids_rebuilt  = txt_rebuilt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     # Get the streamics status
     destination_status_streamics = combo.get()

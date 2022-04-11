@@ -3,8 +3,12 @@ import re
 from tkinter import *
 from tkinter.ttk import *
 from datetime import datetime
+import win32com.client
+import pandas as pd
 
 # -----------------------------------------------------------------------------------------------------------
+
+streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
 
 def print_with_timestamp(input):
     f=open(logfile, "a+")
@@ -93,6 +97,39 @@ window.mainloop()
 
 logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + '_logfile_comparison_cases.txt'
 
+
+# Check if the Excel file with the link between case ID and Streamics order ID is present.
+if os.path.exists(streamicsOrderFile_path):
+    # Start an instance of Excel
+    xlapp = win32com.client.DispatchEx("Excel.Application")
+    # Open the workbook in said instance of Excel
+    wb = xlapp.workbooks.open(streamicsOrderFile_path)
+    # Optional, e.g. if you want to debug
+    #xlapp.Visible = True
+    # Refresh all data connections.
+    wb.RefreshAll()
+    xlapp.CalculateUntilAsyncQueriesDone()
+    #wb.Save()
+    wb.Close(SaveChanges=1)
+    # Quit
+    xlapp.Quit()
+    # Now read the refreshed data
+    df = pd.read_excel(streamicsOrderFile_path)
+    # Create a dict with the link between case ID and streamics order ID
+    streamics_order_ids = {} 
+    for index, row in df.iterrows():
+        ccid = row['Unnamed: 0']
+        if isinstance(ccid, str) == True:
+            if ccid[0:2] == 'RS':
+                coid = row['Unnamed: 1'].split('_')[0]
+                if type(ccid) is str and type(coid) is str:
+                    print(ccid + '   ' + coid)
+                    streamics_order_ids[ccid] = coid
+
+
+
+
+
 # Get the cases for rebuilt and for promotion
 caseids_shipmentlist = get_caseids_from_input(raw_input_caseids_shipmentlist)
 caseids_scanned = get_caseids_from_input(raw_input_caseids_scanned)
@@ -100,8 +137,9 @@ caseids_scanned = get_caseids_from_input(raw_input_caseids_scanned)
 caseids_in_both = ()
 caseids_in_shipmentlist_but_not_in_box = ()
 caseids_in_box_bot_not_in_shipmentlist = ()
+caseids_that_do_not_exist = ()
 # Do the comparison
-def compare_cases(origin_cases, target_cases, in_both_file, exception_file):
+def compare_cases(origin_cases, target_cases, in_both_file, exception_file, dont_exist):
     for case in origin_cases:
         if case in target_cases:
             if case not in in_both_file:
@@ -109,33 +147,40 @@ def compare_cases(origin_cases, target_cases, in_both_file, exception_file):
         else:
             if case not in exception_file:
                 exception_file = exception_file + (case,)
-    return origin_cases, target_cases, in_both_file, exception_file
+        if case not in streamics_order_ids:
+            dont_exist = dont_exist + (case,)
+    return origin_cases, target_cases, in_both_file, exception_file, dont_exist
 
-caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box = compare_cases(caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box)
-caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist = compare_cases(caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist)
+caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist = compare_cases(caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist)
+caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist, caseids_that_do_not_exist = compare_cases(caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist, caseids_that_do_not_exist)
 
 print_with_timestamp(' ')
-print_with_timestamp('Case in the shipmentlist')
+print_with_timestamp('Cases in the shipmentlist')
 print_with_timestamp('------------------------')
 for case in caseids_shipmentlist:
     print_with_timestamp(case)
 print_with_timestamp(' ')
-print_with_timestamp('Case in the box')
+print_with_timestamp('Cases in the box')
 print_with_timestamp('---------------')
 for case in caseids_scanned:
     print_with_timestamp(case)
 print_with_timestamp(' ')
-print_with_timestamp('Case in the both')
+print_with_timestamp('Cases that do not exist')
+print_with_timestamp('----------------------')
+for case in caseids_that_do_not_exist:
+    print_with_timestamp(case)
+print_with_timestamp(' ')
+print_with_timestamp('Cases in the both')
 print_with_timestamp('----------------')
 for case in caseids_in_both:
     print_with_timestamp(case)
 print_with_timestamp(' ')
-print_with_timestamp('Case in the shipmentlist, but not in the box')
+print_with_timestamp('Cases in the shipmentlist, but not in the box')
 print_with_timestamp('--------------------------------------------')
 for case in caseids_in_shipmentlist_but_not_in_box:
     print_with_timestamp(case)
 print_with_timestamp(' ')
-print_with_timestamp('Case in the box, but not in the shipmentlist')
+print_with_timestamp('Cases in the box, but not in the shipmentlist')
 print_with_timestamp('--------------------------------------------')
 for case in caseids_in_box_bot_not_in_shipmentlist:
     print_with_timestamp(case)

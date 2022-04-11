@@ -1,0 +1,65 @@
+ 
+Case in the shipmentlist
+------------------------
+RS22-SOX-LAD
+RS22-ULA-TOL
+RS22-BUV-SET
+RS22-MEG-ZOJ
+RS22-JOM-OQO
+RS22-FEB-KUC
+RS22-FER-DUS
+RS22-BUH-IKA
+RS22-MEK-BUK
+RS22-REJ-QEH
+RS22-JUK-KOG
+RS22-DUX-ZAN
+RS22-TOX-DUR
+RS22-JIF-ZAC
+ 
+Case in the box
+---------------
+RS22-SOX-LAD
+RS22-IZU-QIR
+RS22-ULA-TOL
+RS22-BUV-SET
+RS22-MEG-ZOJ
+RS22-JOM-OQO
+RS22-FEB-KUC
+RS22-FER-DUS
+RS22-MEK-BUK
+RS22-REJ-QEH
+RS22-JUK-KOG
+RS22-DUX-ZAN
+RS22-TOX-DUR
+RS22-JIF-ZAC
+RS22-SAN-DER
+ 
+Case that do not exist
+----------------------
+RS22-SAN-DER
+ 
+Case in the both
+----------------
+RS22-SOX-LAD
+RS22-ULA-TOL
+RS22-BUV-SET
+RS22-MEG-ZOJ
+RS22-JOM-OQO
+RS22-FEB-KUC
+RS22-FER-DUS
+RS22-MEK-BUK
+RS22-REJ-QEH
+RS22-JUK-KOG
+RS22-DUX-ZAN
+RS22-TOX-DUR
+RS22-JIF-ZAC
+ 
+Case in the shipmentlist, but not in the box
+--------------------------------------------
+RS22-BUH-IKA
+ 
+Case in the box, but not in the shipmentlist
+--------------------------------------------
+RS22-IZU-QIR
+RS22-SAN-DER
+ 
