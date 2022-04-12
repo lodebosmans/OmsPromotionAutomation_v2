@@ -7,9 +7,10 @@ import win32com.client
 import pandas as pd
 import qrcode
 import xlsxwriter
+import shutil
 
 # -----------------------------------------------------------------------------------------------------------
-testenvironment = 0
+testenvironment = 1
 
 if testenvironment == 0:
     # Live environment
@@ -63,6 +64,11 @@ def compare_cases(origin_cases, target_cases, in_both_file, exception_file, dont
             if case not in dont_exist:
                 dont_exist = dont_exist + (case,)
     return origin_cases, target_cases, in_both_file, exception_file, dont_exist
+
+
+# def remove_qrcode(filelocation):
+#     if os.path.exists(filelocation):
+#         os.remove(filelocation)
 
 
 # Prepare all necessary stuff to print all output to file
@@ -176,7 +182,10 @@ caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_i
 row_position = 1
 row_interval = 5
 left = True
-qr_path = './output/qrcode.png'
+temp_dir = './output/temp'
+if os.path.exists(temp_dir) == True:
+    shutil.rmtree(temp_dir)
+os.mkdir(temp_dir)
 workbook = xlsxwriter.Workbook('./output/orderIdsStreamics.xlsx')
 worksheet = workbook.add_worksheet()
 cell_format1 = workbook.add_format()   
@@ -186,12 +195,14 @@ worksheet.set_column('D:D', 25)
 cell_format1.set_font_size(20)
 # cell_format.set_font_size('D:D', 20)
 # Go over all case that were scanned
-for case in sorted(caseids_scanned):
-    input_data = 'ord' + case
+caseids_scanned = sorted(caseids_scanned)
+for case in caseids_scanned:
+    qr_path = temp_dir + '/' + case + '.png'
+    input_data = 'ord' + streamics_order_ids[case]
     # Creating an instance of qrcode
     qr = qrcode.QRCode(
             version=1,
-            box_size=3,
+            box_size=4,
             border=3)
     qr.add_data(input_data)
     qr.make(fit=True)
@@ -209,24 +220,24 @@ for case in sorted(caseids_scanned):
     left = not left
     if left == True:
         row_position += row_interval
-
 workbook.close()
+shutil.rmtree(temp_dir)
 
 
 # Print the summary
 print_with_timestamp(' ')
 print_with_timestamp('Cases in the shipmentlist')
-print_with_timestamp('------------------------')
+print_with_timestamp('-------------------------')
 for case in caseids_shipmentlist:
     print_with_timestamp(case)
 print_with_timestamp(' ')
 print_with_timestamp('Cases in the box')
-print_with_timestamp('---------------')
+print_with_timestamp('----------------')
 for case in caseids_scanned:
     print_with_timestamp(case)
 print_with_timestamp(' ')
 print_with_timestamp('Cases that do not exist')
-print_with_timestamp('----------------------')
+print_with_timestamp('-----------------------')
 for case in caseids_that_do_not_exist:
     print_with_timestamp(case)
 print_with_timestamp(' ')

@@ -13,6 +13,8 @@
 # MRS - Data Cubes - Streamics
 # Create an OMS account
 
+# Not required
+# pip install xlrd
 
 
 # Add the Chromedriver in the same folder als the python script
