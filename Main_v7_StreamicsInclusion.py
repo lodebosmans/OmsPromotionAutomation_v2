@@ -1,8 +1,10 @@
-#pip install selenium
-#pip install update
-#pip install chromedriver
-#pip install pypiwin32
-#pip install pandas
+# pip install selenium
+# pip install update
+# pip install chromedriver
+# pip install pypiwin32
+# pip install pandas
+# pip install pillow
+# pip install qrcode
 
 # Request access (via HEAT) to
 # Streamics
@@ -10,8 +12,8 @@
 # Create an OMS account
 
 # Not required
-#pip install xlrd
-#pip install openpyxl
+# pip install xlrd
+# pip install openpyxl
 
 # Add the Chromedriver in the same folder als the python script
 download_chromedriver_path = "https://sites.google.com/chromium.org/driver/downloads"
@@ -86,8 +88,6 @@ email_accounts_path = './input/email_accounts.txt'
 # OMS
 statusFlowOms = ("Waiting for design parameters","Design","Design rejected","Design QC","Production","Built","Ready to ship","Shipped")
 # Streamics
-#statusFlowStreamics = ("Inbound warehouse","Incoming cap QC","Built","Sent to subcontractor","Returned from subcontractor","End product QC","Ready to ship in Paal","Shipped to customer")
-# Temp for testing purposes
 statusFlowStreamics = ('1210 SLS build breakout + sandblasting',
 '1231 SLS QC specific',
 '1340 SLS color dye',

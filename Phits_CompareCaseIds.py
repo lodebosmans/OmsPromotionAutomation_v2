@@ -5,10 +5,20 @@ from tkinter.ttk import *
 from datetime import datetime
 import win32com.client
 import pandas as pd
+import qrcode
+import xlsxwriter
 
 # -----------------------------------------------------------------------------------------------------------
+testenvironment = 0
 
-streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
+if testenvironment == 0:
+    # Live environment
+    streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
+else:
+    # Test environment
+    streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_CaseIdOrderIdMatch.xlsm'
+
+
 
 def print_with_timestamp(input):
     f=open(logfile, "a+")
@@ -38,6 +48,21 @@ def clicked():
     raw_input_caseids_shipmentlist  = txt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     raw_input_caseids_scanned  = txt_rebuilt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     window.destroy() # Closes the internal loop and lets the script run forward, otherwise it will freeze here.
+
+
+# Do the comparison of the provided case IDs
+def compare_cases(origin_cases, target_cases, in_both_file, exception_file, dont_exist):
+    for case in origin_cases:
+        if case in target_cases:
+            if case not in in_both_file:
+                in_both_file = in_both_file + (case,)
+        else:
+            if case not in exception_file:
+                exception_file = exception_file + (case,)
+        if case not in streamics_order_ids:
+            if case not in dont_exist:
+                dont_exist = dont_exist + (case,)
+    return origin_cases, target_cases, in_both_file, exception_file, dont_exist
 
 
 # Prepare all necessary stuff to print all output to file
@@ -95,8 +120,14 @@ txt_rebuilt.grid(column=3, row=2)
 window.mainloop()
 # After the click on the button, the window is destroyed, so data can not be collected again. Check function 'clicked'.
 
-logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + '_logfile_comparison_cases.txt'
 
+
+
+
+
+# Start to processing of all data.
+
+logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + datepieces['h'] + datepieces['mi'] + datepieces['s'] + '_' + '_logfile_comparison_cases.txt'
 
 # Check if the Excel file with the link between case ID and Streamics order ID is present.
 if os.path.exists(streamicsOrderFile_path):
@@ -127,9 +158,6 @@ if os.path.exists(streamicsOrderFile_path):
                     streamics_order_ids[ccid] = coid
 
 
-
-
-
 # Get the cases for rebuilt and for promotion
 caseids_shipmentlist = get_caseids_from_input(raw_input_caseids_shipmentlist)
 caseids_scanned = get_caseids_from_input(raw_input_caseids_scanned)
@@ -138,23 +166,54 @@ caseids_in_both = ()
 caseids_in_shipmentlist_but_not_in_box = ()
 caseids_in_box_bot_not_in_shipmentlist = ()
 caseids_that_do_not_exist = ()
-# Do the comparison
-def compare_cases(origin_cases, target_cases, in_both_file, exception_file, dont_exist):
-    for case in origin_cases:
-        if case in target_cases:
-            if case not in in_both_file:
-                in_both_file = in_both_file + (case,)
-        else:
-            if case not in exception_file:
-                exception_file = exception_file + (case,)
-        if case not in streamics_order_ids:
-            if case not in dont_exist:
-                dont_exist = dont_exist + (case,)
-    return origin_cases, target_cases, in_both_file, exception_file, dont_exist
 
 caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist = compare_cases(caseids_shipmentlist, caseids_scanned, caseids_in_both, caseids_in_shipmentlist_but_not_in_box, caseids_that_do_not_exist)
 caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist, caseids_that_do_not_exist = compare_cases(caseids_scanned, caseids_shipmentlist, caseids_in_both, caseids_in_box_bot_not_in_shipmentlist, caseids_that_do_not_exist)
 
+# Create the Excel file for manual scanning
+# https://xlsxwriter.readthedocs.io/example_images.html
+# https://xlsxwriter.readthedocs.io/format.html
+row_position = 1
+row_interval = 5
+left = True
+qr_path = './output/qrcode.png'
+workbook = xlsxwriter.Workbook('./output/orderIdsStreamics.xlsx')
+worksheet = workbook.add_worksheet()
+cell_format1 = workbook.add_format()   
+worksheet.set_column('A:A', 25)
+worksheet.set_column('C:C', 10)
+worksheet.set_column('D:D', 25)
+cell_format1.set_font_size(20)
+# cell_format.set_font_size('D:D', 20)
+# Go over all case that were scanned
+for case in sorted(caseids_scanned):
+    input_data = 'ord' + case
+    # Creating an instance of qrcode
+    qr = qrcode.QRCode(
+            version=1,
+            box_size=3,
+            border=3)
+    qr.add_data(input_data)
+    qr.make(fit=True)
+    img = qr.make_image(fill='black', back_color='white')
+    img.save(qr_path)
+    # Insert an image.
+    if left:
+        col_case = 'A'
+        col_qr = 'B'
+    else:
+        col_case = 'D'
+        col_qr = 'E'
+    worksheet.write(col_case + str(row_position), case, cell_format1)
+    worksheet.insert_image(col_qr + str(row_position), qr_path)
+    left = not left
+    if left == True:
+        row_position += row_interval
+
+workbook.close()
+
+
+# Print the summary
 print_with_timestamp(' ')
 print_with_timestamp('Cases in the shipmentlist')
 print_with_timestamp('------------------------')
