@@ -1,0 +1,7 @@
+2022-04-14 17:38:54.781       OMS: The case should be promoted to Streamics (Built)
+2022-04-14 17:38:54.809       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-04-14 17:38:54.993       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-04-14 17:39:06.533       OMS: The current status is: Built (5)
+2022-04-14 17:39:06.538       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-04-14 17:39:16.777       OMS: The current status is: Ready to ship (6)
+2022-04-14 17:39:16.783       OMS: The destination status is Shipped (7). We need to further promote this case.

@@ -1,0 +1,5 @@
+2022-04-14 17:38:51.018       OMS: The current status is: Production (4)
+2022-04-14 17:38:52.316       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-04-14 17:38:52.320       OMS: Clicking the "Take order" button.
+2022-04-14 17:38:54.216       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-04-14 17:38:56.546       OMS: The current production substatus is: Streamics (New)
