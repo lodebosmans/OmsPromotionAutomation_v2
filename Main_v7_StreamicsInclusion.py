@@ -951,7 +951,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         current_production_substatus = get_production_substatus()
                         if current_production_substatus != 'Streamics (Built)':
                             # Click the update all button
-                            xpathsearch_update_allbutton = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[5]/div/input[6]'
+                            xpathsearch_update_allbutton = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[4]/div/input[6]'
                             wait_until_element_is_present('xpath',xpathsearch_update_allbutton,20)
                             button = driver.find_element(By.XPATH, xpathsearch_update_allbutton)
                             time.sleep(1)
