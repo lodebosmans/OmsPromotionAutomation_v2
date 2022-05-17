@@ -94,13 +94,14 @@ statusFlowStreamics = ('1210 SLS build breakout + sandblasting',
 '1410 SLS QC after surface finishing',
 '1950 SLS sent for delivery',
 '9410 MOT Inbound warehouse',
-'9420 MOT Incoming cap QC (printed part)',
+'9420 MOT Incoming cap QC',
 '9430 MOT Built',
 '9440 MOT Sent to subcontractor',
 '9450 MOT Returned from subcontractor',
 '9460 MOT End product QC',
 '9470 MOT Ready to ship in Paal',
 'Post processing finished')
+
 
 test = 1
 
@@ -256,7 +257,7 @@ def get_current_status_line(page):
     return current_status_oms, current_status_oms_index
 
 def get_production_substatus():
-    xpathsearch_streamics_status = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[4]/div[3]/div[3]/div/table/tbody/tr[2]/td[6]'
+    xpathsearch_streamics_status = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[3]/div[3]/div[3]/div/table/tbody/tr[2]/td[6]'
     wait_until_element_is_present('xpath',xpathsearch_streamics_status,20)
     current_status_oms = driver.find_element(By.XPATH, xpathsearch_streamics_status).text
     print_with_timestamp('   OMS: The current production substatus is: ' + current_status_oms )
@@ -355,7 +356,6 @@ def clicked():
     global password
     global user
     raw_input_caseids = txt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
-    raw_input_caseids_rebuilt  = txt_rebuilt.get("1.0","end") # https://www.delftstack.com/howto/python-tkinter/how-to-get-the-input-from-tkinter-text-box/
     # Get the streamics status
     destination_status_streamics = combo.get()
     destination_status_streamics_index = statusFlowStreamics.index(destination_status_streamics)
@@ -466,7 +466,7 @@ width_inputfield = 40
 
 window = Tk()
 window.title("Status promotions")
-window.geometry('800x500')
+window.geometry('400x500')
 
 # Col 0 and 1
 
@@ -527,29 +527,6 @@ label_spacer6.grid(column=1, row=17)
 btn = Button(window, text="Start promotion", command=clicked)
 btn.grid(column=1, row=18)
 
-# Col 2 and 3
-
-label_spacer0 = Label(window, text="       ")
-label_spacer0.grid(column=2, row=1)
-
-label_input_rebuilt = Label(window, text="Insert the case IDs for rebuilt + cancel parts:")
-label_input_rebuilt.grid(column=3, row=1)
-txt_rebuilt = Text(window,width=width_inputfield,height=10)
-txt_rebuilt.grid(column=3, row=2)
-
-# label_spacer3 = Label(window, text=" ")
-# label_spacer3.grid(column=3, row=3)
-
-# label_combo = Label(window,text="Choose a scrap reason:")
-# label_combo.grid(column=3, row=4)
-# combo_scrap = Combobox(window,width=width_inputfield,height=len(StreamicsOmsStatusLink)+1)
-# combo_scrap['values']= ("Choose a status",) + scrapReasons
-# combo_scrap.current(0) #set the selected item
-# combo_scrap.grid(column=3, row=5)
-
-# label_spacer = Label(window, text=" ")
-# label_spacer.grid(column=3, row=6)
-
 window.mainloop()
 # After the click on the button, the window is destroyed, so data can not be collected again. Check function 'clicked'.
 
@@ -559,7 +536,7 @@ logfile = 'log/' + datepieces['y'] + datepieces['mo'] + datepieces['d'] + '_' + 
 # Get the cases for rebuilt and for promotion
 caseids = get_caseids_from_input(raw_input_caseids)
 #caseids_summary = {}
-caseids_rebuilt = get_caseids_from_input(raw_input_caseids_rebuilt)
+caseids_rebuilt = []
 caseids_rebuilt_summary = {}
 
 # See if it is for Livit or not
@@ -777,93 +754,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
     xpathsearch_scrap_button = 'btnScrap'
     xpathsearch_scrapped_confirmation = '/html/body/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]'
 
-    if promote_in_streamics == True:
-        if len(caseids_rebuilt) > 0:
-            print_with_timestamp(' ')
-            if len(caseids_rebuilt) == 1:
-                pairs = 'pair'
-            else:
-                pairs = 'pairs'
-            print_with_timestamp('First things first: scrapping insoles (' + str(len(caseids_rebuilt)) + ' ' + pairs + ')')
-            # Go over all case IDs for rebuilt and scrap them
-            for caseid_rebuilt in caseids_rebuilt:
-                orderid = streamics_order_ids[caseid_rebuilt]
-                driver.switch_to.window(driver.window_handles[handle_streamics_postprocessing])
-                driver.get(streamics_postprocessing_path_order + orderid)
-                print_with_timestamp(' ')
-                print_with_timestamp('Scrapping: ' + caseid_rebuilt + ' (' + orderid + ') started')
-                time.sleep(0.2)
-                # Check if the number exist and that you don't end up with the default page.
-                if driver.current_url == streamics_postprocessing_path_order + orderid:
-                    # Check if the part is not failed already
-                    wait_until_element_is_present('xpath',xpathsearch_overview_parts,20)
-                    driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
-                    wait_until_element_is_present('xpath',xpathsearch_postprocessing_failed_part_1,20)
-                    postprocessing_status = check_postprocessing_status()
-                    if postprocessing_status == 'Started':
-                        # Get the Streamics tap
-                        driver.switch_to.window(driver.window_handles[handle_streamics_postprocessing])
-                        driver.get(streamics_postprocessing_path_order + orderid)
-                        wait_until_element_is_present('xpath',xpathsearch_overview_parts,20)
-                        time.sleep(0.2)
-                        if check_exists_by_xpath(xpathsearch_expand_streamics_card):
-                            # Check how many parts are still in the order
-                            if check_exists_by_xpath(xpathsearch_plus_sign_2_scrap):
-                                number_of_parts = 2
-                                print_with_timestamp('   STREAMICS: There are ' + str(number_of_parts) + ' parts in the order.')
-                            else:
-                                number_of_parts = 1
-                                print_with_timestamp('   STREAMICS: There is ' + str(number_of_parts) + ' part in the order.')
-                            for side in range(1,number_of_parts+1):
-                                # Open the parts of the order (expand card)
-                                wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
-                                driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
-                                # Click the plus sign
-                                wait_until_element_is_present('xpath',xpathsearch_plus_sign_1_scrap,20)
-                                driver.find_element(By.XPATH, xpathsearch_plus_sign_1_scrap).click()
-                                # Click the part number
-                                wait_until_element_is_present('xpath',xpathsearch_physical_part_id_1,20)
-                                driver.find_element(By.XPATH, xpathsearch_physical_part_id_1).click()
-                                # Click the scrap button
-                                wait_until_element_is_present('xpath',xpathsearch_scrap_1,20)
-                                driver.find_element(By.XPATH, xpathsearch_scrap_1).click()
-                                # Click the motion specific text
-                                wait_until_element_is_present('xpath',xpathsearch_reason_scrap_1,20)
-                                driver.find_element(By.XPATH, xpathsearch_reason_scrap_1).click()
-                                # Click the reason - in this case: colateral damage
-                                wait_until_element_is_present('xpath',xpathsearch_reason,20)
-                                driver.find_element(By.XPATH, xpathsearch_reason).click()
-                                # Press the confirm button
-                                wait_until_element_is_present('id',xpathsearch_scrap_button,20)
-                                driver.find_element(By.ID,xpathsearch_scrap_button).click()
-                                # Verify if the part is scrapped
-                                wait_until_element_is_present('xpath',xpathsearch_scrapped_confirmation,20)
-                                driver.find_element(By.XPATH, xpathsearch_scrapped_confirmation).text
-                                print_with_timestamp('   STREAMICS: Scrapping: ' + caseid_rebuilt + ' = ' + str(side) + '/' + str(number_of_parts) + ' succesfull')
-                                # Go back to the previous page
-                                time.sleep(2)
-                                driver.get(streamics_postprocessing_path_order + orderid)
-                            print_with_timestamp(' ')
-                            caseids_rebuilt_summary[caseid_rebuilt] = 'Valid'
-                        else:
-                            message = 'Nothing to scrap, still in production (' + orderid + ')'
-                            print_with_timestamp('   STREAMICS: ' + message)
-                            print_with_timestamp(' ')
-                            caseids_rebuilt_summary[caseid_rebuilt] = message
-                    else:
-                        if postprocessing_status == 'Failed':
-                            message = 'The parts are already scrapped (' + orderid + ')'
-                            print_with_timestamp('   STREAMICS: ' + message)
-                            caseids_rebuilt_summary[caseid_rebuilt] = message
-                        if postprocessing_status == 'Finished':
-                            message = "The parts are in status 'Post processing finished' and can't be scrapped (" + orderid + ")"
-                            print_with_timestamp('   STREAMICS: ' + message)
-                            caseids_rebuilt_summary[caseid_rebuilt] = message
-                else:
-                    message = "The order ID does not exist, it can't be scrapped (" + orderid + ")"
-                    print_with_timestamp('   STREAMICS: ' + message)
-                    caseids_rebuilt_summary[caseid_rebuilt] = message
-
     # Go over all case IDs for promotion
     cc = 0
     oms_caseids_valid = []
@@ -1071,43 +961,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
 
                         
                         print_with_timestamp('   OMS: The destination status is ' + destination_status_oms + ' (' + str(destination_status_oms_index) + '). We need to further promote this case.')
-                        """   # Click the promotion button
-                        xpathsearch_promotionbutton = '/html/body/form/div[3]/div[3]/div/div[2]/div[4]/div/div[2]/div[3]/button'
-                        element_status = False
-                        while element_status == False:
-                            element_status = check_exists_by_type('xpath', xpathsearch_promotionbutton, 20)
-                        button = driver.find_element(By.XPATH, xpathsearch_promotionbutton)
-                        time.sleep(3)
-                        button.click()
-                        time.sleep(0.1)
-                        # Click the confirm button
-                        xpathsearch_confirmbutton = '/html/body/form/div[15]/div[2]/div/button[1]'
-                        element_status = False
-                        while element_status == False:
-                            element_status = check_exists_by_type('xpath', xpathsearch_confirmbutton, 20)
-                        time.sleep(3)
-                        button = driver.find_element(By.XPATH, xpathsearch_confirmbutton)
-                        time.sleep(0.1)
-                        button.click()
-                        time.sleep(1) # 20
-
-                        # Verify if a error message appears
-                        error_button_id = 'ui-dialog-title-ctl00_right_side_ucStatusControl_PromotionErrorMessage'
-                        xpathsearch_error_button = "/html/body/form/div[16]"
-                        xpathsearch_error_button_specific = "/html/body/form/div[16]/div[2]/div/button"
-                        error_button_present = driver.find_element(By.XPATH, xpathsearch_error_button).value_of_css_property("display") 
-                        
-                        if error_button_present != "none":
-                            no_error = False
-                            print_with_timestamp('   The case could not be promoted.')                
-                            print_with_timestamp('   Clicking the error button.')
-                            driver.find_element(By.XPATH, xpathsearch_error_button_specific).click()
-                            time.sleep(1) # 5
-                            register_case_ID('invalid',caseid + ' (invalid production status)',cc)
-                            # Close the tab and go back to the overview tab
-                        
-                        if no_error:
-                            current_status_oms, current_status_oms_index = get_current_status() """
                         driver.close()
                         driver.switch_to.window(driver.window_handles[handle_oms_view_orders])
                         time.sleep(0.1)
@@ -1238,17 +1091,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
     timestamps.append(datetime.now)
     # Calculate the average time
 
-
-    # print_with_timestamp(' ')
-    # print_with_timestamp('Valid OMS promotions (' + str(len(oms_caseids_valid)) + '/' + str(len(caseids)) + ')')
-    # print_with_timestamp('----------------------------')
-    # print_casebycase(oms_caseids_valid)
-    # print_with_timestamp(' ')
-    # print_with_timestamp('Invalid OMS promotions (' + str(len(oms_caseids_invalid)) + '/' + str(len(caseids)) + ')')
-    # print_with_timestamp('----------------------------')
-    # print_casebycase(oms_caseids_invalid)
-    # print_with_timestamp(' ')
-
     print_with_timestamp(' ')
     print_with_timestamp(' ')
     print_with_timestamp('---------------------------------------------------------------------- ')
@@ -1275,19 +1117,19 @@ print(' ')
 # outputfile.close()
 
 
-# Some code for testing
-test_caseid = ('RS22-SAN-DER','RS22-LOD-EKE','RS22-NAT-ASA','RS22-PIT-JAN')
-caseids_summary = {}
-for test in test_caseid:
-    # print(test)
-    caseids_summary[test] = {}
-    # caseids_summary[test]['Streamics'] = '-'
-    # caseids_summary[test]['OMS'] = '-'
-caseids_summary['RS22-SAN-DER']['OMS'] = 'Valid'
-caseids_summary['RS22-SAN-DER']['Streamics'] = 'Valid'
-caseids_summary['RS22-LOD-EKE']['OMS'] = 'Invalid'
-caseids_summary['RS22-LOD-EKE']['Streamics'] = 'Valid'
-caseids_summary['RS22-NAT-ASA']['OMS'] = 'Valid'
-caseids_summary['RS22-NAT-ASA']['Streamics'] = 'Invalid'
-caseids_summary['RS22-PIT-JAN']['OMS'] = 'Invalid'
-caseids_summary['RS22-PIT-JAN']['Streamics'] = 'Invalid'
+# # Some code for testing
+# test_caseid = ('RS22-SAN-DER','RS22-LOD-EKE','RS22-NAT-ASA','RS22-PIT-JAN')
+# caseids_summary = {}
+# for test in test_caseid:
+#     # print(test)
+#     caseids_summary[test] = {}
+#     # caseids_summary[test]['Streamics'] = '-'
+#     # caseids_summary[test]['OMS'] = '-'
+# caseids_summary['RS22-SAN-DER']['OMS'] = 'Valid'
+# caseids_summary['RS22-SAN-DER']['Streamics'] = 'Valid'
+# caseids_summary['RS22-LOD-EKE']['OMS'] = 'Invalid'
+# caseids_summary['RS22-LOD-EKE']['Streamics'] = 'Valid'
+# caseids_summary['RS22-NAT-ASA']['OMS'] = 'Valid'
+# caseids_summary['RS22-NAT-ASA']['Streamics'] = 'Invalid'
+# caseids_summary['RS22-PIT-JAN']['OMS'] = 'Invalid'
+# caseids_summary['RS22-PIT-JAN']['Streamics'] = 'Invalid'
