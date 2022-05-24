@@ -406,8 +406,8 @@ def print_summary(caseids_summary,caseids_rebuilt_summary,only_invalid):
             if counter_rebuilts_with_error == 0:
                 print_with_timestamp('None')
     print_with_timestamp(' ')
-    print_with_timestamp('Promotions         Streamics   +   OMS')
-    print_with_timestamp('------------------------------------------')
+    print_with_timestamp('Promotions         Streamics                           OMS')
+    print_with_timestamp('-----------------------------------------------------------------------')
     if len(caseids_summary) == 0:
         print_with_timestamp('None')
     else:
@@ -417,7 +417,7 @@ def print_summary(caseids_summary,caseids_rebuilt_summary,only_invalid):
             len_streamics = len(caseids_summary[case]['Streamics'])
             temp1 = caseids_summary[case]['Streamics']
             temp2 = caseids_summary[case]['OMS']
-            print_spacer = (16 - len_streamics) * ' '
+            print_spacer = (36 - len_streamics) * ' '
             printit = True
             if temp1 != 'Valid' or temp2 != 'Valid':
                 printit = True
