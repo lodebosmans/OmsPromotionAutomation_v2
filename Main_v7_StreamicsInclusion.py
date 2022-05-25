@@ -11,7 +11,7 @@
 # Request access (via HEAT) to
 # Streamics
 # MRS - Data Cubes - Streamics
-# Create an OMS account
+# Create an OMS account (use same password as with streamics)
 
 
 
@@ -828,12 +828,13 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                     print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
                     caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
             else:
-                if postprocessing_status == 'Failed':
-                    print_with_timestamp('   STREAMICS: The parts are scrapped at this point.')
-                    caseids_summary[caseid]['Streamics'] = 'Parts are scrapped'
                 if postprocessing_status == 'Finished':
                     print_with_timestamp('   STREAMICS: The parts are already in status "Post processing finished".')
                     caseids_summary[caseid]['Streamics'] = 'Parts are finished already'
+                if postprocessing_status == 'Failed':
+                    print_with_timestamp('   STREAMICS: The parts are scrapped at this point.')
+                    caseids_summary[caseid]['Streamics'] = 'Parts are scrapped'
+
         else:
             caseids_summary[caseid]['Streamics'] = 'Valid'
 
