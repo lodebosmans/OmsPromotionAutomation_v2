@@ -337,10 +337,10 @@ def wait_until_element_is_present(xpath_or_id,string_xpath_or_id,time_to_wait):
 def check_postprocessing_status():
     if driver.find_element(By.XPATH, xpathsearch_postprocessing_finished_part_1).text == '1':
         status = 'Finished'
-    if driver.find_element(By.XPATH, xpathsearch_postprocessing_failed_part_1).text == '1':
-        status = 'Failed'
     if driver.find_element(By.XPATH, xpathsearch_postprocessing_started_part_1).text == '1':
         status = 'Started'
+    if driver.find_element(By.XPATH, xpathsearch_postprocessing_failed_part_1).text == '1':
+        status = 'Failed'
     return status
 
 # Generate the input screen 
@@ -816,7 +816,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                             else:
                                 # Normal flow
                                 wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
-                                time.sleep(1)
+                                time.sleep(2)
                                 driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
                                 current_status_streamics, current_status_streamics_index = get_streamics_status_info()
                             print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
@@ -834,7 +834,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                 if postprocessing_status == 'Failed':
                     print_with_timestamp('   STREAMICS: The parts are scrapped at this point.')
                     caseids_summary[caseid]['Streamics'] = 'Parts are scrapped'
-
         else:
             caseids_summary[caseid]['Streamics'] = 'Valid'
 
