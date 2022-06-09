@@ -1,0 +1,34 @@
+2022-06-09 13:40:55.194    User: lode_bosmans
+2022-06-09 13:40:55.209    Destination status Streamics: Post processing finished
+2022-06-09 13:40:55.209    Destination status OMS: Shipped
+2022-06-09 13:40:55.209     
+2022-06-09 13:40:55.209    The cases to be processed for promotion:
+2022-06-09 13:40:55.225355    RS22-BOV-ITI, RS22-BUJ-ROR, RS22-FEB-NOH, RS22-HAP-KUP, RS22-KOV-KOF, RS22-NAH-EJA, RS22-NUN-UVE, RS22-PAD-TUB, RS22-POR-UNO, RS22-SOK-SON
+2022-06-09 13:40:55.225     
+2022-06-09 13:40:55.225    The cases to be processed for rebuilt:
+2022-06-09 13:40:55.225355    
+2022-06-09 13:40:55.240     
+2022-06-09 13:40:55.240    Setting up the browser and checking compatability
+2022-06-09 13:40:56.593    Chrome browser version: 102
+2022-06-09 13:40:56.599    Chromedriver version: 102
+2022-06-09 13:40:56.606    Versions match
+2022-06-09 13:41:02.174     
+2022-06-09 13:41:02.182    Focus on the "view orders" button and click it
+2022-06-09 13:41:02.186     
+2022-06-09 13:41:05.376    Focus on the first "all" button and click it
+2022-06-09 13:41:05.470    Focus on the second "all" button and click it
+2022-06-09 13:41:05.633     
+2022-06-09 13:41:07.274    Opening batch promotion in a new tab
+2022-06-09 13:41:09.766    Focus on the batch promotion "all" button and click it
+2022-06-09 13:41:09.766     
+2022-06-09 13:41:12.404     
+2022-06-09 13:41:12.404    Processing: RS22-BOV-ITI (1/10)
+2022-06-09 13:41:16.295       STREAMICS: The parts are scrapped at this point.
+2022-06-09 13:41:19.152       OMS: Linked to id: 112434
+2022-06-09 13:41:20.177       OMS: The current status is: Production (4)
+2022-06-09 13:41:21.434       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-06-09 13:41:21.434       OMS: Clicking the "Take order" button.
+2022-06-09 13:41:23.792       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-06-09 13:41:26.160       OMS: The current production substatus is: Streamics (Built)
+2022-06-09 13:41:26.160       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-06-09 13:41:26.345       OMS: The destination status is Shipped (7). We need to further promote this case.
