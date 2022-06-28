@@ -806,19 +806,13 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         while current_status_streamics_index < destination_status_streamics_index:
                             # Click the button
                             driver.find_element(By.ID, 'completeAllButton').click()
-                            #wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
-                            #time.sleep(1)
-                            # Refresh the current status vars
-                            if current_status_streamics_index == destination_status_streamics_index-1:
-                                # Exception for last status
-                                current_status_streamics = 'Post processing finished'
-                                current_status_streamics_index = len(StreamicsOmsStatusLink)-1
-                            else:
-                                # Normal flow
-                                wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
-                                time.sleep(2)
-                                driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
-                                current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                            wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
+                            time.sleep(2)
+                            # Open the card again
+                            driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
+                            # Get the new status
+                            current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                            # Write to the terminal
                             print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
                             caseids_summary[caseid]['Streamics'] = 'Valid'
                     else:
