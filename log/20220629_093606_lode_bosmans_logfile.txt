@@ -1,0 +1,33 @@
+2022-06-29 09:36:23.449    User: lode_bosmans
+2022-06-29 09:36:23.455    Destination status Streamics: Post processing finished
+2022-06-29 09:36:23.460    Destination status OMS: Shipped
+2022-06-29 09:36:23.465     
+2022-06-29 09:36:23.469    The cases to be processed for promotion:
+2022-06-29 09:36:23.473254    RS22-MEB-KIH, RS22-TER-JAM
+2022-06-29 09:36:23.479     
+2022-06-29 09:36:23.483    The cases to be processed for rebuilt:
+2022-06-29 09:36:23.488209    
+2022-06-29 09:36:23.492     
+2022-06-29 09:36:23.498    Setting up the browser and checking compatability
+2022-06-29 09:36:25.126    Chrome browser version: 103
+2022-06-29 09:36:25.132    Chromedriver version: 103
+2022-06-29 09:36:25.136    Versions match
+2022-06-29 09:36:30.370     
+2022-06-29 09:36:30.382    Focus on the "view orders" button and click it
+2022-06-29 09:36:30.387     
+2022-06-29 09:36:33.452    Focus on the first "all" button and click it
+2022-06-29 09:36:33.539    Focus on the second "all" button and click it
+2022-06-29 09:36:33.715     
+2022-06-29 09:36:35.411    Opening batch promotion in a new tab
+2022-06-29 09:36:37.644    Focus on the batch promotion "all" button and click it
+2022-06-29 09:36:37.649     
+2022-06-29 09:36:40.204     
+2022-06-29 09:36:40.213    Processing: RS22-MEB-KIH (1/2)
+2022-06-29 09:36:43.855       STREAMICS: Destination status is "Post processing finished"
+2022-06-29 09:36:43.859       STREAMICS: Starting promotions
+2022-06-29 09:37:10.764       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-06-29 09:37:25.891       STREAMICS: Promoted to "9430 MOT Built"
+2022-06-29 09:37:41.992       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-06-29 09:38:00.333       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-06-29 09:38:35.538       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-06-29 09:42:58.853       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"

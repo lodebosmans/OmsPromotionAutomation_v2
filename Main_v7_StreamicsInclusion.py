@@ -804,17 +804,36 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                     if current_status_streamics_index < destination_status_streamics_index:
                         print_with_timestamp('   STREAMICS: Starting promotions')
                         while current_status_streamics_index < destination_status_streamics_index:
-                            # Click the button
+                            # # Click the button
                             driver.find_element(By.ID, 'completeAllButton').click()
-                            wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
-                            time.sleep(2)
-                            # Open the card again
-                            driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
-                            # Get the new status
-                            current_status_streamics, current_status_streamics_index = get_streamics_status_info()
-                            # Write to the terminal
-                            print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
-                            caseids_summary[caseid]['Streamics'] = 'Valid'
+                            # wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
+                            # time.sleep(2)
+                            # # Open the card again
+                            # driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
+                            # # Get the new status
+                            # current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                            # # Write to the terminal
+                            # print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
+                            # caseids_summary[caseid]['Streamics'] = 'Valid'
+
+                            if current_status_streamics_index == len(StreamicsOmsStatusLink) - 2:
+                                print_with_timestamp('   STREAMICS: Promoted to "Post-processing finished"')
+                                current_status_streamics_index = destination_status_streamics_index * 1
+
+                            if current_status_streamics_index < destination_status_streamics_index - 1:
+                                wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
+                                time.sleep(2)
+                                driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
+                                current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                                print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
+                            if current_status_streamics_index == destination_status_streamics_index:
+                                print_with_timestamp('   STREAMICS: Destination status has been reached.')
+                                caseids_summary[caseid]['Streamics'] = 'Valid'
+
+
+
+
+
                     else:
                         print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
                         caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
