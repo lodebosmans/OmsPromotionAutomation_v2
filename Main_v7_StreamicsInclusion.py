@@ -818,8 +818,8 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
 
                             if current_status_streamics_index == len(StreamicsOmsStatusLink) - 2:
                                 print_with_timestamp('   STREAMICS: Promoted to "Post-processing finished"')
+                                # Update the status manually, as there is not button to click anymore
                                 current_status_streamics_index = destination_status_streamics_index * 1
-
                             if current_status_streamics_index < destination_status_streamics_index - 1:
                                 wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
                                 time.sleep(2)
@@ -829,11 +829,6 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                             if current_status_streamics_index == destination_status_streamics_index:
                                 print_with_timestamp('   STREAMICS: Destination status has been reached.')
                                 caseids_summary[caseid]['Streamics'] = 'Valid'
-
-
-
-
-
                     else:
                         print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
                         caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
