@@ -21,3 +21,10 @@ pip install qrcode
 pip install xlsxwriter
 
 pip install openpyxl
+
+# Additional actions
+
+Request access (via HEAT) to
+- Streamics
+- MRS - Data Cubes - Streamics
+- Create an OMS account (use same password as with streamics)

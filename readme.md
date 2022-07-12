@@ -22,7 +22,7 @@ pip install xlsxwriter
 
 pip install openpyxl
 
-# Additional actions
+## Additional actions
 
 Request access (via HEAT) to
 - Streamics
