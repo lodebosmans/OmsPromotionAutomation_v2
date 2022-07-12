@@ -28,3 +28,7 @@ Request access (via HEAT) to
 - Streamics
 - MRS - Data Cubes - Streamics
 - Create an OMS account (use same password as with streamics)
+
+## Documentation
+
+See powerpoint in the folder 'docs'
