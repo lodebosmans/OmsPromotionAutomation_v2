@@ -313,8 +313,10 @@ def print_with_timestamp(input):
         listcases = listcases[0:len(listcases)-2]
         f.write(str(datetime.now()) + '    ' + listcases + '\n')
 
-def get_streamics_status_info():
-    current_status_streamics = driver.find_element(By.CSS_SELECTOR,'.progressBarForOrderedPart .progress-bar-custom .Active').text
+def get_streamics_status_info(xpathsearch_expand_streamics_card):
+    temp = driver.find_element(By.XPATH, xpathsearch_expand_streamics_card)
+    current_status_streamics = temp.find_element(By.CSS_SELECTOR,'.progressBarForOrderedPart .progress-bar-custom .Active').text     # https://www.tutorialspoint.com/locating-child-nodes-of-webelements-in-selenium
+    # current_status_streamics = driver.find_element(By.CSS_SELECTOR,'.progressBarForOrderedPart .progress-bar-custom .Active').text
     current_status_streamics_index = statusFlowStreamics.index(current_status_streamics)
     return current_status_streamics, current_status_streamics_index
 
@@ -335,11 +337,11 @@ def wait_until_element_is_present(xpath_or_id,string_xpath_or_id,time_to_wait):
         element_status = check_exists_by_type(xpath_or_id,string_xpath_or_id,time_to_wait)
 
 def check_postprocessing_status():
-    if driver.find_element(By.XPATH, xpathsearch_postprocessing_finished_part_1).text == '1':
+    if int(driver.find_element(By.XPATH, xpathsearch_postprocessing_finished_part_1).text) > 0:
         status = 'Finished'
-    elif driver.find_element(By.XPATH, xpathsearch_postprocessing_started_part_1).text == '1':
+    elif int(driver.find_element(By.XPATH, xpathsearch_postprocessing_started_part_1).text) > 0:
         status = 'Started'
-    elif driver.find_element(By.XPATH, xpathsearch_postprocessing_failed_part_1).text == '1':
+    elif int(driver.find_element(By.XPATH, xpathsearch_postprocessing_failed_part_1).text) > 0:
         status = 'Failed'
     return status
 
@@ -744,15 +746,14 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
     xpathsearch_postprocessing_failed_part_1 = '/html/body/div[1]/div[2]/div/div/div[3]/div/div/div[2]/table[1]/tbody/tr[3]/td[9]'
     xpathsearch_postprocessing_failed_part_2 = '/html/body/div[1]/div[2]/div/div/div[3]/div/div/div[2]/table[2]/tbody/tr[3]/td[9]'
     xpath_no_parts_to_process = '/html/body/div[1]/div[2]/div/div/div[4]/div/span'
-    xpathsearch_expand_streamics_card = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[1]'
-    xpathsearch_plus_sign_1_scrap = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[1]/td[7]/a/em'
-    xpathsearch_physical_part_id_1 = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[3]/td/div/div[1]/table/tbody/tr/td[1]/a'
-    xpathsearch_plus_sign_2_scrap = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[4]/td[7]/a/em'
-    xpathsearch_scrap_1 = '/html/body/div[1]/div[2]/div[1]/div/div[2]/div/div/div[1]/div[2]/form/a[2]'
-    xpathsearch_reason_scrap_1 = '/html/body/div[5]/div/div/div/div/div[2]/div[2]/form/div[1]/div[2]/h3[12]'
-    xpathsearch_reason = '/html/body/div[5]/div/div/div/div/div[2]/div[2]/form/div[1]/div[2]/div[12]/p[3]/label/span'
-    xpathsearch_scrap_button = 'btnScrap'
-    xpathsearch_scrapped_confirmation = '/html/body/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]'
+    # xpathsearch_plus_sign_1_scrap = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[1]/td[7]/a/em'
+    # xpathsearch_physical_part_id_1 = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[3]/td/div/div[1]/table/tbody/tr/td[1]/a'
+    # xpathsearch_plus_sign_2_scrap = '/html/body/div[1]/div[2]/div/div/div[4]/div/div/div[2]/table/tbody/tr[4]/td[7]/a/em'
+    # xpathsearch_scrap_1 = '/html/body/div[1]/div[2]/div[1]/div/div[2]/div/div/div[1]/div[2]/form/a[2]'
+    # xpathsearch_reason_scrap_1 = '/html/body/div[5]/div/div/div/div/div[2]/div[2]/form/div[1]/div[2]/h3[12]'
+    # xpathsearch_reason = '/html/body/div[5]/div/div/div/div/div[2]/div[2]/form/div[1]/div[2]/div[12]/p[3]/label/span'
+    # xpathsearch_scrap_button = 'btnScrap'
+    # xpathsearch_scrapped_confirmation = '/html/body/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]'
 
     # Go over all case IDs for promotion
     cc = 0
@@ -792,13 +793,29 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
             if postprocessing_status == 'Started':
                 # Close the overview again
                 driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
-                time.sleep(0.2)
+                time.sleep(0.1)
+                # Find the correct card to expand
+                goon_expand_card = 0
+                card_index = 1
+                while goon_expand_card == 0:
+                    xpathsearch_expand_streamics_card = '/html/body/div[1]/div[2]/div/div/div[4]/div[' + str(card_index) + ']/div'
+                    xpathsearch_expand_streamics_card_level = xpathsearch_expand_streamics_card + '/div[1]/span[2]'
+                    # Check if the opened card is the correct one
+                    if driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).text == 'Order':
+                        # All is good, you can continue
+                        goon_expand_card = 1
+                    else:
+                        print_with_timestamp('   This card (' + str(card_index) + ') does not match. Increasing index.')
+                        card_index += 1
+                        time.sleep(1)
+
+
                 # Check if the card is present
                 if check_exists_by_xpath(xpathsearch_expand_streamics_card):
                     # Open the parts of the order (expand card)
                     driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
                     # Get the Streamics status of the parts
-                    current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                    current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
                     print_with_timestamp('   STREAMICS: Destination status is "' + destination_status_streamics + '"')
                     # Compare the current status with the destination status, if smaller, promote to the next step
                     if current_status_streamics_index < destination_status_streamics_index:
@@ -824,7 +841,7 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                                 wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card,20)
                                 time.sleep(2)
                                 driver.find_element(By.XPATH, xpathsearch_expand_streamics_card).click()
-                                current_status_streamics, current_status_streamics_index = get_streamics_status_info()
+                                current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
                                 print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
                             if current_status_streamics_index == destination_status_streamics_index:
                                 print_with_timestamp('   STREAMICS: Destination status has been reached.')

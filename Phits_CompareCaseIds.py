@@ -10,7 +10,7 @@ import xlsxwriter
 import shutil
 
 # -----------------------------------------------------------------------------------------------------------
-testenvironment = 1
+testenvironment = 0
 
 if testenvironment == 0:
     # Live environment
