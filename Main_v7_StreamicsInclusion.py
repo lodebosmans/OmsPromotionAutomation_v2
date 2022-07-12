@@ -1,19 +1,3 @@
-# pip install selenium
-# pip install update
-# pip install chromedriver
-# pip install pypiwin32
-# pip install pandas
-# pip install pillow
-# pip install qrcode
-# pip install xlsxwriter
-# pip install openpyxl
-
-# Request access (via HEAT) to
-# Streamics
-# MRS - Data Cubes - Streamics
-# Create an OMS account (use same password as with streamics)
-
-
 
 # Add the Chromedriver in the same folder als the python script
 download_chromedriver_path = "https://sites.google.com/chromium.org/driver/downloads"
