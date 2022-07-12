@@ -1,6 +1,8 @@
-Install Python 3.10.x
+## Install Python 
 
-Install the following packages:
+Version = 3.10.x
+
+## Install the following packages:
 
 pip install selenium
 
