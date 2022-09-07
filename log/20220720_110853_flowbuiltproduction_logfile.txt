@@ -1,0 +1,19 @@
+2022-07-20 11:09:00.496    User: flowbuiltproduction
+2022-07-20 11:09:00.504    Destination status Streamics: Post processing finished
+2022-07-20 11:09:00.514    Destination status OMS: Shipped
+2022-07-20 11:09:00.522     
+2022-07-20 11:09:00.530    The cases to be processed for promotion:
+2022-07-20 11:09:00.540494    RS22-EKA-FEL, RS22-ERA-QEH, RS22-OQE-ZEN, RS22-SER-FUF, RS22-REZ-OQO, RS22-IQU-SID, RS22-OLA-KAC, RS22-PUZ-JAL, RS22-IJI-DUN, RS22-LIR-OBU, RS22-FAN-VIH, RS22-ROC-ZIB, RS22-ROG-KAV, RS22-VIH-XAF, RS22-ESI-PER, RS22-IVI-XUG, RS22-AGA-ZES, RS22-BIQ-NAB, RS22-QUD-UVE, RS22-SOK-TOX, RS22-SUD-LOX, RS22-SUF-EKE, RS22-UFE-NAV, RS22-VAQ-NAF, RS22-XEH-QIX, RS22-ZOR-DUT, RS22-USO-SAN, RS22-UMO-HIT, RS22-ROD-PIF, RS22-KEH-EZO, RS22-AXU-ALA, RS22-BUL-JIX, RS22-BUZ-BUC, RS22-IXO-VUJ, RS22-LUD-EHE, RS22-MAZ-MEL, RS22-MIG-EBI, RS22-MUB-ZUR, RS22-QUD-NID, RS22-REM-ALA, RS22-QON-VIG, RS22-MOX-VUS, RS22-DAR-TEG, RS22-EBI-FAG, RS22-ERU-QIG, RS22-GAP-CIG, RS22-GAR-KEX, RS22-GEH-KEJ
+2022-07-20 11:09:00.550     
+2022-07-20 11:09:00.559    The cases to be processed for rebuilt:
+2022-07-20 11:09:00.568420    
+2022-07-20 11:09:00.579     
+2022-07-20 11:09:00.587    Setting up the browser and checking compatability
+2022-07-20 11:09:02.462    Chrome browser version: 103
+2022-07-20 11:09:02.475    Chromedriver version: 103
+2022-07-20 11:09:02.488    Versions match
+2022-07-20 11:09:08.050     
+2022-07-20 11:09:08.060    Focus on the "view orders" button and click it
+2022-07-20 11:09:08.070     
+2022-07-20 11:09:12.216    Focus on the first "all" button and click it
+2022-07-20 11:09:12.289    Focus on the second "all" button and click it

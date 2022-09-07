@@ -1,0 +1,18 @@
+2022-07-20 11:09:27.602    User: flowbuiltproduction
+2022-07-20 11:09:27.612    Destination status Streamics: Post processing finished
+2022-07-20 11:09:27.622    Destination status OMS: Shipped
+2022-07-20 11:09:27.630     
+2022-07-20 11:09:27.639    The cases to be processed for promotion:
+2022-07-20 11:09:27.648442    RS22-GIQ-PIV, RS22-CUC-LIP, RS22-BOH-NOF, RS22-PEC-LUC, RS22-PIH-KIR, RS22-SED-VEB, RS22-SIM-CEB, RS22-ZOF-GAK, RS22-UBE-LUP, RS22-PAH-KIV, RS22-HAL-ZID, RS22-IVI-SUD, RS22-EZU-PAF, RS22-IZI-SEQ, RS22-JIZ-UHA, RS22-MAD-XUN, RS22-NAC-UHI, RS22-HIJ-PUX, RS22-CUM-CIT, RS22-CAB-ONI, RS22-NEP-FUG, RS22-RAT-UMI, RS22-UPU-CAB, RS22-VAR-BIT, RS22-ZAZ-OXA, RS22-ROF-SOS, RS22-EDI-GAJ, RS22-VUN-OJI, RS22-ZUM-LIV, RS22-LUT-POT
+2022-07-20 11:09:27.658     
+2022-07-20 11:09:27.667    The cases to be processed for rebuilt:
+2022-07-20 11:09:27.675368    
+2022-07-20 11:09:27.685     
+2022-07-20 11:09:27.692    Setting up the browser and checking compatability
+2022-07-20 11:09:29.361    Chrome browser version: 103
+2022-07-20 11:09:29.374    Chromedriver version: 103
+2022-07-20 11:09:29.386    Versions match
+2022-07-20 11:09:35.405     
+2022-07-20 11:09:35.413    Focus on the "view orders" button and click it
+2022-07-20 11:09:35.421     
+2022-07-20 11:09:39.187    Focus on the first "all" button and click it

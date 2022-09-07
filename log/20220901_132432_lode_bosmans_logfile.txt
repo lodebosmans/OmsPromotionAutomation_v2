@@ -1,0 +1,260 @@
+2022-09-01 13:24:54.853    User: lode_bosmans
+2022-09-01 13:24:54.863    Destination status Streamics: Post processing finished
+2022-09-01 13:24:54.863    Destination status OMS: Shipped
+2022-09-01 13:24:54.863     
+2022-09-01 13:24:54.879    The cases to be processed for promotion:
+2022-09-01 13:24:54.879285    RS22-FIJ-GOG, RS22-FUK-ZEL, RS22-JIC-MEQ, RS22-JIM-HOG, RS22-KUS-RAS, RS22-NEH-DAK, RS22-NOZ-QUT, RS22-NUH-SIP, RS22-ROB-XOV, RS22-RUG-TOR, RS22-SAK-IQA, RS22-SUF-GAH, RS22-UDI-VEQ, RS22-XAF-COK, RS22-XIM-VUH, RS22-ZOQ-DEM, RS22-ZOS-IDO, RS22-HAM-PID, RS22-IVA-UXO, RS22-LET-MEV, RS22-DAG-DIS, RS22-DOP-DIL, RS22-IVI-GUM, RS22-LEN-QAV, RS22-NUJ-MIL, RS22-POH-LAH, RS22-REL-UXU, RS22-UMO-GOX, RS22-BOC-OSU, RS22-QOM-TEV, RS22-ITA-NUS, RS22-UQE-ROS, RS22-BEQ-GIN, RS22-ARE-QUF, RS22-BAD-PIX, RS22-GOP-EBO, RS22-SUQ-DUL, RS22-UNU-CUX, RS22-ZUJ-ARE, RS22-VIJ-AQI
+2022-09-01 13:24:54.893     
+2022-09-01 13:24:54.893    The cases to be processed for rebuilt:
+2022-09-01 13:24:54.893298    
+2022-09-01 13:24:54.908     
+2022-09-01 13:24:54.908    Setting up the browser and checking compatability
+2022-09-01 13:24:58.253    Chrome browser version: 104
+2022-09-01 13:24:58.260    Chromedriver version: 104
+2022-09-01 13:24:58.264    Versions match
+2022-09-01 13:25:03.763     
+2022-09-01 13:25:03.770    Focus on the "view orders" button and click it
+2022-09-01 13:25:03.771     
+2022-09-01 13:25:06.271    Focus on the first "all" button and click it
+2022-09-01 13:25:06.339    Focus on the second "all" button and click it
+2022-09-01 13:25:06.556     
+2022-09-01 13:25:08.225    Opening batch promotion in a new tab
+2022-09-01 13:25:10.219    Focus on the batch promotion "all" button and click it
+2022-09-01 13:25:10.219     
+2022-09-01 13:25:12.764     
+2022-09-01 13:25:12.772    Processing: RS22-FIJ-GOG (1/40)
+2022-09-01 13:25:16.008       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:18.907       OMS: Linked to id: 118942
+2022-09-01 13:25:19.950       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:19.950       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:20.175     
+2022-09-01 13:25:20.191    Processing: RS22-FUK-ZEL (2/40)
+2022-09-01 13:25:23.730       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:26.568       OMS: Linked to id: 118919
+2022-09-01 13:25:27.602       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:27.602       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:27.855     
+2022-09-01 13:25:27.871    Processing: RS22-JIC-MEQ (3/40)
+2022-09-01 13:25:31.021       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:34.164       OMS: Linked to id: 118928
+2022-09-01 13:25:35.190       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:35.196       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:35.416     
+2022-09-01 13:25:35.420    Processing: RS22-JIM-HOG (4/40)
+2022-09-01 13:25:38.523       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:41.301       OMS: Linked to id: 118936
+2022-09-01 13:25:42.318       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:42.333       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:42.534     
+2022-09-01 13:25:42.534    Processing: RS22-KUS-RAS (5/40)
+2022-09-01 13:25:45.804       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:48.603       OMS: Linked to id: 118708
+2022-09-01 13:25:49.620       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:49.620       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:49.821     
+2022-09-01 13:25:49.821    Processing: RS22-NEH-DAK (6/40)
+2022-09-01 13:25:52.951       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:25:55.765       OMS: Linked to id: 118937
+2022-09-01 13:25:56.783       OMS: The current status is: Shipped (7)
+2022-09-01 13:25:56.799       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:25:57.047     
+2022-09-01 13:25:57.062    Processing: RS22-NOZ-QUT (7/40)
+2022-09-01 13:26:00.434       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:03.202       OMS: Linked to id: 118729
+2022-09-01 13:26:04.259       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:04.275       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:04.492     
+2022-09-01 13:26:04.492    Processing: RS22-NUH-SIP (8/40)
+2022-09-01 13:26:07.573       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:10.460       OMS: Linked to id: 118941
+2022-09-01 13:26:11.506       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:11.506       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:11.723     
+2022-09-01 13:26:11.738    Processing: RS22-ROB-XOV (9/40)
+2022-09-01 13:26:14.890       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:17.710       OMS: Linked to id: 118940
+2022-09-01 13:26:18.744       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:18.749       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:18.964     
+2022-09-01 13:26:18.969    Processing: RS22-RUG-TOR (10/40)
+2022-09-01 13:26:22.094       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:24.941       OMS: Linked to id: 118935
+2022-09-01 13:26:25.974       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:25.977       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:26.183     
+2022-09-01 13:26:26.194    Processing: RS22-SAK-IQA (11/40)
+2022-09-01 13:26:30.130       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:32.985       OMS: Linked to id: 118923
+2022-09-01 13:26:34.006       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:34.021       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:34.245     
+2022-09-01 13:26:34.245    Processing: RS22-SUF-GAH (12/40)
+2022-09-01 13:26:38.503       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:41.338       OMS: Linked to id: 118938
+2022-09-01 13:26:42.388       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:42.404       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:42.647     
+2022-09-01 13:26:42.647    Processing: RS22-UDI-VEQ (13/40)
+2022-09-01 13:26:45.731       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:49.724       OMS: Linked to id: 118927
+2022-09-01 13:26:50.754       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:50.754       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:26:50.985     
+2022-09-01 13:26:50.985    Processing: RS22-XAF-COK (14/40)
+2022-09-01 13:26:54.349       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:26:58.947       OMS: Linked to id: 118939
+2022-09-01 13:26:59.972       OMS: The current status is: Shipped (7)
+2022-09-01 13:26:59.972       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:00.203     
+2022-09-01 13:27:00.219    Processing: RS22-XIM-VUH (15/40)
+2022-09-01 13:27:03.401       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:06.294       OMS: Linked to id: 118924
+2022-09-01 13:27:07.343       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:07.343       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:07.568     
+2022-09-01 13:27:07.568    Processing: RS22-ZOQ-DEM (16/40)
+2022-09-01 13:27:11.600       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:14.482       OMS: Linked to id: 118723
+2022-09-01 13:27:15.510       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:15.510       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:15.754     
+2022-09-01 13:27:15.754    Processing: RS22-ZOS-IDO (17/40)
+2022-09-01 13:27:18.743       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:21.549       OMS: Linked to id: 118776
+2022-09-01 13:27:22.569       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:22.569       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:22.770     
+2022-09-01 13:27:22.801    Processing: RS22-HAM-PID (18/40)
+2022-09-01 13:27:25.818       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:28.635       OMS: Linked to id: 118832
+2022-09-01 13:27:29.686       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:29.686       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:29.905     
+2022-09-01 13:27:29.913    Processing: RS22-IVA-UXO (19/40)
+2022-09-01 13:27:32.847       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:35.677       OMS: Linked to id: 118768
+2022-09-01 13:27:36.711       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:36.727       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:36.961     
+2022-09-01 13:27:36.961    Processing: RS22-LET-MEV (20/40)
+2022-09-01 13:27:39.983       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:42.777       OMS: Linked to id: 118862
+2022-09-01 13:27:43.803       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:43.803       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:44.034     
+2022-09-01 13:27:44.034    Processing: RS22-DAG-DIS (21/40)
+2022-09-01 13:27:47.319       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:50.198       OMS: Linked to id: 118809
+2022-09-01 13:27:51.220       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:51.220       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:51.454     
+2022-09-01 13:27:51.454    Processing: RS22-DOP-DIL (22/40)
+2022-09-01 13:27:54.593       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:27:57.403       OMS: Linked to id: 118806
+2022-09-01 13:27:58.457       OMS: The current status is: Shipped (7)
+2022-09-01 13:27:58.457       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:27:58.673     
+2022-09-01 13:27:58.689    Processing: RS22-IVI-GUM (23/40)
+2022-09-01 13:28:01.729       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:04.533       OMS: Linked to id: 118813
+2022-09-01 13:28:05.561       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:05.576       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:05.815     
+2022-09-01 13:28:05.815    Processing: RS22-LEN-QAV (24/40)
+2022-09-01 13:28:08.783       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:11.581       OMS: Linked to id: 118808
+2022-09-01 13:28:12.619       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:12.619       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:12.841     
+2022-09-01 13:28:12.841    Processing: RS22-NUJ-MIL (25/40)
+2022-09-01 13:28:15.863       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:18.676       OMS: Linked to id: 118807
+2022-09-01 13:28:19.715       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:19.715       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:19.966     
+2022-09-01 13:28:19.982    Processing: RS22-POH-LAH (26/40)
+2022-09-01 13:28:23.076       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:25.900       OMS: Linked to id: 118810
+2022-09-01 13:28:26.919       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:26.935       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:27.188     
+2022-09-01 13:28:27.188    Processing: RS22-REL-UXU (27/40)
+2022-09-01 13:28:30.456       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:33.279       OMS: Linked to id: 118812
+2022-09-01 13:28:34.309       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:34.316       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:34.538     
+2022-09-01 13:28:34.544    Processing: RS22-UMO-GOX (28/40)
+2022-09-01 13:28:37.484       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:40.303       OMS: Linked to id: 118688
+2022-09-01 13:28:41.352       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:41.352       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:41.553     
+2022-09-01 13:28:41.553    Processing: RS22-BOC-OSU (29/40)
+2022-09-01 13:28:44.524       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:47.358       OMS: Linked to id: 118695
+2022-09-01 13:28:48.380       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:48.385       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:48.628     
+2022-09-01 13:28:48.633    Processing: RS22-QOM-TEV (30/40)
+2022-09-01 13:28:51.696       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:28:54.493       OMS: Linked to id: 118920
+2022-09-01 13:28:55.520       OMS: The current status is: Shipped (7)
+2022-09-01 13:28:55.527       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:28:55.743     
+2022-09-01 13:28:55.748    Processing: RS22-ITA-NUS (31/40)
+2022-09-01 13:28:59.502       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:02.331       OMS: Linked to id: 119203
+2022-09-01 13:29:03.365       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:03.369       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:03.603     
+2022-09-01 13:29:03.612    Processing: RS22-UQE-ROS (32/40)
+2022-09-01 13:29:07.333       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:11.124       OMS: Linked to id: 119210
+2022-09-01 13:29:12.207       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:12.212       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:12.440     
+2022-09-01 13:29:12.445    Processing: RS22-BEQ-GIN (33/40)
+2022-09-01 13:29:15.900       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:18.745       OMS: Linked to id: 117497
+2022-09-01 13:29:19.782       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:19.790       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:20.023     
+2022-09-01 13:29:20.033    Processing: RS22-ARE-QUF (34/40)
+2022-09-01 13:29:23.399       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:26.190       OMS: Linked to id: 120136
+2022-09-01 13:29:27.253       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:27.260       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:27.514     
+2022-09-01 13:29:27.529    Processing: RS22-BAD-PIX (35/40)
+2022-09-01 13:29:30.666       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:33.429       OMS: Linked to id: 120104
+2022-09-01 13:29:34.459       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:34.464       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:34.690     
+2022-09-01 13:29:34.699    Processing: RS22-GOP-EBO (36/40)
+2022-09-01 13:29:37.929       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:40.758       OMS: Linked to id: 120110
+2022-09-01 13:29:41.785       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:41.790       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:42.008     
+2022-09-01 13:29:42.013    Processing: RS22-SUQ-DUL (37/40)
+2022-09-01 13:29:45.055       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:47.848       OMS: Linked to id: 120103
+2022-09-01 13:29:48.874       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:48.879       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:49.128     
+2022-09-01 13:29:49.134    Processing: RS22-UNU-CUX (38/40)
+2022-09-01 13:29:52.230       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:29:55.011       OMS: Linked to id: 120120
+2022-09-01 13:29:56.053       OMS: The current status is: Shipped (7)
+2022-09-01 13:29:56.060       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:29:56.316     
+2022-09-01 13:29:56.327    Processing: RS22-ZUJ-ARE (39/40)
+2022-09-01 13:29:59.461       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-01 13:30:02.334       OMS: Linked to id: 120134
+2022-09-01 13:30:03.374       OMS: The current status is: Shipped (7)
+2022-09-01 13:30:03.379       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-01 13:30:03.627     
+2022-09-01 13:30:03.638    Processing: RS22-VIJ-AQI (40/40)
+2022-09-01 13:30:07.425       This card (1) does not match. Increasing index.

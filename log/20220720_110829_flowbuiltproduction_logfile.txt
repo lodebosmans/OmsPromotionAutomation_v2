@@ -1,0 +1,885 @@
+2022-07-20 11:08:35.196    User: flowbuiltproduction
+2022-07-20 11:08:35.211    Destination status Streamics: Post processing finished
+2022-07-20 11:08:35.223    Destination status OMS: Shipped
+2022-07-20 11:08:35.235     
+2022-07-20 11:08:35.247    The cases to be processed for promotion:
+2022-07-20 11:08:35.259494    RS22-ZEV-UMA, RS22-POT-ELU, RS22-CIZ-UPI, RS22-GUL-AFI, RS22-EPE-XEF, RS22-IVO-KIT, RS22-IMU-NON, RS22-IQU-POJ, RS22-NIQ-COF, RS22-POJ-OSI, RS22-SEC-SOQ, RS22-QIV-TUP, RS22-VAD-DEQ, RS22-XAN-RAQ, RS22-FEV-GAC, RS22-FAD-ATI, RS22-JIH-ZUJ, RS22-TIB-HAT, RS22-LOB-MEG, RS22-POF-POQ, RS22-HEH-LAM, RS22-CEC-FIS, RS22-EPE-MUM, RS22-XIH-CUD, RS22-DOD-NOQ, RS22-OPI-BOX, RS22-MAH-FUN, RS22-LUS-NIR, RS22-KAD-FOK, RS22-VOR-FEG, RS22-ZIN-LOX, RS22-TOK-LEF, RS22-UBO-BAK, RS22-RUP-HES, RS22-QEF-FIL, RS22-RIP-MAH, RS22-SER-VOP, RS22-COL-CAH, RS22-GIC-IJO, RS22-DIF-CEG, RS22-UVA-TAK, RS22-VUP-FAR, RS22-OJA-IDE, RS22-GAQ-UZO, RS22-GUF-LEH, RS22-VOS-SES, RS22-OLE-ZOC, RS22-NEK-JUG, RS22-OGO-HOX
+2022-07-20 11:08:35.273     
+2022-07-20 11:08:35.285    The cases to be processed for rebuilt:
+2022-07-20 11:08:35.300381    
+2022-07-20 11:08:35.311     
+2022-07-20 11:08:35.320    Setting up the browser and checking compatability
+2022-07-20 11:08:37.463    Chrome browser version: 103
+2022-07-20 11:08:37.477    Chromedriver version: 103
+2022-07-20 11:08:37.488    Versions match
+2022-07-20 11:08:42.586     
+2022-07-20 11:08:42.595    Focus on the "view orders" button and click it
+2022-07-20 11:08:42.603     
+2022-07-20 11:08:47.294    Focus on the first "all" button and click it
+2022-07-20 11:08:47.400    Focus on the second "all" button and click it
+2022-07-20 11:08:47.695     
+2022-07-20 11:08:49.682    Opening batch promotion in a new tab
+2022-07-20 11:08:53.746    Focus on the batch promotion "all" button and click it
+2022-07-20 11:08:53.754     
+2022-07-20 11:08:56.647     
+2022-07-20 11:08:56.656    Processing: RS22-ZEV-UMA (1/49)
+2022-07-20 11:09:00.074       OMS: Linked to id: 115620
+2022-07-20 11:09:01.151       OMS: The current status is: Production (4)
+2022-07-20 11:09:03.710       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:09:03.723       OMS: Clicking the "Take order" button.
+2022-07-20 11:09:07.101       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:09:09.474       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:09:17.702       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:09:17.721       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:09:17.985       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:09:30.854       OMS: The current status is: Built (5)
+2022-07-20 11:09:30.868       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:09:41.624       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:09:41.636       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:09:51.347       OMS: The destination status Shipped has been reached.
+2022-07-20 11:09:51.582     
+2022-07-20 11:09:51.595    Processing: RS22-POT-ELU (2/49)
+2022-07-20 11:09:54.697       OMS: Linked to id: 115622
+2022-07-20 11:09:55.727       OMS: The current status is: Production (4)
+2022-07-20 11:09:58.393       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:09:58.401       OMS: Clicking the "Take order" button.
+2022-07-20 11:10:00.629       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:03.081       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:10:10.348       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:10:10.354       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:10.524       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:23.874       OMS: The current status is: Built (5)
+2022-07-20 11:10:23.879       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:36.157       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:10:36.166       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:46.181       OMS: The destination status Shipped has been reached.
+2022-07-20 11:10:46.482     
+2022-07-20 11:10:46.499    Processing: RS22-CIZ-UPI (3/49)
+2022-07-20 11:10:49.449       OMS: Linked to id: 115581
+2022-07-20 11:10:50.527       OMS: The current status is: Production (4)
+2022-07-20 11:10:51.858       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:10:51.867       OMS: Clicking the "Take order" button.
+2022-07-20 11:10:53.652       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:10:56.017       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:11:02.588       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:11:02.595       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:02.773       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:14.661       OMS: The current status is: Built (5)
+2022-07-20 11:11:14.667       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:25.504       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:11:25.513       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:35.095       OMS: The destination status Shipped has been reached.
+2022-07-20 11:11:35.331     
+2022-07-20 11:11:35.337    Processing: RS22-GUL-AFI (4/49)
+2022-07-20 11:11:38.493       OMS: Linked to id: 115582
+2022-07-20 11:11:39.521       OMS: The current status is: Production (4)
+2022-07-20 11:11:40.758       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:11:40.764       OMS: Clicking the "Take order" button.
+2022-07-20 11:11:42.544       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:44.886       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:11:50.734       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:11:50.741       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:11:50.918       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:02.468       OMS: The current status is: Built (5)
+2022-07-20 11:12:02.475       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:12.616       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:12:12.623       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:22.856       OMS: The destination status Shipped has been reached.
+2022-07-20 11:12:23.103     
+2022-07-20 11:12:23.108    Processing: RS22-EPE-XEF (5/49)
+2022-07-20 11:12:26.022       OMS: Linked to id: 115021
+2022-07-20 11:12:27.074       OMS: The current status is: Production (4)
+2022-07-20 11:12:28.355       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:12:28.365       OMS: Clicking the "Take order" button.
+2022-07-20 11:12:30.425       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:32.807       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:12:38.635       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:12:38.644       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:38.837       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:12:50.798       OMS: The current status is: Built (5)
+2022-07-20 11:12:50.806       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:01.151       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:13:01.159       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:11.124       OMS: The destination status Shipped has been reached.
+2022-07-20 11:13:11.371     
+2022-07-20 11:13:11.376    Processing: RS22-IVO-KIT (6/49)
+2022-07-20 11:13:14.700       OMS: Linked to id: 115328
+2022-07-20 11:13:15.731       OMS: The current status is: Production (4)
+2022-07-20 11:13:17.135       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:13:17.143       OMS: Clicking the "Take order" button.
+2022-07-20 11:13:19.763       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:22.096       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:13:28.159       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:13:28.169       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:28.347       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:41.063       OMS: The current status is: Built (5)
+2022-07-20 11:13:41.079       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:13:53.080       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:13:53.080       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:04.109       OMS: The destination status Shipped has been reached.
+2022-07-20 11:14:04.379     
+2022-07-20 11:14:04.399    Processing: RS22-IMU-NON (7/49)
+2022-07-20 11:14:07.265       OMS: Linked to id: 115327
+2022-07-20 11:14:08.290       OMS: The current status is: Production (4)
+2022-07-20 11:14:09.638       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:14:09.646       OMS: Clicking the "Take order" button.
+2022-07-20 11:14:11.932       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:14.271       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:14:19.674       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:14:19.680       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:19.849       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:32.386       OMS: The current status is: Built (5)
+2022-07-20 11:14:32.391       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:42.913       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:14:42.924       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:14:52.891       OMS: The destination status Shipped has been reached.
+2022-07-20 11:14:53.154     
+2022-07-20 11:14:53.171    Processing: RS22-IQU-POJ (8/49)
+2022-07-20 11:14:56.780       OMS: Linked to id: 115025
+2022-07-20 11:14:57.824       OMS: The current status is: Production (4)
+2022-07-20 11:14:59.157       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:14:59.167       OMS: Clicking the "Take order" button.
+2022-07-20 11:15:01.096       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:03.474       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:15:09.274       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:15:09.280       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:09.451       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:21.519       OMS: The current status is: Built (5)
+2022-07-20 11:15:21.525       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:31.715       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:15:31.723       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:41.136       OMS: The destination status Shipped has been reached.
+2022-07-20 11:15:41.381     
+2022-07-20 11:15:41.387    Processing: RS22-NIQ-COF (9/49)
+2022-07-20 11:15:44.402       OMS: Linked to id: 115022
+2022-07-20 11:15:45.426       OMS: The current status is: Production (4)
+2022-07-20 11:15:46.654       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:15:46.667       OMS: Clicking the "Take order" button.
+2022-07-20 11:15:48.978       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:51.306       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:15:57.261       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:15:57.266       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:15:57.436       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:16:09.906       OMS: The current status is: Built (5)
+2022-07-20 11:16:09.913       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:16:20.833       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:16:20.844       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:16:41.747       OMS: The destination status Shipped has been reached.
+2022-07-20 11:16:41.975     
+2022-07-20 11:16:41.980    Processing: RS22-POJ-OSI (10/49)
+2022-07-20 11:16:45.328       OMS: Linked to id: 115322
+2022-07-20 11:16:46.381       OMS: The current status is: Production (4)
+2022-07-20 11:16:47.942       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:16:47.949       OMS: Clicking the "Take order" button.
+2022-07-20 11:16:49.685       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:16:52.028       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:16:58.831       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:16:58.838       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:16:59.010       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:17:11.100       OMS: The current status is: Built (5)
+2022-07-20 11:17:11.106       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:17:22.946       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:17:22.951       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:17:32.408       OMS: The destination status Shipped has been reached.
+2022-07-20 11:17:32.640     
+2022-07-20 11:17:32.647    Processing: RS22-SEC-SOQ (11/49)
+2022-07-20 11:17:36.398       OMS: Linked to id: 115321
+2022-07-20 11:17:37.427       OMS: The current status is: Production (4)
+2022-07-20 11:17:38.668       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:17:38.676       OMS: Clicking the "Take order" button.
+2022-07-20 11:17:40.919       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:17:43.285       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:17:49.446       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:17:49.451       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:17:49.622       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:01.066       OMS: The current status is: Built (5)
+2022-07-20 11:18:01.073       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:11.182       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:18:11.190       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:20.873       OMS: The destination status Shipped has been reached.
+2022-07-20 11:18:21.136     
+2022-07-20 11:18:21.160    Processing: RS22-QIV-TUP (12/49)
+2022-07-20 11:18:24.248       OMS: Linked to id: 115320
+2022-07-20 11:18:25.278       OMS: The current status is: Production (4)
+2022-07-20 11:18:26.563       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:18:26.573       OMS: Clicking the "Take order" button.
+2022-07-20 11:18:29.250       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:31.642       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:18:37.800       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:18:37.808       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:37.980       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:18:50.326       OMS: The current status is: Built (5)
+2022-07-20 11:18:50.335       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:01.539       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:19:01.550       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:11.901       OMS: The destination status Shipped has been reached.
+2022-07-20 11:19:12.189     
+2022-07-20 11:19:12.199    Processing: RS22-VAD-DEQ (13/49)
+2022-07-20 11:19:15.314       OMS: Linked to id: 115317
+2022-07-20 11:19:16.340       OMS: The current status is: Production (4)
+2022-07-20 11:19:17.687       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:19:17.694       OMS: Clicking the "Take order" button.
+2022-07-20 11:19:21.669       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:23.995       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:19:31.131       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:19:31.138       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:31.319       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:43.049       OMS: The current status is: Built (5)
+2022-07-20 11:19:43.055       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:19:54.669       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:19:54.675       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:04.547       OMS: The destination status Shipped has been reached.
+2022-07-20 11:20:04.793     
+2022-07-20 11:20:04.801    Processing: RS22-XAN-RAQ (14/49)
+2022-07-20 11:20:08.136       OMS: Linked to id: 115323
+2022-07-20 11:20:09.185       OMS: The current status is: Production (4)
+2022-07-20 11:20:10.501       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:20:10.511       OMS: Clicking the "Take order" button.
+2022-07-20 11:20:13.017       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:15.348       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:20:21.281       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:20:21.289       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:21.462       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:33.630       OMS: The current status is: Built (5)
+2022-07-20 11:20:33.642       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:44.900       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:20:44.905       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:20:56.660       OMS: The destination status Shipped has been reached.
+2022-07-20 11:20:56.952     
+2022-07-20 11:20:56.962    Processing: RS22-FEV-GAC (15/49)
+2022-07-20 11:20:59.823       OMS: Linked to id: 115609
+2022-07-20 11:21:00.864       OMS: The current status is: Production (4)
+2022-07-20 11:21:02.384       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:21:02.391       OMS: Clicking the "Take order" button.
+2022-07-20 11:21:04.766       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:21:07.135       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:21:12.768       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:21:12.768       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:21:12.947       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:21:25.601       OMS: The current status is: Built (5)
+2022-07-20 11:21:25.606       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:21:38.997       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:21:39.003       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:21:49.641       OMS: The destination status Shipped has been reached.
+2022-07-20 11:21:49.888     
+2022-07-20 11:21:49.900    Processing: RS22-FAD-ATI (16/49)
+2022-07-20 11:21:53.225       OMS: Linked to id: 115276
+2022-07-20 11:21:54.256       OMS: The current status is: Production (4)
+2022-07-20 11:21:55.809       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:21:55.816       OMS: Clicking the "Take order" button.
+2022-07-20 11:21:58.639       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:01.012       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:22:06.351       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:22:06.361       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:06.540       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:19.382       OMS: The current status is: Built (5)
+2022-07-20 11:22:19.389       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:31.388       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:22:31.394       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:43.057       OMS: The destination status Shipped has been reached.
+2022-07-20 11:22:43.302     
+2022-07-20 11:22:43.305    Processing: RS22-JIH-ZUJ (17/49)
+2022-07-20 11:22:46.101       OMS: Linked to id: 115333
+2022-07-20 11:22:47.131       OMS: The current status is: Production (4)
+2022-07-20 11:22:48.656       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:22:48.663       OMS: Clicking the "Take order" button.
+2022-07-20 11:22:51.457       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:53.849       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:22:59.726       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:22:59.735       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:22:59.905       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:23:12.312       OMS: The current status is: Built (5)
+2022-07-20 11:23:12.316       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:23:24.804       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:23:24.813       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:23:35.573       OMS: The destination status Shipped has been reached.
+2022-07-20 11:23:35.843     
+2022-07-20 11:23:35.854    Processing: RS22-TIB-HAT (18/49)
+2022-07-20 11:23:39.736       OMS: Linked to id: 115316
+2022-07-20 11:23:40.767       OMS: The current status is: Production (4)
+2022-07-20 11:23:42.287       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:23:42.295       OMS: Clicking the "Take order" button.
+2022-07-20 11:23:45.166       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:23:47.495       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:23:53.915       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:23:53.923       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:23:54.094       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:24:06.149       OMS: The current status is: Built (5)
+2022-07-20 11:24:06.154       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:24:17.130       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:24:17.137       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:24:27.377       OMS: The destination status Shipped has been reached.
+2022-07-20 11:24:27.603     
+2022-07-20 11:24:27.612    Processing: RS22-LOB-MEG (19/49)
+2022-07-20 11:24:30.492       OMS: Linked to id: 115314
+2022-07-20 11:24:31.517       OMS: The current status is: Production (4)
+2022-07-20 11:24:33.245       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:24:33.253       OMS: Clicking the "Take order" button.
+2022-07-20 11:24:37.530       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:24:40.942       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:24:46.914       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:24:46.920       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:24:47.093       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:00.590       OMS: The current status is: Built (5)
+2022-07-20 11:25:00.602       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:12.828       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:25:12.835       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:22.718       OMS: The destination status Shipped has been reached.
+2022-07-20 11:25:22.955     
+2022-07-20 11:25:22.961    Processing: RS22-POF-POQ (20/49)
+2022-07-20 11:25:25.751       OMS: Linked to id: 115385
+2022-07-20 11:25:26.799       OMS: The current status is: Production (4)
+2022-07-20 11:25:28.329       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:25:28.338       OMS: Clicking the "Take order" button.
+2022-07-20 11:25:31.094       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:33.422       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:25:39.281       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:25:39.287       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:39.458       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:25:52.648       OMS: The current status is: Built (5)
+2022-07-20 11:25:52.660       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:26:05.047       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:26:05.054       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:26:15.895       OMS: The destination status Shipped has been reached.
+2022-07-20 11:26:16.130     
+2022-07-20 11:26:16.138    Processing: RS22-HEH-LAM (21/49)
+2022-07-20 11:26:31.452       OMS: Linked to id: 115151
+2022-07-20 11:26:32.487       OMS: The current status is: Production (4)
+2022-07-20 11:26:33.704       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:26:33.711       OMS: Clicking the "Take order" button.
+2022-07-20 11:26:36.061       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:26:38.409       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:26:44.569       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:26:44.581       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:26:44.758       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:26:56.983       OMS: The current status is: Built (5)
+2022-07-20 11:26:56.993       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:27:10.467       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:27:10.483       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:27:20.762       OMS: The destination status Shipped has been reached.
+2022-07-20 11:27:21.005     
+2022-07-20 11:27:21.005    Processing: RS22-CEC-FIS (22/49)
+2022-07-20 11:27:24.543       OMS: Linked to id: 115605
+2022-07-20 11:27:25.578       OMS: The current status is: Production (4)
+2022-07-20 11:27:27.829       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:27:27.837       OMS: Clicking the "Take order" button.
+2022-07-20 11:27:31.120       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:27:33.422       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:27:39.634       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:27:39.641       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:27:39.809       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:27:54.650       OMS: The current status is: Built (5)
+2022-07-20 11:27:54.656       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:06.278       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:28:06.286       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:15.990       OMS: The destination status Shipped has been reached.
+2022-07-20 11:28:16.261     
+2022-07-20 11:28:16.269    Processing: RS22-EPE-MUM (23/49)
+2022-07-20 11:28:19.400       OMS: Linked to id: 115399
+2022-07-20 11:28:20.436       OMS: The current status is: Production (4)
+2022-07-20 11:28:22.257       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:28:22.267       OMS: Clicking the "Take order" button.
+2022-07-20 11:28:25.169       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:27.498       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:28:33.826       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:28:33.847       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:34.043       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:46.554       OMS: The current status is: Built (5)
+2022-07-20 11:28:46.564       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:28:58.975       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:28:58.975       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:29:09.274       OMS: The destination status Shipped has been reached.
+2022-07-20 11:29:09.541     
+2022-07-20 11:29:09.562    Processing: RS22-XIH-CUD (24/49)
+2022-07-20 11:29:12.559       OMS: Linked to id: 115400
+2022-07-20 11:29:13.597       OMS: The current status is: Production (4)
+2022-07-20 11:29:14.966       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:29:14.973       OMS: Clicking the "Take order" button.
+2022-07-20 11:29:17.277       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:29:19.650       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:29:25.620       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:29:25.626       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:29:25.796       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:29:38.722       OMS: The current status is: Built (5)
+2022-07-20 11:29:38.727       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:29:50.384       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:29:50.389       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:00.373       OMS: The destination status Shipped has been reached.
+2022-07-20 11:30:00.614     
+2022-07-20 11:30:00.621    Processing: RS22-DOD-NOQ (25/49)
+2022-07-20 11:30:03.773       OMS: Linked to id: 115304
+2022-07-20 11:30:04.801       OMS: The current status is: Production (4)
+2022-07-20 11:30:06.199       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:30:06.208       OMS: Clicking the "Take order" button.
+2022-07-20 11:30:08.469       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:10.819       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:30:17.413       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:30:17.421       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:17.596       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:30.844       OMS: The current status is: Built (5)
+2022-07-20 11:30:30.851       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:42.354       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:30:42.361       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:30:53.506       OMS: The destination status Shipped has been reached.
+2022-07-20 11:30:53.748     
+2022-07-20 11:30:53.755    Processing: RS22-OPI-BOX (26/49)
+2022-07-20 11:30:57.920       OMS: Linked to id: 115387
+2022-07-20 11:30:58.950       OMS: The current status is: Production (4)
+2022-07-20 11:31:00.798       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:31:00.805       OMS: Clicking the "Take order" button.
+2022-07-20 11:31:04.062       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:31:06.426       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:31:12.264       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:31:12.274       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:31:12.456       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:31:25.706       OMS: The current status is: Built (5)
+2022-07-20 11:31:25.712       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:31:37.212       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:31:37.217       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:31:49.537       OMS: The destination status Shipped has been reached.
+2022-07-20 11:31:49.782     
+2022-07-20 11:31:49.791    Processing: RS22-MAH-FUN (27/49)
+2022-07-20 11:31:52.611       OMS: Linked to id: 115388
+2022-07-20 11:31:53.638       OMS: The current status is: Production (4)
+2022-07-20 11:31:55.047       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:31:55.055       OMS: Clicking the "Take order" button.
+2022-07-20 11:31:58.133       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:00.491       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:32:06.415       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:32:06.431       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:06.610       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:19.236       OMS: The current status is: Built (5)
+2022-07-20 11:32:19.242       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:29.737       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:32:29.747       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:39.785       OMS: The destination status Shipped has been reached.
+2022-07-20 11:32:40.020     
+2022-07-20 11:32:40.030    Processing: RS22-LUS-NIR (28/49)
+2022-07-20 11:32:43.246       OMS: Linked to id: 115284
+2022-07-20 11:32:44.279       OMS: The current status is: Production (4)
+2022-07-20 11:32:45.521       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:32:45.527       OMS: Clicking the "Take order" button.
+2022-07-20 11:32:47.771       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:50.152       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:32:56.526       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:32:56.535       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:32:56.723       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:09.011       OMS: The current status is: Built (5)
+2022-07-20 11:33:09.019       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:19.901       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:33:19.907       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:29.541       OMS: The destination status Shipped has been reached.
+2022-07-20 11:33:29.801     
+2022-07-20 11:33:29.808    Processing: RS22-KAD-FOK (29/49)
+2022-07-20 11:33:33.388       OMS: Linked to id: 115020
+2022-07-20 11:33:34.420       OMS: The current status is: Production (4)
+2022-07-20 11:33:35.658       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:33:35.667       OMS: Clicking the "Take order" button.
+2022-07-20 11:33:38.115       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:40.464       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:33:46.533       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:33:46.539       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:46.715       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:33:58.809       OMS: The current status is: Built (5)
+2022-07-20 11:33:58.816       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:34:10.943       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:34:10.949       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:34:20.490       OMS: The destination status Shipped has been reached.
+2022-07-20 11:34:20.729     
+2022-07-20 11:34:20.740    Processing: RS22-VOR-FEG (30/49)
+2022-07-20 11:34:25.216       OMS: Linked to id: 115254
+2022-07-20 11:34:26.256       OMS: The current status is: Production (4)
+2022-07-20 11:34:27.702       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:34:27.714       OMS: Clicking the "Take order" button.
+2022-07-20 11:34:30.151       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:34:32.490       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:34:37.992       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:34:37.998       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:34:38.168       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:34:50.393       OMS: The current status is: Built (5)
+2022-07-20 11:34:50.402       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:03.354       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:35:03.361       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:13.369       OMS: The destination status Shipped has been reached.
+2022-07-20 11:35:13.605     
+2022-07-20 11:35:13.611    Processing: RS22-ZIN-LOX (31/49)
+2022-07-20 11:35:16.744       OMS: Linked to id: 115075
+2022-07-20 11:35:17.786       OMS: The current status is: Production (4)
+2022-07-20 11:35:19.212       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:35:19.218       OMS: Clicking the "Take order" button.
+2022-07-20 11:35:21.304       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:23.624       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:35:29.865       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:35:29.877       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:30.051       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:41.691       OMS: The current status is: Built (5)
+2022-07-20 11:35:41.698       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:35:52.585       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:35:52.592       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:02.551       OMS: The destination status Shipped has been reached.
+2022-07-20 11:36:02.813     
+2022-07-20 11:36:02.822    Processing: RS22-TOK-LEF (32/49)
+2022-07-20 11:36:06.300       OMS: Linked to id: 115060
+2022-07-20 11:36:07.328       OMS: The current status is: Production (4)
+2022-07-20 11:36:08.603       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:36:08.616       OMS: Clicking the "Take order" button.
+2022-07-20 11:36:11.176       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:13.502       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:36:19.650       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:36:19.660       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:19.866       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:39.802       OMS: The current status is: Built (5)
+2022-07-20 11:36:39.812       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:50.252       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:36:50.260       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:36:59.490       OMS: The destination status Shipped has been reached.
+2022-07-20 11:36:59.727     
+2022-07-20 11:36:59.736    Processing: RS22-UBO-BAK (33/49)
+2022-07-20 11:37:03.191       OMS: Linked to id: 115253
+2022-07-20 11:37:04.218       OMS: The current status is: Production (4)
+2022-07-20 11:37:05.605       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:37:05.612       OMS: Clicking the "Take order" button.
+2022-07-20 11:37:07.775       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:37:10.093       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:37:15.956       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:37:15.965       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:37:16.132       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:37:27.808       OMS: The current status is: Built (5)
+2022-07-20 11:37:27.816       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:37:40.778       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:37:40.785       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:37:50.466       OMS: The destination status Shipped has been reached.
+2022-07-20 11:37:50.705     
+2022-07-20 11:37:50.716    Processing: RS22-RUP-HES (34/49)
+2022-07-20 11:37:53.841       OMS: Linked to id: 115076
+2022-07-20 11:37:54.868       OMS: The current status is: Production (4)
+2022-07-20 11:37:56.438       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:37:56.445       OMS: Clicking the "Take order" button.
+2022-07-20 11:37:58.427       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:00.772       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:38:06.606       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:38:06.614       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:06.781       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:18.783       OMS: The current status is: Built (5)
+2022-07-20 11:38:18.789       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:30.089       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:38:30.096       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:39.678       OMS: The destination status Shipped has been reached.
+2022-07-20 11:38:39.958     
+2022-07-20 11:38:39.969    Processing: RS22-QEF-FIL (35/49)
+2022-07-20 11:38:44.783       OMS: Linked to id: 115268
+2022-07-20 11:38:45.831       OMS: The current status is: Production (4)
+2022-07-20 11:38:47.449       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:38:47.457       OMS: Clicking the "Take order" button.
+2022-07-20 11:38:50.317       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:52.676       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:38:58.766       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:38:58.772       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:38:58.942       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:39:11.532       OMS: The current status is: Built (5)
+2022-07-20 11:39:11.539       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:39:21.997       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:39:22.006       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:39:32.975       OMS: The destination status Shipped has been reached.
+2022-07-20 11:39:33.226     
+2022-07-20 11:39:33.243    Processing: RS22-RIP-MAH (36/49)
+2022-07-20 11:39:36.161       OMS: Linked to id: 115054
+2022-07-20 11:39:37.202       OMS: The current status is: Production (4)
+2022-07-20 11:39:38.840       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:39:38.853       OMS: Clicking the "Take order" button.
+2022-07-20 11:39:40.735       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:39:43.111       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:39:48.979       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:39:48.990       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:39:49.176       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:02.575       OMS: The current status is: Built (5)
+2022-07-20 11:40:02.575       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:12.834       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:40:12.841       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:23.281       OMS: The destination status Shipped has been reached.
+2022-07-20 11:40:23.517     
+2022-07-20 11:40:23.524    Processing: RS22-SER-VOP (37/49)
+2022-07-20 11:40:26.319       OMS: Linked to id: 115297
+2022-07-20 11:40:27.360       OMS: The current status is: Production (4)
+2022-07-20 11:40:29.069       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:40:29.076       OMS: Clicking the "Take order" button.
+2022-07-20 11:40:31.196       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:33.511       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:40:39.266       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:40:39.280       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:39.474       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:40:52.097       OMS: The current status is: Built (5)
+2022-07-20 11:40:52.103       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:02.401       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:41:02.405       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:12.265       OMS: The destination status Shipped has been reached.
+2022-07-20 11:41:12.501     
+2022-07-20 11:41:12.509    Processing: RS22-COL-CAH (38/49)
+2022-07-20 11:41:15.338       OMS: Linked to id: 115311
+2022-07-20 11:41:16.392       OMS: The current status is: Production (4)
+2022-07-20 11:41:18.630       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:41:18.644       OMS: Clicking the "Take order" button.
+2022-07-20 11:41:20.683       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:23.030       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:41:29.239       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:41:29.263       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:29.456       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:41.398       OMS: The current status is: Built (5)
+2022-07-20 11:41:41.398       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:41:52.618       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:41:52.621       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:03.267       OMS: The destination status Shipped has been reached.
+2022-07-20 11:42:03.528     
+2022-07-20 11:42:03.538    Processing: RS22-GIC-IJO (39/49)
+2022-07-20 11:42:06.372       OMS: Linked to id: 115396
+2022-07-20 11:42:07.397       OMS: The current status is: Production (4)
+2022-07-20 11:42:08.873       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:42:08.878       OMS: Clicking the "Take order" button.
+2022-07-20 11:42:11.395       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:13.729       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:42:19.152       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:42:19.161       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:19.334       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:31.149       OMS: The current status is: Built (5)
+2022-07-20 11:42:31.156       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:41.558       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:42:41.571       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:42:51.515       OMS: The destination status Shipped has been reached.
+2022-07-20 11:42:51.770     
+2022-07-20 11:42:51.770    Processing: RS22-DIF-CEG (40/49)
+2022-07-20 11:42:54.566       OMS: Linked to id: 115409
+2022-07-20 11:42:55.594       OMS: The current status is: Production (4)
+2022-07-20 11:42:56.840       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:42:56.850       OMS: Clicking the "Take order" button.
+2022-07-20 11:42:59.009       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:01.348       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:43:09.949       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:43:09.965       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:10.135       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:21.780       OMS: The current status is: Built (5)
+2022-07-20 11:43:21.785       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:32.101       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:43:32.107       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:42.056       OMS: The destination status Shipped has been reached.
+2022-07-20 11:43:42.303     
+2022-07-20 11:43:42.309    Processing: RS22-UVA-TAK (41/49)
+2022-07-20 11:43:45.311       OMS: Linked to id: 115393
+2022-07-20 11:43:46.338       OMS: The current status is: Production (4)
+2022-07-20 11:43:47.545       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:43:47.551       OMS: Clicking the "Take order" button.
+2022-07-20 11:43:49.391       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:51.725       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:43:57.351       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:43:57.351       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:43:57.538       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:11.058       OMS: The current status is: Built (5)
+2022-07-20 11:44:11.064       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:21.882       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:44:21.882       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:31.156       OMS: The destination status Shipped has been reached.
+2022-07-20 11:44:31.451     
+2022-07-20 11:44:31.461    Processing: RS22-VUP-FAR (42/49)
+2022-07-20 11:44:34.299       OMS: Linked to id: 115394
+2022-07-20 11:44:35.333       OMS: The current status is: Production (4)
+2022-07-20 11:44:36.552       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:44:36.558       OMS: Clicking the "Take order" button.
+2022-07-20 11:44:38.498       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:40.862       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:44:46.110       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:44:46.122       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:46.311       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:44:57.630       OMS: The current status is: Built (5)
+2022-07-20 11:44:57.635       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:07.856       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:45:07.861       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:16.978       OMS: The destination status Shipped has been reached.
+2022-07-20 11:45:17.222     
+2022-07-20 11:45:17.229    Processing: RS22-OJA-IDE (43/49)
+2022-07-20 11:45:20.054       OMS: Linked to id: 115397
+2022-07-20 11:45:21.097       OMS: The current status is: Production (4)
+2022-07-20 11:45:22.361       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:45:22.366       OMS: Clicking the "Take order" button.
+2022-07-20 11:45:24.087       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:26.449       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:45:31.908       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:45:31.911       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:32.087       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:44.251       OMS: The current status is: Built (5)
+2022-07-20 11:45:44.251       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:45:55.070       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:45:55.070       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:04.184       OMS: The destination status Shipped has been reached.
+2022-07-20 11:46:04.452     
+2022-07-20 11:46:04.458    Processing: RS22-GAQ-UZO (44/49)
+2022-07-20 11:46:07.269       OMS: Linked to id: 115375
+2022-07-20 11:46:08.308       OMS: The current status is: Production (4)
+2022-07-20 11:46:09.515       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:46:09.531       OMS: Clicking the "Take order" button.
+2022-07-20 11:46:11.230       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:13.562       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:46:19.381       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:46:19.386       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:19.559       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:37.329       OMS: The current status is: Built (5)
+2022-07-20 11:46:37.333       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:47.751       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:46:47.757       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:46:57.052       OMS: The destination status Shipped has been reached.
+2022-07-20 11:46:57.302     
+2022-07-20 11:46:57.312    Processing: RS22-GUF-LEH (45/49)
+2022-07-20 11:47:00.129       OMS: Linked to id: 115160
+2022-07-20 11:47:01.175       OMS: The current status is: Production (4)
+2022-07-20 11:47:02.419       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:47:02.424       OMS: Clicking the "Take order" button.
+2022-07-20 11:47:04.101       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:06.429       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:47:11.688       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:47:11.693       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:11.859       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:23.361       OMS: The current status is: Built (5)
+2022-07-20 11:47:23.366       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:34.869       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:47:34.869       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:44.235       OMS: The destination status Shipped has been reached.
+2022-07-20 11:47:44.488     
+2022-07-20 11:47:44.495    Processing: RS22-VOS-SES (46/49)
+2022-07-20 11:47:47.328       OMS: Linked to id: 114963
+2022-07-20 11:47:48.386       OMS: The current status is: Production (4)
+2022-07-20 11:47:49.760       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:47:49.767       OMS: Clicking the "Take order" button.
+2022-07-20 11:47:51.389       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:53.745       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:47:59.221       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:47:59.226       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:47:59.404       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:10.858       OMS: The current status is: Built (5)
+2022-07-20 11:48:10.858       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:21.450       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:48:21.465       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:30.884       OMS: The destination status Shipped has been reached.
+2022-07-20 11:48:31.128     
+2022-07-20 11:48:31.134    Processing: RS22-OLE-ZOC (47/49)
+2022-07-20 11:48:33.951       OMS: Linked to id: 115136
+2022-07-20 11:48:34.986       OMS: The current status is: Production (4)
+2022-07-20 11:48:36.223       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:48:36.231       OMS: Clicking the "Take order" button.
+2022-07-20 11:48:38.725       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:41.083       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:48:46.484       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:48:46.490       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:46.659       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:48:58.225       OMS: The current status is: Built (5)
+2022-07-20 11:48:58.231       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:08.431       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:49:08.438       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:17.866       OMS: The destination status Shipped has been reached.
+2022-07-20 11:49:18.101     
+2022-07-20 11:49:18.117    Processing: RS22-NEK-JUG (48/49)
+2022-07-20 11:49:20.954       OMS: Linked to id: 114970
+2022-07-20 11:49:21.985       OMS: The current status is: Production (4)
+2022-07-20 11:49:23.183       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:49:23.203       OMS: Clicking the "Take order" button.
+2022-07-20 11:49:24.797       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:27.182       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:49:32.453       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:49:32.463       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:32.649       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:45.360       OMS: The current status is: Built (5)
+2022-07-20 11:49:45.360       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:49:55.640       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:49:55.661       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:04.884       OMS: The destination status Shipped has been reached.
+2022-07-20 11:50:05.149     
+2022-07-20 11:50:05.149    Processing: RS22-OGO-HOX (49/49)
+2022-07-20 11:50:07.999       OMS: Linked to id: 114968
+2022-07-20 11:50:09.057       OMS: The current status is: Production (4)
+2022-07-20 11:50:10.312       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 11:50:10.320       OMS: Clicking the "Take order" button.
+2022-07-20 11:50:12.614       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:15.013       OMS: The current production substatus is: Streamics (New)
+2022-07-20 11:50:20.481       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 11:50:20.481       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:20.678       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:32.209       OMS: The current status is: Built (5)
+2022-07-20 11:50:32.209       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:42.372       OMS: The current status is: Ready to ship (6)
+2022-07-20 11:50:42.372       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 11:50:51.678       OMS: The destination status Shipped has been reached.
+2022-07-20 11:50:51.941     
+2022-07-20 11:50:51.957     
+2022-07-20 11:50:51.963    ---------------------------------------------------------------------- 
+2022-07-20 11:50:51.963    ---------------------------------------------------------------------- 
+2022-07-20 11:50:51.963    ---------------------------------------------------------------------- 
+2022-07-20 11:50:51.963     
+2022-07-20 11:50:51.979    Full summary
+2022-07-20 11:50:51.979     
+2022-07-20 11:50:51.979    Scrapped parts
+2022-07-20 11:50:51.995    --------------
+2022-07-20 11:50:51.995    None
+2022-07-20 11:50:51.995     
+2022-07-20 11:50:52.010    Promotions         Streamics                           OMS
+2022-07-20 11:50:52.010    -----------------------------------------------------------------------
+2022-07-20 11:50:52.010    RS22-ZEV-UMA:      Valid                               Valid
+2022-07-20 11:50:52.027    RS22-POT-ELU:      Valid                               Valid
+2022-07-20 11:50:52.027    RS22-CIZ-UPI:      Valid                               Valid
+2022-07-20 11:50:52.027    RS22-GUL-AFI:      Valid                               Valid
+2022-07-20 11:50:52.027    RS22-EPE-XEF:      Valid                               Valid
+2022-07-20 11:50:52.043    RS22-IVO-KIT:      Valid                               Valid
+2022-07-20 11:50:52.043    RS22-IMU-NON:      Valid                               Valid
+2022-07-20 11:50:52.043    RS22-IQU-POJ:      Valid                               Valid
+2022-07-20 11:50:52.060    RS22-NIQ-COF:      Valid                               Valid
+2022-07-20 11:50:52.065    RS22-POJ-OSI:      Valid                               Valid
+2022-07-20 11:50:52.070    RS22-SEC-SOQ:      Valid                               Valid
+2022-07-20 11:50:52.075    RS22-QIV-TUP:      Valid                               Valid
+2022-07-20 11:50:52.080    RS22-VAD-DEQ:      Valid                               Valid
+2022-07-20 11:50:52.085    RS22-XAN-RAQ:      Valid                               Valid
+2022-07-20 11:50:52.090    RS22-FEV-GAC:      Valid                               Valid
+2022-07-20 11:50:52.095    RS22-FAD-ATI:      Valid                               Valid
+2022-07-20 11:50:52.100    RS22-JIH-ZUJ:      Valid                               Valid
+2022-07-20 11:50:52.103    RS22-TIB-HAT:      Valid                               Valid
+2022-07-20 11:50:52.103    RS22-LOB-MEG:      Valid                               Valid
+2022-07-20 11:50:52.103    RS22-POF-POQ:      Valid                               Valid
+2022-07-20 11:50:52.118    RS22-HEH-LAM:      Valid                               Valid
+2022-07-20 11:50:52.120    RS22-CEC-FIS:      Valid                               Valid
+2022-07-20 11:50:52.120    RS22-EPE-MUM:      Valid                               Valid
+2022-07-20 11:50:52.120    RS22-XIH-CUD:      Valid                               Valid
+2022-07-20 11:50:52.136    RS22-DOD-NOQ:      Valid                               Valid
+2022-07-20 11:50:52.136    RS22-OPI-BOX:      Valid                               Valid
+2022-07-20 11:50:52.136    RS22-MAH-FUN:      Valid                               Valid
+2022-07-20 11:50:52.151    RS22-LUS-NIR:      Valid                               Valid
+2022-07-20 11:50:52.151    RS22-KAD-FOK:      Valid                               Valid
+2022-07-20 11:50:52.151    RS22-VOR-FEG:      Valid                               Valid
+2022-07-20 11:50:52.164    RS22-ZIN-LOX:      Valid                               Valid
+2022-07-20 11:50:52.164    RS22-TOK-LEF:      Valid                               Valid
+2022-07-20 11:50:52.164    RS22-UBO-BAK:      Valid                               Valid
+2022-07-20 11:50:52.164    RS22-RUP-HES:      Valid                               Valid
+2022-07-20 11:50:52.184    RS22-QEF-FIL:      Valid                               Valid
+2022-07-20 11:50:52.189    RS22-RIP-MAH:      Valid                               Valid
+2022-07-20 11:50:52.194    RS22-SER-VOP:      Valid                               Valid
+2022-07-20 11:50:52.198    RS22-COL-CAH:      Valid                               Valid
+2022-07-20 11:50:52.203    RS22-GIC-IJO:      Valid                               Valid
+2022-07-20 11:50:52.203    RS22-DIF-CEG:      Valid                               Valid
+2022-07-20 11:50:52.203    RS22-UVA-TAK:      Valid                               Valid
+2022-07-20 11:50:52.203    RS22-VUP-FAR:      Valid                               Valid
+2022-07-20 11:50:52.220    RS22-OJA-IDE:      Valid                               Valid
+2022-07-20 11:50:52.220    RS22-GAQ-UZO:      Valid                               Valid
+2022-07-20 11:50:52.220    RS22-GUF-LEH:      Valid                               Valid
+2022-07-20 11:50:52.236    RS22-VOS-SES:      Valid                               Valid
+2022-07-20 11:50:52.236    RS22-OLE-ZOC:      Valid                               Valid
+2022-07-20 11:50:52.236    RS22-NEK-JUG:      Valid                               Valid
+2022-07-20 11:50:52.252    RS22-OGO-HOX:      Valid                               Valid
+2022-07-20 11:50:52.257     
+2022-07-20 11:50:52.261    ---------------------------------------------------------------------- 
+2022-07-20 11:50:52.266    ---------------------------------------------------------------------- 
+2022-07-20 11:50:52.270    ---------------------------------------------------------------------- 
+2022-07-20 11:50:52.270     
+2022-07-20 11:50:52.270    Take action for the following cases
+2022-07-20 11:50:52.270     
+2022-07-20 11:50:52.286    Scrapped parts
+2022-07-20 11:50:52.286    --------------
+2022-07-20 11:50:52.286    None
+2022-07-20 11:50:52.302     
+2022-07-20 11:50:52.302    Promotions         Streamics                           OMS
+2022-07-20 11:50:52.302    -----------------------------------------------------------------------
+2022-07-20 11:50:52.317    None
+2022-07-20 11:50:52.317     

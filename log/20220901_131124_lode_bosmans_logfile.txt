@@ -1,0 +1,123 @@
+2022-09-01 13:11:45.742    User: lode_bosmans
+2022-09-01 13:11:45.742    Destination status Streamics: Post processing finished
+2022-09-01 13:11:45.762    Destination status OMS: Shipped
+2022-09-01 13:11:45.767     
+2022-09-01 13:11:45.767    The cases to be processed for promotion:
+2022-09-01 13:11:45.767475    RS22-IVA-UXO, RS22-LET-MEV, RS22-DAG-DIS, RS22-DOP-DIL, RS22-IVI-GUM, RS22-LEN-QAV, RS22-NUJ-MIL, RS22-POH-LAH, RS22-REL-UXU, RS22-UMO-GOX
+2022-09-01 13:11:45.767     
+2022-09-01 13:11:45.783    The cases to be processed for rebuilt:
+2022-09-01 13:11:45.793732    
+2022-09-01 13:11:45.793     
+2022-09-01 13:11:45.793    Setting up the browser and checking compatability
+2022-09-01 13:11:49.159    Chrome browser version: 104
+2022-09-01 13:11:49.165    Chromedriver version: 104
+2022-09-01 13:11:49.173    Versions match
+2022-09-01 13:11:54.458     
+2022-09-01 13:11:54.468    Focus on the "view orders" button and click it
+2022-09-01 13:11:54.468     
+2022-09-01 13:11:56.930    Focus on the first "all" button and click it
+2022-09-01 13:11:56.995    Focus on the second "all" button and click it
+2022-09-01 13:11:57.164     
+2022-09-01 13:11:58.784    Opening batch promotion in a new tab
+2022-09-01 13:12:00.439    Focus on the batch promotion "all" button and click it
+2022-09-01 13:12:00.444     
+2022-09-01 13:12:03.019     
+2022-09-01 13:12:03.026    Processing: RS22-IVA-UXO (1/10)
+2022-09-01 13:12:06.385       STREAMICS: Destination status is "Post processing finished"
+2022-09-01 13:12:06.389       STREAMICS: Starting promotions
+2022-09-01 13:12:09.515       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-09-01 13:12:12.649       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-09-01 13:12:15.824       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-09-01 13:12:15.889       STREAMICS: Promoted to "Post-processing finished"
+2022-09-01 13:12:15.897       STREAMICS: Destination status has been reached.
+2022-09-01 13:12:18.732       OMS: Linked to id: 118768
+2022-09-01 13:12:19.765       OMS: The current status is: Built (5)
+2022-09-01 13:12:19.765       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:12:31.157       OMS: The current status is: Ready to ship (6)
+2022-09-01 13:12:31.157       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:12:40.393       OMS: The destination status Shipped has been reached.
+2022-09-01 13:12:40.654     
+2022-09-01 13:12:40.659    Processing: RS22-LET-MEV (2/10)
+2022-09-01 13:12:44.009       STREAMICS: Destination status is "Post processing finished"
+2022-09-01 13:12:44.014       STREAMICS: Starting promotions
+2022-09-01 13:12:47.192       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-09-01 13:12:50.344       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-09-01 13:12:53.481       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-09-01 13:12:56.609       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-09-01 13:12:56.658       STREAMICS: Promoted to "Post-processing finished"
+2022-09-01 13:12:56.663       STREAMICS: Destination status has been reached.
+2022-09-01 13:12:59.488       OMS: Linked to id: 118862
+2022-09-01 13:13:00.513       OMS: The current status is: Built (5)
+2022-09-01 13:13:00.513       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:13:12.770       OMS: The current status is: Ready to ship (6)
+2022-09-01 13:13:12.776       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:13:33.126       OMS: The destination status Shipped has been reached.
+2022-09-01 13:13:33.383     
+2022-09-01 13:13:33.399    Processing: RS22-DAG-DIS (3/10)
+2022-09-01 13:13:37.069       STREAMICS: Destination status is "Post processing finished"
+2022-09-01 13:13:37.076       STREAMICS: Starting promotions
+2022-09-01 13:13:40.225       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-09-01 13:13:43.371       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-09-01 13:13:46.570       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-09-01 13:13:50.042       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-09-01 13:13:50.132       STREAMICS: Promoted to "Post-processing finished"
+2022-09-01 13:13:50.142       STREAMICS: Destination status has been reached.
+2022-09-01 13:13:53.257       OMS: Linked to id: 118809
+2022-09-01 13:13:54.296       OMS: The current status is: Built (5)
+2022-09-01 13:13:54.304       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:14:05.984       OMS: The current status is: Ready to ship (6)
+2022-09-01 13:14:05.995       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:14:16.546       OMS: The destination status Shipped has been reached.
+2022-09-01 13:14:16.816     
+2022-09-01 13:14:16.830    Processing: RS22-DOP-DIL (4/10)
+2022-09-01 13:14:20.503       STREAMICS: Destination status is "Post processing finished"
+2022-09-01 13:14:20.513       STREAMICS: Starting promotions
+2022-09-01 13:14:23.746       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-09-01 13:14:26.960       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-09-01 13:14:30.138       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-09-01 13:14:33.320       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-09-01 13:14:33.379       STREAMICS: Promoted to "Post-processing finished"
+2022-09-01 13:14:33.387       STREAMICS: Destination status has been reached.
+2022-09-01 13:14:37.712       OMS: Linked to id: 118806
+2022-09-01 13:14:38.765       OMS: The current status is: Built (5)
+2022-09-01 13:14:38.777       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:14:50.463       OMS: The current status is: Ready to ship (6)
+2022-09-01 13:14:50.472       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:15:01.004       OMS: The destination status Shipped has been reached.
+2022-09-01 13:15:01.265     
+2022-09-01 13:15:01.265    Processing: RS22-IVI-GUM (5/10)
+2022-09-01 13:15:04.775       STREAMICS: Destination status is "Post processing finished"
+2022-09-01 13:15:04.782       STREAMICS: Starting promotions
+2022-09-01 13:15:08.078       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-09-01 13:15:11.240       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-09-01 13:15:14.521       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-09-01 13:15:17.750       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-09-01 13:15:17.815       STREAMICS: Promoted to "Post-processing finished"
+2022-09-01 13:15:17.824       STREAMICS: Destination status has been reached.
+2022-09-01 13:15:20.786       OMS: Linked to id: 118813
+2022-09-01 13:15:21.815       OMS: The current status is: Built (5)
+2022-09-01 13:15:21.822       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:15:34.098       OMS: The current status is: Ready to ship (6)
+2022-09-01 13:15:34.109       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-09-01 13:15:57.502       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:16:19.764       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:16:41.969       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:17:04.231       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:17:26.487       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:17:48.845       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:18:11.059       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:18:33.306       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:18:55.633       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:19:18.003       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:19:40.257       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:20:02.551       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:20:24.769       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:20:47.063       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:21:09.274       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:21:31.535       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:21:53.720       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:22:16.005       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:22:38.292       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:23:00.564       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:23:22.933       The script seems to be stuck. Consider restarting the script.
+2022-09-01 13:23:45.132       The script seems to be stuck. Consider restarting the script.

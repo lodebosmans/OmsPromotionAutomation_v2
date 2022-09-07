@@ -1,0 +1,248 @@
+2022-08-22 17:51:39.080    User: lode_bosmans
+2022-08-22 17:51:39.080    Destination status Streamics: Post processing finished
+2022-08-22 17:51:39.080    Destination status OMS: Shipped
+2022-08-22 17:51:39.080     
+2022-08-22 17:51:39.096    The cases to be processed for promotion:
+2022-08-22 17:51:39.096417    RS22-FUB-BUS, RS22-SEL-SIB, RS22-GOK-KOS, RS22-GUF-FAS, RS22-MAX-ROR, RS22-OPU-PAD, RS22-ROH-BUX, RS22-AQI-JON, RS22-BIB-MIX, RS22-NEZ-SOP, RS22-LOK-QUN
+2022-08-22 17:51:39.096     
+2022-08-22 17:51:39.112    The cases to be processed for rebuilt:
+2022-08-22 17:51:39.112018    
+2022-08-22 17:51:39.120     
+2022-08-22 17:51:39.120    Setting up the browser and checking compatability
+2022-08-22 17:51:42.594    Chrome browser version: 104
+2022-08-22 17:51:42.601    Chromedriver version: 104
+2022-08-22 17:51:42.606    Versions match
+2022-08-22 17:52:27.752     
+2022-08-22 17:52:27.756    Focus on the "view orders" button and click it
+2022-08-22 17:52:27.756     
+2022-08-22 17:52:30.763    Focus on the first "all" button and click it
+2022-08-22 17:52:30.819    Focus on the second "all" button and click it
+2022-08-22 17:52:30.984     
+2022-08-22 17:52:32.598    Opening batch promotion in a new tab
+2022-08-22 17:52:34.910    Focus on the batch promotion "all" button and click it
+2022-08-22 17:52:34.910     
+2022-08-22 17:52:37.458     
+2022-08-22 17:52:37.464    Processing: RS22-FUB-BUS (1/11)
+2022-08-22 17:52:41.399       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:52:41.406       STREAMICS: Starting promotions
+2022-08-22 17:52:44.574       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:52:47.701       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:52:50.835       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:52:53.940       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:52:53.981       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:52:53.986       STREAMICS: Destination status has been reached.
+2022-08-22 17:52:56.787       OMS: Linked to id: 115644
+2022-08-22 17:52:57.818       OMS: The current status is: Built (5)
+2022-08-22 17:52:57.825       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:53:09.269       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:53:09.269       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:53:18.572       OMS: The destination status Shipped has been reached.
+2022-08-22 17:53:18.829     
+2022-08-22 17:53:18.829    Processing: RS22-SEL-SIB (2/11)
+2022-08-22 17:53:22.475       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:53:22.481       STREAMICS: Starting promotions
+2022-08-22 17:53:25.648       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:53:28.778       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:53:31.923       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:53:35.046       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:53:35.102       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:53:35.108       STREAMICS: Destination status has been reached.
+2022-08-22 17:53:37.943       OMS: Linked to id: 116398
+2022-08-22 17:53:38.971       OMS: The current status is: Built (5)
+2022-08-22 17:53:38.975       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:53:50.700       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:53:50.706       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:53:59.854       OMS: The destination status Shipped has been reached.
+2022-08-22 17:54:00.122     
+2022-08-22 17:54:00.122    Processing: RS22-GOK-KOS (3/11)
+2022-08-22 17:54:03.604       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:54:03.611       STREAMICS: Starting promotions
+2022-08-22 17:54:06.774       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:54:09.889       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:54:13.046       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:54:16.177       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:54:16.219       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:54:16.224       STREAMICS: Destination status has been reached.
+2022-08-22 17:54:19.060       OMS: Linked to id: 118233
+2022-08-22 17:54:20.100       OMS: The current status is: Built (5)
+2022-08-22 17:54:20.108       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:54:31.786       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:54:31.786       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:54:40.876       OMS: The destination status Shipped has been reached.
+2022-08-22 17:54:41.121     
+2022-08-22 17:54:41.136    Processing: RS22-GUF-FAS (4/11)
+2022-08-22 17:54:44.658       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:54:44.664       STREAMICS: Starting promotions
+2022-08-22 17:54:47.785       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:54:50.943       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:54:54.076       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:54:57.220       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:54:57.262       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:54:57.267       STREAMICS: Destination status has been reached.
+2022-08-22 17:55:00.060       OMS: Linked to id: 118087
+2022-08-22 17:55:01.092       OMS: The current status is: Built (5)
+2022-08-22 17:55:01.092       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:55:12.279       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:55:12.285       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:55:21.575       OMS: The destination status Shipped has been reached.
+2022-08-22 17:55:21.840     
+2022-08-22 17:55:21.848    Processing: RS22-MAX-ROR (5/11)
+2022-08-22 17:55:26.014       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:55:26.051       STREAMICS: Starting promotions
+2022-08-22 17:55:29.338       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:55:32.702       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:55:36.154       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:55:40.081       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:55:40.192       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:55:40.210       STREAMICS: Destination status has been reached.
+2022-08-22 17:55:43.538       OMS: Linked to id: 117596
+2022-08-22 17:55:44.604       OMS: The current status is: Built (5)
+2022-08-22 17:55:44.614       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:55:55.988       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:55:55.996       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:56:05.065       OMS: The destination status Shipped has been reached.
+2022-08-22 17:56:05.303     
+2022-08-22 17:56:05.303    Processing: RS22-OPU-PAD (6/11)
+2022-08-22 17:56:08.691       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:56:08.697       STREAMICS: Starting promotions
+2022-08-22 17:56:11.840       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:56:14.978       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:56:18.106       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:56:21.251       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:56:21.293       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:56:21.300       STREAMICS: Destination status has been reached.
+2022-08-22 17:56:24.140       OMS: Linked to id: 118319
+2022-08-22 17:56:25.163       OMS: The current status is: Built (5)
+2022-08-22 17:56:25.163       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:56:36.380       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:56:36.380       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:56:45.272       OMS: The destination status Shipped has been reached.
+2022-08-22 17:56:45.526     
+2022-08-22 17:56:45.526    Processing: RS22-ROH-BUX (7/11)
+2022-08-22 17:56:48.989       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:56:48.995       STREAMICS: Starting promotions
+2022-08-22 17:56:52.134       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-08-22 17:56:55.278       STREAMICS: Promoted to "9430 MOT Built"
+2022-08-22 17:56:58.408       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:57:01.530       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:57:04.646       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:57:07.763       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:57:07.802       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:57:07.808       STREAMICS: Destination status has been reached.
+2022-08-22 17:57:10.663       OMS: Linked to id: 118068
+2022-08-22 17:57:11.728       OMS: The current status is: Production (4)
+2022-08-22 17:57:13.046       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-08-22 17:57:13.053       OMS: Clicking the "Take order" button.
+2022-08-22 17:57:14.590       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:57:16.935       OMS: The current production substatus is: Streamics (Built)
+2022-08-22 17:57:16.940       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:57:17.109       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:57:28.432       OMS: The current status is: Built (5)
+2022-08-22 17:57:28.447       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:57:38.478       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:57:38.484       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:57:47.551       OMS: The destination status Shipped has been reached.
+2022-08-22 17:57:47.818     
+2022-08-22 17:57:47.819    Processing: RS22-AQI-JON (8/11)
+2022-08-22 17:57:51.204       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:57:51.213       STREAMICS: Starting promotions
+2022-08-22 17:57:54.347       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:57:57.469       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:58:00.608       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:58:03.735       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:58:03.775       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:58:03.780       STREAMICS: Destination status has been reached.
+2022-08-22 17:58:06.626       OMS: Linked to id: 118208
+2022-08-22 17:58:07.647       OMS: The current status is: Built (5)
+2022-08-22 17:58:07.668       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:58:30.424       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:58:30.440       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:58:39.613       OMS: The destination status Shipped has been reached.
+2022-08-22 17:58:39.872     
+2022-08-22 17:58:39.883    Processing: RS22-BIB-MIX (9/11)
+2022-08-22 17:58:43.237       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:58:43.242       STREAMICS: Starting promotions
+2022-08-22 17:58:46.372       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:58:49.496       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:58:52.614       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:58:55.740       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:58:55.782       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:58:55.787       STREAMICS: Destination status has been reached.
+2022-08-22 17:58:58.664       OMS: Linked to id: 118106
+2022-08-22 17:58:59.697       OMS: The current status is: Built (5)
+2022-08-22 17:58:59.712       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:59:10.978       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:59:10.983       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:59:19.998       OMS: The destination status Shipped has been reached.
+2022-08-22 17:59:20.250     
+2022-08-22 17:59:20.250    Processing: RS22-NEZ-SOP (10/11)
+2022-08-22 17:59:23.610       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 17:59:23.615       STREAMICS: Starting promotions
+2022-08-22 17:59:26.743       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 17:59:29.865       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 17:59:32.994       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 17:59:36.106       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 17:59:36.146       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 17:59:36.152       STREAMICS: Destination status has been reached.
+2022-08-22 17:59:39.035       OMS: Linked to id: 118271
+2022-08-22 17:59:40.093       OMS: The current status is: Built (5)
+2022-08-22 17:59:40.093       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 17:59:51.452       OMS: The current status is: Ready to ship (6)
+2022-08-22 17:59:51.452       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 18:00:00.564       OMS: The destination status Shipped has been reached.
+2022-08-22 18:00:00.833     
+2022-08-22 18:00:00.838    Processing: RS22-LOK-QUN (11/11)
+2022-08-22 18:00:04.373       STREAMICS: Destination status is "Post processing finished"
+2022-08-22 18:00:04.379       STREAMICS: Starting promotions
+2022-08-22 18:00:07.571       STREAMICS: Promoted to "9440 MOT Sent to subcontractor"
+2022-08-22 18:00:10.723       STREAMICS: Promoted to "9450 MOT Returned from subcontractor"
+2022-08-22 18:00:13.843       STREAMICS: Promoted to "9460 MOT End product QC"
+2022-08-22 18:00:16.973       STREAMICS: Promoted to "9470 MOT Ready to ship in Paal"
+2022-08-22 18:00:17.015       STREAMICS: Promoted to "Post-processing finished"
+2022-08-22 18:00:17.020       STREAMICS: Destination status has been reached.
+2022-08-22 18:00:19.848       OMS: Linked to id: 118237
+2022-08-22 18:00:20.882       OMS: The current status is: Built (5)
+2022-08-22 18:00:20.898       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 18:00:32.046       OMS: The current status is: Ready to ship (6)
+2022-08-22 18:00:32.052       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-08-22 18:00:41.174       OMS: The destination status Shipped has been reached.
+2022-08-22 18:00:41.421     
+2022-08-22 18:00:41.428     
+2022-08-22 18:00:41.436    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.443    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.450    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.457     
+2022-08-22 18:00:41.466    Full summary
+2022-08-22 18:00:41.472     
+2022-08-22 18:00:41.479    Scrapped parts
+2022-08-22 18:00:41.486    --------------
+2022-08-22 18:00:41.493    None
+2022-08-22 18:00:41.500     
+2022-08-22 18:00:41.506    Promotions         Streamics                           OMS
+2022-08-22 18:00:41.512    -----------------------------------------------------------------------
+2022-08-22 18:00:41.519    RS22-FUB-BUS:      Valid                               Valid
+2022-08-22 18:00:41.524    RS22-SEL-SIB:      Valid                               Valid
+2022-08-22 18:00:41.530    RS22-GOK-KOS:      Valid                               Valid
+2022-08-22 18:00:41.536    RS22-GUF-FAS:      Valid                               Valid
+2022-08-22 18:00:41.540    RS22-MAX-ROR:      Valid                               Valid
+2022-08-22 18:00:41.546    RS22-OPU-PAD:      Valid                               Valid
+2022-08-22 18:00:41.551    RS22-ROH-BUX:      Valid                               Valid
+2022-08-22 18:00:41.556    RS22-AQI-JON:      Valid                               Valid
+2022-08-22 18:00:41.561    RS22-BIB-MIX:      Valid                               Valid
+2022-08-22 18:00:41.569    RS22-NEZ-SOP:      Valid                               Valid
+2022-08-22 18:00:41.574    RS22-LOK-QUN:      Valid                               Valid
+2022-08-22 18:00:41.579     
+2022-08-22 18:00:41.585    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.589    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.595    ---------------------------------------------------------------------- 
+2022-08-22 18:00:41.601     
+2022-08-22 18:00:41.606    Take action for the following cases
+2022-08-22 18:00:41.611     
+2022-08-22 18:00:41.617    Scrapped parts
+2022-08-22 18:00:41.622    --------------
+2022-08-22 18:00:41.627    None
+2022-08-22 18:00:41.633     
+2022-08-22 18:00:41.638    Promotions         Streamics                           OMS
+2022-08-22 18:00:41.643    -----------------------------------------------------------------------
+2022-08-22 18:00:41.648    None
+2022-08-22 18:00:41.653     

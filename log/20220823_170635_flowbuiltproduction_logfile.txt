@@ -1,0 +1,15 @@
+2022-08-23 17:07:00.648    User: flowbuiltproduction
+2022-08-23 17:07:00.648    Destination status Streamics: Post processing finished
+2022-08-23 17:07:00.648    Destination status OMS: Shipped
+2022-08-23 17:07:00.663     
+2022-08-23 17:07:00.663    The cases to be processed for promotion:
+2022-08-23 17:07:00.663826    RS22-IPA-PEC
+2022-08-23 17:07:00.679     
+2022-08-23 17:07:00.679    The cases to be processed for rebuilt:
+2022-08-23 17:07:00.695068    
+2022-08-23 17:07:00.695     
+2022-08-23 17:07:00.695    Setting up the browser and checking compatability
+2022-08-23 17:07:04.176    Chrome browser version: 104
+2022-08-23 17:07:04.184    Chromedriver version: 104
+2022-08-23 17:07:04.190    Versions match
+2022-08-23 17:07:26.469       The script seems to be stuck. Consider restarting the script.

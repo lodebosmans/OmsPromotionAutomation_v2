@@ -1,0 +1,69 @@
+2022-07-20 10:28:31.526    User: flowbuiltproduction
+2022-07-20 10:28:31.531    Destination status Streamics: Post processing finished
+2022-07-20 10:28:31.536    Destination status OMS: Shipped
+2022-07-20 10:28:31.545     
+2022-07-20 10:28:31.550    The cases to be processed for promotion:
+2022-07-20 10:28:31.557999    RS22-AVO-VAZ
+2022-07-20 10:28:31.562     
+2022-07-20 10:28:31.567    The cases to be processed for rebuilt:
+2022-07-20 10:28:31.575948    
+2022-07-20 10:28:31.580     
+2022-07-20 10:28:31.586    Setting up the browser and checking compatability
+2022-07-20 10:28:33.049    Chrome browser version: 103
+2022-07-20 10:28:33.058    Chromedriver version: 103
+2022-07-20 10:28:33.065    Versions match
+2022-07-20 10:28:36.878     
+2022-07-20 10:28:36.883    Focus on the "view orders" button and click it
+2022-07-20 10:28:36.888     
+2022-07-20 10:28:40.232    Focus on the first "all" button and click it
+2022-07-20 10:28:40.297    Focus on the second "all" button and click it
+2022-07-20 10:28:40.454     
+2022-07-20 10:28:42.158    Opening batch promotion in a new tab
+2022-07-20 10:28:44.672    Focus on the batch promotion "all" button and click it
+2022-07-20 10:28:44.678     
+2022-07-20 10:28:47.367     
+2022-07-20 10:28:47.381    Processing: RS22-AVO-VAZ (1/1)
+2022-07-20 10:28:50.325       OMS: Linked to id: 114192
+2022-07-20 10:28:51.349       OMS: The current status is: Production (4)
+2022-07-20 10:28:52.540       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-07-20 10:28:52.545       OMS: Clicking the "Take order" button.
+2022-07-20 10:28:54.180       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 10:28:56.611       OMS: The current production substatus is: Streamics (New)
+2022-07-20 10:29:04.959       OMS: The case should be promoted to Streamics (Built)
+2022-07-20 10:29:04.975       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 10:29:05.177       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 10:29:17.045       OMS: The current status is: Built (5)
+2022-07-20 10:29:17.051       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 10:29:27.201       OMS: The current status is: Ready to ship (6)
+2022-07-20 10:29:27.206       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-07-20 10:29:36.632       OMS: The destination status Shipped has been reached.
+2022-07-20 10:29:36.902     
+2022-07-20 10:29:36.902     
+2022-07-20 10:29:36.917    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.917    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.917    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.917     
+2022-07-20 10:29:36.933    Full summary
+2022-07-20 10:29:36.933     
+2022-07-20 10:29:36.933    Scrapped parts
+2022-07-20 10:29:36.949    --------------
+2022-07-20 10:29:36.949    None
+2022-07-20 10:29:36.949     
+2022-07-20 10:29:36.949    Promotions         Streamics                           OMS
+2022-07-20 10:29:36.964    -----------------------------------------------------------------------
+2022-07-20 10:29:36.964    RS22-AVO-VAZ:      Valid                               Valid
+2022-07-20 10:29:36.964     
+2022-07-20 10:29:36.980    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.980    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.986    ---------------------------------------------------------------------- 
+2022-07-20 10:29:36.986     
+2022-07-20 10:29:36.986    Take action for the following cases
+2022-07-20 10:29:37.002     
+2022-07-20 10:29:37.003    Scrapped parts
+2022-07-20 10:29:37.003    --------------
+2022-07-20 10:29:37.003    None
+2022-07-20 10:29:37.019     
+2022-07-20 10:29:37.019    Promotions         Streamics                           OMS
+2022-07-20 10:29:37.019    -----------------------------------------------------------------------
+2022-07-20 10:29:37.019    None
+2022-07-20 10:29:37.035     
