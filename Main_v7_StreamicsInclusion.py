@@ -760,82 +760,89 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
 
         if promote_in_streamics:
             # Get the order ID for this case ID
-            orderid = streamics_order_ids[caseid]
 
-            # STREAMICS
-            # ---------
+            if caseid in streamics_order_ids:
+                orderid = streamics_order_ids[caseid]
 
-            driver.switch_to.window(driver.window_handles[handle_streamics_postprocessing])
-            driver.get(streamics_postprocessing_path_order + orderid)
-            time.sleep(0.1)
+                # STREAMICS
+                # ---------
 
-            # Check if the part is not failed already
-            wait_until_element_is_present('xpath',xpathsearch_overview_parts,20)
-            driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
-            wait_until_element_is_present('xpath',xpathsearch_postprocessing_failed_part_1,20)
-            postprocessing_status = check_postprocessing_status()
-            if postprocessing_status == 'Started':
-                # Close the overview again
-                driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
+                driver.switch_to.window(driver.window_handles[handle_streamics_postprocessing])
+                driver.get(streamics_postprocessing_path_order + orderid)
                 time.sleep(0.1)
-                # Find the correct card to expand
-                goon_expand_card = 0
-                card_index = 1
-                while goon_expand_card == 0:
-                    xpathsearch_expand_streamics_card = '/html/body/div[1]/div[2]/div/div/div[4]/div[' + str(card_index) + ']/div'
-                    xpathsearch_expand_streamics_card_level = xpathsearch_expand_streamics_card + '/div[1]/span[2]'
-                    # Check if the opened card is the correct one
-                    if driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).text == 'Order':
-                        # All is good, you can continue
-                        goon_expand_card = 1
-                    else:
-                        print_with_timestamp('   This card (' + str(card_index) + ') does not match. Increasing index.')
-                        card_index += 1
-                        time.sleep(1)
 
-                # Check if the card is present
-                if check_exists_by_xpath(xpathsearch_expand_streamics_card_level):
-                    # Open the parts of the order (expand card)
-                    driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).click()
-                    # Get the Streamics status of the parts
-                    current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
-                    print_with_timestamp('   STREAMICS: Destination status is "' + destination_status_streamics + '"')
-                    # Compare the current status with the destination status, if smaller, promote to the next step
-                    if current_status_streamics_index < destination_status_streamics_index:
-                        print_with_timestamp('   STREAMICS: Starting promotions')
-                        while current_status_streamics_index < destination_status_streamics_index:
-                            # # Click the button
-                            driver.find_element(By.ID, 'completeAllButton').click()
-                            if current_status_streamics_index == len(StreamicsOmsStatusLink) - 2:
-                                print_with_timestamp('   STREAMICS: Promoted to "Post-processing finished"')
-                                # Update the status manually, as there is not button to click anymore
-                                current_status_streamics_index = destination_status_streamics_index * 1
-                            if current_status_streamics_index < destination_status_streamics_index:
-                                wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card_level,20)
-                                time.sleep(1)
-                                driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).click()
-                                current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
-                                print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
-                            if current_status_streamics_index == destination_status_streamics_index:
-                                print_with_timestamp('   STREAMICS: Destination status has been reached.')
-                                caseids_summary[caseid]['Streamics'] = 'Valid'
+                # Check if the part is not failed already
+                wait_until_element_is_present('xpath',xpathsearch_overview_parts,20)
+                driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
+                wait_until_element_is_present('xpath',xpathsearch_postprocessing_failed_part_1,20)
+                postprocessing_status = check_postprocessing_status()
+                if postprocessing_status == 'Started':
+                    # Close the overview again
+                    driver.find_element(By.XPATH, xpathsearch_overview_parts).click()
+                    time.sleep(0.1)
+                    # Find the correct card to expand
+                    goon_expand_card = 0
+                    card_index = 1
+                    while goon_expand_card == 0:
+                        xpathsearch_expand_streamics_card = '/html/body/div[1]/div[2]/div/div/div[4]/div[' + str(card_index) + ']/div'
+                        xpathsearch_expand_streamics_card_level = xpathsearch_expand_streamics_card + '/div[1]/span[2]'
+                        # Check if the opened card is the correct one
+                        if driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).text == 'Order':
+                            # All is good, you can continue
+                            goon_expand_card = 1
+                        else:
+                            print_with_timestamp('   This card (' + str(card_index) + ') does not match. Increasing index.')
+                            card_index += 1
+                            time.sleep(1)
+
+                    # Check if the card is present
+                    if check_exists_by_xpath(xpathsearch_expand_streamics_card_level):
+                        # Open the parts of the order (expand card)
+                        driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).click()
+                        # Get the Streamics status of the parts
+                        current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
+                        print_with_timestamp('   STREAMICS: Destination status is "' + destination_status_streamics + '"')
+                        # Compare the current status with the destination status, if smaller, promote to the next step
+                        if current_status_streamics_index < destination_status_streamics_index:
+                            print_with_timestamp('   STREAMICS: Starting promotions')
+                            while current_status_streamics_index < destination_status_streamics_index:
+                                # # Click the button
+                                driver.find_element(By.ID, 'completeAllButton').click()
+                                if current_status_streamics_index == len(StreamicsOmsStatusLink) - 2:
+                                    print_with_timestamp('   STREAMICS: Promoted to "Post-processing finished"')
+                                    # Update the status manually, as there is not button to click anymore
+                                    current_status_streamics_index = destination_status_streamics_index * 1
+                                if current_status_streamics_index < destination_status_streamics_index:
+                                    wait_until_element_is_present('xpath',xpathsearch_expand_streamics_card_level,20)
+                                    time.sleep(2)
+                                    driver.find_element(By.XPATH, xpathsearch_expand_streamics_card_level).click()
+                                    current_status_streamics, current_status_streamics_index = get_streamics_status_info(xpathsearch_expand_streamics_card)
+                                    print_with_timestamp('   STREAMICS: Promoted to "' + current_status_streamics + '"')
+                                if current_status_streamics_index == destination_status_streamics_index:
+                                    print_with_timestamp('   STREAMICS: Destination status has been reached.')
+                                    caseids_summary[caseid]['Streamics'] = 'Valid'
+
+                        else:
+                            print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
+                            caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
                     else:
                         print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
                         caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
                 else:
-                    print_with_timestamp('   STREAMICS: Nothing to promote for ' + caseid + ' (' + orderid + ')')
-                    caseids_summary[caseid]['Streamics'] = 'Nothing to promote'
+                    if postprocessing_status == 'Finished':
+                        print_with_timestamp('   STREAMICS: The parts are already in status "Post processing finished".')
+                        caseids_summary[caseid]['Streamics'] = 'Parts are finished already'
+                    elif postprocessing_status == 'Failed':
+                        print_with_timestamp('   STREAMICS: The parts are scrapped at this point.')
+                        caseids_summary[caseid]['Streamics'] = 'Parts are scrapped'
+                    else:
+                        donothing = 1
             else:
-                if postprocessing_status == 'Finished':
-                    print_with_timestamp('   STREAMICS: The parts are already in status "Post processing finished".')
-                    caseids_summary[caseid]['Streamics'] = 'Parts are finished already'
-                elif postprocessing_status == 'Failed':
-                    print_with_timestamp('   STREAMICS: The parts are scrapped at this point.')
-                    caseids_summary[caseid]['Streamics'] = 'Parts are scrapped'
-                else:
-                    donothing = 1
+                print_with_timestamp('   STREAMICS: Order ID not available - no promotions done.')
+                caseids_summary[caseid]['Streamics'] = 'Order ID not available - no promotions done'
         else:
             caseids_summary[caseid]['Streamics'] = 'Valid'
+
 
 
         # OMS
