@@ -1,0 +1,14 @@
+2022-11-15 17:12:16.909    User: flowbuiltproduction
+2022-11-15 17:12:16.914    Destination status Streamics: Post processing finished
+2022-11-15 17:12:16.918    Destination status OMS: Shipped
+2022-11-15 17:12:16.924     
+2022-11-15 17:12:16.929    The cases to be processed for promotion:
+2022-11-15 17:12:16.935014    RS22-XIL-ZUV, RS22-SIH-DUZ, RS22-UXU-IRI, RS22-XAX-ROH, RS22-KOP-JEN, RS22-DAR-HAX
+2022-11-15 17:12:16.940     
+2022-11-15 17:12:16.944    The cases to be processed for rebuilt:
+2022-11-15 17:12:16.949974    
+2022-11-15 17:12:16.974     
+2022-11-15 17:12:16.982    Setting up the browser and checking compatability
+2022-11-15 17:12:20.257    Chrome browser version: 107
+2022-11-15 17:12:20.266    Chromedriver version: 107
+2022-11-15 17:12:20.274    Versions match

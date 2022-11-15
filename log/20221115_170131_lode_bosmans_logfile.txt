@@ -1,0 +1,32 @@
+2022-11-15 17:02:30.217    User: lode_bosmans
+2022-11-15 17:02:30.223    Destination status Streamics: Post processing finished
+2022-11-15 17:02:30.230    Destination status OMS: Shipped
+2022-11-15 17:02:30.238     
+2022-11-15 17:02:30.244    The cases to be processed for promotion:
+2022-11-15 17:02:30.255280    RS22-VAT-RUX, RS22-XIL-ZUV, RS22-SIH-DUZ, RS22-UXU-IRI, RS22-XAX-ROH, RS22-KOP-JEN, RS22-DAR-HAX
+2022-11-15 17:02:30.260     
+2022-11-15 17:02:30.269    The cases to be processed for rebuilt:
+2022-11-15 17:02:30.274226    
+2022-11-15 17:02:30.280     
+2022-11-15 17:02:30.286    Setting up the browser and checking compatability
+2022-11-15 17:02:34.870    Chrome browser version: 107
+2022-11-15 17:02:34.888    Chromedriver version: 107
+2022-11-15 17:02:34.897    Versions match
+2022-11-15 17:02:38.524     
+2022-11-15 17:02:38.530    Focus on the "view orders" button and click it
+2022-11-15 17:02:38.535     
+2022-11-15 17:02:42.167    Focus on the first "all" button and click it
+2022-11-15 17:02:42.224    Focus on the second "all" button and click it
+2022-11-15 17:02:42.396     
+2022-11-15 17:02:44.215    Opening batch promotion in a new tab
+2022-11-15 17:02:46.589    Focus on the batch promotion "all" button and click it
+2022-11-15 17:02:46.600     
+2022-11-15 17:02:49.681     
+2022-11-15 17:02:49.698    Processing: RS22-VAT-RUX (1/7)
+2022-11-15 17:02:52.637       OMS: Linked to id: 126039
+2022-11-15 17:02:53.666       OMS: The current status is: Production (4)
+2022-11-15 17:03:39.318       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-11-15 17:03:41.319       OMS: Clicking the "Take order" button.
+2022-11-15 17:03:48.046       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:04:25.499       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:07:45.923       OMS: The current production substatus is: Streamics (New)

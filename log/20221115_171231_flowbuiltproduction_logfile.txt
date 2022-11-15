@@ -1,0 +1,33 @@
+2022-11-15 17:12:38.460    User: flowbuiltproduction
+2022-11-15 17:12:38.471    Destination status Streamics: Post processing finished
+2022-11-15 17:12:38.477    Destination status OMS: Shipped
+2022-11-15 17:12:38.488     
+2022-11-15 17:12:38.496    The cases to be processed for promotion:
+2022-11-15 17:12:38.506308    RS22-XIL-ZUV, RS22-SIH-DUZ, RS22-UXU-IRI, RS22-XAX-ROH, RS22-KOP-JEN, RS22-DAR-HAX
+2022-11-15 17:12:38.511     
+2022-11-15 17:12:38.519    The cases to be processed for rebuilt:
+2022-11-15 17:12:38.525256    
+2022-11-15 17:12:38.530     
+2022-11-15 17:12:38.539    Setting up the browser and checking compatability
+2022-11-15 17:12:41.903    Chrome browser version: 107
+2022-11-15 17:12:41.909    Chromedriver version: 107
+2022-11-15 17:12:41.918    Versions match
+2022-11-15 17:12:45.502     
+2022-11-15 17:12:45.508    Focus on the "view orders" button and click it
+2022-11-15 17:12:45.514     
+2022-11-15 17:12:48.868    Focus on the first "all" button and click it
+2022-11-15 17:12:48.927    Focus on the second "all" button and click it
+2022-11-15 17:12:49.091     
+2022-11-15 17:12:50.800    Opening batch promotion in a new tab
+2022-11-15 17:12:53.425    Focus on the batch promotion "all" button and click it
+2022-11-15 17:12:53.437     
+2022-11-15 17:12:56.352     
+2022-11-15 17:12:56.363    Processing: RS22-XIL-ZUV (1/6)
+2022-11-15 17:12:59.256       OMS: Linked to id: 126038
+2022-11-15 17:13:00.292       OMS: The current status is: Production (4)
+2022-11-15 17:13:01.681       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:13:01.688       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:13:04.055       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:13:07.153       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:13:08.184       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:13:08.190       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.

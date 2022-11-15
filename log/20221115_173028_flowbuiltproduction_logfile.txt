@@ -1,0 +1,135 @@
+2022-11-15 17:30:35.980    User: flowbuiltproduction
+2022-11-15 17:30:35.991    Destination status Streamics: Post processing finished
+2022-11-15 17:30:36.000    Destination status OMS: Shipped
+2022-11-15 17:30:36.006     
+2022-11-15 17:30:36.013    The cases to be processed for promotion:
+2022-11-15 17:30:36.019565    RS22-VAT-RUX, RS22-XIL-ZUV, RS22-SIH-DUZ, RS22-UXU-IRI, RS22-XAX-ROH, RS22-KOP-JEN, RS22-DAR-HAX
+2022-11-15 17:30:36.027     
+2022-11-15 17:30:36.032    The cases to be processed for rebuilt:
+2022-11-15 17:30:36.038514    
+2022-11-15 17:30:36.046     
+2022-11-15 17:30:36.051    Setting up the browser and checking compatability
+2022-11-15 17:30:39.416    Chrome browser version: 107
+2022-11-15 17:30:39.426    Chromedriver version: 107
+2022-11-15 17:30:39.432    Versions match
+2022-11-15 17:30:42.904     
+2022-11-15 17:30:42.909    Focus on the "view orders" button and click it
+2022-11-15 17:30:42.914     
+2022-11-15 17:30:46.186    Focus on the first "all" button and click it
+2022-11-15 17:30:46.244    Focus on the second "all" button and click it
+2022-11-15 17:30:46.409     
+2022-11-15 17:30:48.131    Opening batch promotion in a new tab
+2022-11-15 17:30:50.790    Focus on the batch promotion "all" button and click it
+2022-11-15 17:30:50.803     
+2022-11-15 17:30:53.694     
+2022-11-15 17:30:53.703    Processing: RS22-VAT-RUX (1/7)
+2022-11-15 17:30:56.634       OMS: Linked to id: 126039
+2022-11-15 17:30:57.666       OMS: The current status is: Production (4)
+2022-11-15 17:30:59.355       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:30:59.362       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:31:01.764       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:04.869       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:31:05.905       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:05.923       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:31:06.338     
+2022-11-15 17:31:06.352    Processing: RS22-XIL-ZUV (2/7)
+2022-11-15 17:31:09.261       OMS: Linked to id: 126038
+2022-11-15 17:31:10.296       OMS: The current status is: Production (4)
+2022-11-15 17:31:12.125       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:31:12.132       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:31:14.474       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:17.564       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:31:18.594       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:18.613       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:31:19.040     
+2022-11-15 17:31:19.053    Processing: RS22-SIH-DUZ (3/7)
+2022-11-15 17:31:22.062       OMS: Linked to id: 126023
+2022-11-15 17:31:23.100       OMS: The current status is: Production (4)
+2022-11-15 17:31:24.307       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:31:24.312       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:31:26.630       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:29.745       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:31:30.823       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:30.846       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:31:31.232     
+2022-11-15 17:31:31.238    Processing: RS22-UXU-IRI (4/7)
+2022-11-15 17:31:34.093       OMS: Linked to id: 126127
+2022-11-15 17:31:35.121       OMS: The current status is: Production (4)
+2022-11-15 17:31:36.394       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:31:36.399       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:31:38.700       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:41.802       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:31:42.830       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:42.835       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:31:43.217     
+2022-11-15 17:31:43.223    Processing: RS22-XAX-ROH (5/7)
+2022-11-15 17:31:46.117       OMS: Linked to id: 126130
+2022-11-15 17:31:47.149       OMS: The current status is: Production (4)
+2022-11-15 17:31:48.367       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:31:48.374       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:31:50.753       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:53.847       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:31:54.882       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:31:54.892       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:31:55.292     
+2022-11-15 17:31:55.306    Processing: RS22-KOP-JEN (6/7)
+2022-11-15 17:31:58.192       OMS: Linked to id: 126135
+2022-11-15 17:31:59.221       OMS: The current status is: Production (4)
+2022-11-15 17:32:00.459       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:32:00.468       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:32:02.835       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:32:05.916       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:32:06.940       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:32:06.950       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:32:07.353     
+2022-11-15 17:32:07.366    Processing: RS22-DAR-HAX (7/7)
+2022-11-15 17:32:10.222       OMS: Linked to id: 126126
+2022-11-15 17:32:11.265       OMS: The current status is: Production (4)
+2022-11-15 17:32:12.471       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-11-15 17:32:12.480       OMS: The destination status is Shipped (7). We need to further promote this case.
+2022-11-15 17:32:14.792       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:32:17.907       OMS: The case should be promoted to Streamics (Built)
+2022-11-15 17:32:18.927       OMS: The current production substatus is: Streamics (New)
+2022-11-15 17:32:18.945       OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.
+2022-11-15 17:32:19.353     
+2022-11-15 17:32:19.369     
+2022-11-15 17:32:19.375    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.381    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.386    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.393     
+2022-11-15 17:32:19.398    Full summary
+2022-11-15 17:32:19.404     
+2022-11-15 17:32:19.410    Scrapped parts
+2022-11-15 17:32:19.415    --------------
+2022-11-15 17:32:19.421    None
+2022-11-15 17:32:19.427     
+2022-11-15 17:32:19.432    Promotions         Streamics                           OMS
+2022-11-15 17:32:19.438    -----------------------------------------------------------------------
+2022-11-15 17:32:19.444    RS22-VAT-RUX:      Valid                               Invalid
+2022-11-15 17:32:19.449    RS22-XIL-ZUV:      Valid                               Invalid
+2022-11-15 17:32:19.456    RS22-SIH-DUZ:      Valid                               Invalid
+2022-11-15 17:32:19.462    RS22-UXU-IRI:      Valid                               Invalid
+2022-11-15 17:32:19.467    RS22-XAX-ROH:      Valid                               Invalid
+2022-11-15 17:32:19.474    RS22-KOP-JEN:      Valid                               Invalid
+2022-11-15 17:32:19.479    RS22-DAR-HAX:      Valid                               Invalid
+2022-11-15 17:32:19.485     
+2022-11-15 17:32:19.492    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.497    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.503    ---------------------------------------------------------------------- 
+2022-11-15 17:32:19.510     
+2022-11-15 17:32:19.515    Take action for the following cases
+2022-11-15 17:32:19.522     
+2022-11-15 17:32:19.528    Scrapped parts
+2022-11-15 17:32:19.533    --------------
+2022-11-15 17:32:19.540    None
+2022-11-15 17:32:19.545     
+2022-11-15 17:32:19.549    Promotions         Streamics                           OMS
+2022-11-15 17:32:19.557    -----------------------------------------------------------------------
+2022-11-15 17:32:19.563    RS22-VAT-RUX:      Valid                               Invalid
+2022-11-15 17:32:19.568    RS22-XIL-ZUV:      Valid                               Invalid
+2022-11-15 17:32:19.575    RS22-SIH-DUZ:      Valid                               Invalid
+2022-11-15 17:32:19.581    RS22-UXU-IRI:      Valid                               Invalid
+2022-11-15 17:32:19.587    RS22-XAX-ROH:      Valid                               Invalid
+2022-11-15 17:32:19.593    RS22-KOP-JEN:      Valid                               Invalid
+2022-11-15 17:32:19.598    RS22-DAR-HAX:      Valid                               Invalid
+2022-11-15 17:32:19.605     

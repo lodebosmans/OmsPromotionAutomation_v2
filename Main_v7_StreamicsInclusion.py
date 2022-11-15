@@ -62,6 +62,8 @@ else:
     streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_CaseIdOrderIdMatch.xlsm'
     streamics_scrap_part_base = streamics_postprocessing_path_general + '/Part/'
     
+# uat
+# http://leumappvucpro/STREAMICSV/PostProcessing/Order/433926
 
 oms_path = oms_portal + '/Default.aspx'
 streamics_postprocessing_path_order = streamics_postprocessing_path_general + '/Order/'
@@ -965,15 +967,20 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                             button.click()
                             time.sleep(1) # 5
                             print_with_timestamp('   OMS: The case should be promoted to Streamics (Built)')
-
+                            current_production_substatus = get_production_substatus()
+                            if current_production_substatus != 'Streamics (Built)':
+                                # The promotion didn't work for some reason
+                                print_with_timestamp("   OMS: The parts can't be promoted to the correct 'Streamics (Built)' status. Turning this case invalid.")
+                                no_error = False
                         
-                        print_with_timestamp('   OMS: The destination status is ' + destination_status_oms + ' (' + str(destination_status_oms_index) + '). We need to further promote this case.')
+                        if no_error == True:
+                            print_with_timestamp('   OMS: The destination status is ' + destination_status_oms + ' (' + str(destination_status_oms_index) + '). We need to further promote this case.')
                         driver.close()
                         driver.switch_to.window(driver.window_handles[handle_oms_view_orders])
                         time.sleep(0.1)
                         
                     
-                    if (current_status_oms_index >= statusFlowOms.index('Production')) and (current_status_oms_index < destination_status_oms_index ):
+                    if no_error and (current_status_oms_index >= statusFlowOms.index('Production')) and (current_status_oms_index < destination_status_oms_index ):
                         print_with_timestamp('   OMS: The destination status is ' + destination_status_oms + ' (' + str(destination_status_oms_index) + '). We need to further promote this case.')
                         # Go to the batch promotion tab
                         driver.switch_to.window(driver.window_handles[handle_oms_batch_promotion])

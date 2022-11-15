@@ -1,0 +1,938 @@
+2022-09-21 13:34:43.110    User: lode_bosmans
+2022-09-21 13:34:43.115    Destination status Streamics: 9430 MOT Built
+2022-09-21 13:34:43.121    Destination status OMS: Built
+2022-09-21 13:34:43.125     
+2022-09-21 13:34:43.129    The cases to be processed for promotion:
+2022-09-21 13:34:43.134545    RS22-AJO-KOX, RS22-ALI-ZOQ, RS22-BAP-SAF, RS22-BOG-MUD, RS22-BOK-XAQ, RS22-CAK-TIG, RS22-CIP-LOJ, RS22-CIS-DIH, RS22-COD-UVI, RS22-DAF-UGU, RS22-DEQ-XAS, RS22-DIR-QOG, RS22-DOX-UPO, RS22-ECO-HOB, RS22-EFE-ZOV, RS22-EXE-VUT, RS22-EZA-SIV, RS22-FAD-KAK, RS22-FED-BOZ, RS22-FIC-USI, RS22-FOS-EQO, RS22-FUK-ZAM, RS22-GIT-IFO, RS22-GUF-RIJ, RS22-IDI-JAV, RS22-IXA-EVO, RS22-JER-DOZ, RS22-KED-DIF, RS22-KEG-COM, RS22-KIB-ZUP, RS22-KIM-UXO, RS22-KIQ-TEB, RS22-KOT-SEJ, RS22-KUM-GEH, RS22-LAM-COF, RS22-LER-ROL, RS22-LOM-SOP, RS22-NID-ETO, RS22-NOX-TUJ, RS22-NUD-DOT, RS22-ODU-USE, RS22-OFO-OVA, RS22-OQE-KAH, RS22-PEG-GON, RS22-POJ-EME, RS22-QAK-FIT, RS22-SEF-NUK, RS22-SIZ-OTO, RS22-SOV-TOF, RS22-TOT-SOS, RS22-UCU-KAH, RS22-UDE-KEX, RS22-UVI-TOR, RS22-UZE-ISE, RS22-VAM-CET, RS22-VIK-OMI, RS22-VOS-XID, RS22-VUB-COM, RS22-VUM-PER, RS22-XAF-GEN, RS22-XET-DUR, RS22-XEZ-LAJ, RS22-XIZ-ROG, RS22-ZAL-NUS, RS22-ZAQ-GIM, RS22-ZAS-POH, RS22-ZED-VUC, RS22-ZIH-LUP
+2022-09-21 13:34:43.139     
+2022-09-21 13:34:43.143    The cases to be processed for rebuilt:
+2022-09-21 13:34:43.148463    
+2022-09-21 13:34:43.152     
+2022-09-21 13:34:43.157    Setting up the browser and checking compatability
+2022-09-21 13:34:46.681    Chrome browser version: 105
+2022-09-21 13:34:46.689    Chromedriver version: 105
+2022-09-21 13:34:46.694    Versions match
+2022-09-21 13:34:52.145     
+2022-09-21 13:34:52.150    Focus on the "view orders" button and click it
+2022-09-21 13:34:52.154     
+2022-09-21 13:34:55.138    Focus on the first "all" button and click it
+2022-09-21 13:34:55.186    Focus on the second "all" button and click it
+2022-09-21 13:34:55.342     
+2022-09-21 13:34:56.917    Opening batch promotion in a new tab
+2022-09-21 13:34:59.106    Focus on the batch promotion "all" button and click it
+2022-09-21 13:34:59.114     
+2022-09-21 13:35:01.838     
+2022-09-21 13:35:01.843    Processing: RS22-AJO-KOX (1/68)
+2022-09-21 13:35:06.712       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:06.717       STREAMICS: Nothing to promote for RS22-AJO-KOX (552372)
+2022-09-21 13:35:09.522       OMS: Linked to id: 122264
+2022-09-21 13:35:10.552       OMS: The current status is: Built (5)
+2022-09-21 13:35:10.556       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:10.782     
+2022-09-21 13:35:10.787    Processing: RS22-ALI-ZOQ (2/68)
+2022-09-21 13:35:14.124       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:14.129       STREAMICS: Nothing to promote for RS22-ALI-ZOQ (551957)
+2022-09-21 13:35:16.879       OMS: Linked to id: 122101
+2022-09-21 13:35:17.901       OMS: The current status is: Built (5)
+2022-09-21 13:35:17.906       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:18.121     
+2022-09-21 13:35:18.126    Processing: RS22-BAP-SAF (3/68)
+2022-09-21 13:35:21.494       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:21.499       STREAMICS: Nothing to promote for RS22-BAP-SAF (552102)
+2022-09-21 13:35:24.264       OMS: Linked to id: 122126
+2022-09-21 13:35:25.292       OMS: The current status is: Built (5)
+2022-09-21 13:35:25.296       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:25.550     
+2022-09-21 13:35:25.560    Processing: RS22-BOG-MUD (4/68)
+2022-09-21 13:35:29.216       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:29.222       STREAMICS: Nothing to promote for RS22-BOG-MUD (551276)
+2022-09-21 13:35:32.035       OMS: Linked to id: 121806
+2022-09-21 13:35:33.063       OMS: The current status is: Built (5)
+2022-09-21 13:35:33.068       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:33.298     
+2022-09-21 13:35:33.304    Processing: RS22-BOK-XAQ (5/68)
+2022-09-21 13:35:37.437       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:37.442       STREAMICS: Nothing to promote for RS22-BOK-XAQ (551279)
+2022-09-21 13:35:40.210       OMS: Linked to id: 121657
+2022-09-21 13:35:41.239       OMS: The current status is: Built (5)
+2022-09-21 13:35:41.245       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:41.499     
+2022-09-21 13:35:41.505    Processing: RS22-CAK-TIG (6/68)
+2022-09-21 13:35:44.864       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:44.869       STREAMICS: Nothing to promote for RS22-CAK-TIG (552373)
+2022-09-21 13:35:47.650       OMS: Linked to id: 122260
+2022-09-21 13:35:48.681       OMS: The current status is: Built (5)
+2022-09-21 13:35:48.685       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:48.918     
+2022-09-21 13:35:48.924    Processing: RS22-CIP-LOJ (7/68)
+2022-09-21 13:35:52.292       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:52.297       STREAMICS: Nothing to promote for RS22-CIP-LOJ (551958)
+2022-09-21 13:35:55.070       OMS: Linked to id: 122059
+2022-09-21 13:35:56.099       OMS: The current status is: Built (5)
+2022-09-21 13:35:56.104       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:35:56.349     
+2022-09-21 13:35:56.355    Processing: RS22-CIS-DIH (8/68)
+2022-09-21 13:35:59.690       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:35:59.696       STREAMICS: Nothing to promote for RS22-CIS-DIH (552081)
+2022-09-21 13:36:02.510       OMS: Linked to id: 122096
+2022-09-21 13:36:03.538       OMS: The current status is: Built (5)
+2022-09-21 13:36:03.543       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:03.785     
+2022-09-21 13:36:03.791    Processing: RS22-COD-UVI (9/68)
+2022-09-21 13:36:07.076       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:07.081       STREAMICS: Nothing to promote for RS22-COD-UVI (551956)
+2022-09-21 13:36:09.911       OMS: Linked to id: 122099
+2022-09-21 13:36:10.944       OMS: The current status is: Built (5)
+2022-09-21 13:36:10.948       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:11.196     
+2022-09-21 13:36:11.202    Processing: RS22-DAF-UGU (10/68)
+2022-09-21 13:36:14.603       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:36:17.425       OMS: Linked to id: 121653
+2022-09-21 13:36:18.459       OMS: The current status is: Shipped (7)
+2022-09-21 13:36:18.463       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:36:18.712     
+2022-09-21 13:36:18.717    Processing: RS22-DEQ-XAS (11/68)
+2022-09-21 13:36:21.641       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:36:24.416       OMS: Linked to id: 122118
+2022-09-21 13:36:25.452       OMS: The current status is: Shipped (7)
+2022-09-21 13:36:25.457       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:36:25.702     
+2022-09-21 13:36:25.708    Processing: RS22-DIR-QOG (12/68)
+2022-09-21 13:36:29.185       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:29.190       STREAMICS: Nothing to promote for RS22-DIR-QOG (552386)
+2022-09-21 13:36:32.001       OMS: Linked to id: 122289
+2022-09-21 13:36:33.034       OMS: The current status is: Built (5)
+2022-09-21 13:36:33.040       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:33.294     
+2022-09-21 13:36:33.306    Processing: RS22-DOX-UPO (13/68)
+2022-09-21 13:36:36.667       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:36.671       STREAMICS: Nothing to promote for RS22-DOX-UPO (552120)
+2022-09-21 13:36:39.450       OMS: Linked to id: 122200
+2022-09-21 13:36:40.513       OMS: The current status is: Built (5)
+2022-09-21 13:36:40.519       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:40.766     
+2022-09-21 13:36:40.771    Processing: RS22-ECO-HOB (14/68)
+2022-09-21 13:36:43.996       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:44.000       STREAMICS: Nothing to promote for RS22-ECO-HOB (552389)
+2022-09-21 13:36:46.915       OMS: Linked to id: 122233
+2022-09-21 13:36:47.941       OMS: The current status is: Built (5)
+2022-09-21 13:36:47.946       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:48.203     
+2022-09-21 13:36:48.213    Processing: RS22-EFE-ZOV (15/68)
+2022-09-21 13:36:51.834       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:51.838       STREAMICS: Nothing to promote for RS22-EFE-ZOV (550645)
+2022-09-21 13:36:54.617       OMS: Linked to id: 121441
+2022-09-21 13:36:55.650       OMS: The current status is: Built (5)
+2022-09-21 13:36:55.656       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:36:55.901     
+2022-09-21 13:36:55.913    Processing: RS22-EXE-VUT (16/68)
+2022-09-21 13:36:59.568       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:36:59.575       STREAMICS: Nothing to promote for RS22-EXE-VUT (550642)
+2022-09-21 13:37:03.672       OMS: Linked to id: 121450
+2022-09-21 13:37:04.704       OMS: The current status is: Built (5)
+2022-09-21 13:37:04.709       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:04.949     
+2022-09-21 13:37:04.955    Processing: RS22-EZA-SIV (17/68)
+2022-09-21 13:37:08.547       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:08.552       STREAMICS: Nothing to promote for RS22-EZA-SIV (550643)
+2022-09-21 13:37:11.686       OMS: Linked to id: 121434
+2022-09-21 13:37:12.710       OMS: The current status is: Built (5)
+2022-09-21 13:37:12.715       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:12.962     
+2022-09-21 13:37:12.968    Processing: RS22-FAD-KAK (18/68)
+2022-09-21 13:37:16.233       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:16.238       STREAMICS: Nothing to promote for RS22-FAD-KAK (552083)
+2022-09-21 13:37:19.174       OMS: Linked to id: 122045
+2022-09-21 13:37:20.221       OMS: The current status is: Built (5)
+2022-09-21 13:37:20.226       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:20.469     
+2022-09-21 13:37:20.475    Processing: RS22-FED-BOZ (19/68)
+2022-09-21 13:37:23.422       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:37:26.223       OMS: Linked to id: 122134
+2022-09-21 13:37:27.248       OMS: The current status is: Shipped (7)
+2022-09-21 13:37:27.253       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:37:27.500     
+2022-09-21 13:37:27.506    Processing: RS22-FIC-USI (20/68)
+2022-09-21 13:37:30.813       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:30.818       STREAMICS: Nothing to promote for RS22-FIC-USI (552112)
+2022-09-21 13:37:33.585       OMS: Linked to id: 122147
+2022-09-21 13:37:34.607       OMS: The current status is: Built (5)
+2022-09-21 13:37:34.612       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:34.827     
+2022-09-21 13:37:34.832    Processing: RS22-FOS-EQO (21/68)
+2022-09-21 13:37:38.191       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:38.195       STREAMICS: Nothing to promote for RS22-FOS-EQO (552180)
+2022-09-21 13:37:41.007       OMS: Linked to id: 122205
+2022-09-21 13:37:42.040       OMS: The current status is: Built (5)
+2022-09-21 13:37:42.045       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:42.292     
+2022-09-21 13:37:42.297    Processing: RS22-FUK-ZAM (22/68)
+2022-09-21 13:37:45.734       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:45.738       STREAMICS: Nothing to promote for RS22-FUK-ZAM (551578)
+2022-09-21 13:37:48.525       OMS: Linked to id: 121848
+2022-09-21 13:37:49.559       OMS: The current status is: Built (5)
+2022-09-21 13:37:49.564       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:49.796     
+2022-09-21 13:37:49.802    Processing: RS22-GIT-IFO (23/68)
+2022-09-21 13:37:53.202       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:37:53.207       STREAMICS: Nothing to promote for RS22-GIT-IFO (552388)
+2022-09-21 13:37:55.998       OMS: Linked to id: 122252
+2022-09-21 13:37:57.027       OMS: The current status is: Built (5)
+2022-09-21 13:37:57.032       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:37:57.291     
+2022-09-21 13:37:57.301    Processing: RS22-GUF-RIJ (24/68)
+2022-09-21 13:38:00.780       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:00.786       STREAMICS: Nothing to promote for RS22-GUF-RIJ (552397)
+2022-09-21 13:38:03.604       OMS: Linked to id: 122242
+2022-09-21 13:38:04.627       OMS: The current status is: Built (5)
+2022-09-21 13:38:04.631       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:04.885     
+2022-09-21 13:38:04.895    Processing: RS22-IDI-JAV (25/68)
+2022-09-21 13:38:08.226       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:08.231       STREAMICS: Nothing to promote for RS22-IDI-JAV (552218)
+2022-09-21 13:38:11.060       OMS: Linked to id: 122220
+2022-09-21 13:38:12.086       OMS: The current status is: Built (5)
+2022-09-21 13:38:12.091       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:12.340     
+2022-09-21 13:38:12.346    Processing: RS22-IXA-EVO (26/68)
+2022-09-21 13:38:15.709       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:15.714       STREAMICS: Nothing to promote for RS22-IXA-EVO (552399)
+2022-09-21 13:38:18.532       OMS: Linked to id: 122266
+2022-09-21 13:38:19.559       OMS: The current status is: Built (5)
+2022-09-21 13:38:19.563       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:19.810     
+2022-09-21 13:38:19.815    Processing: RS22-JER-DOZ (27/68)
+2022-09-21 13:38:23.298       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:23.302       STREAMICS: Nothing to promote for RS22-JER-DOZ (552126)
+2022-09-21 13:38:26.084       OMS: Linked to id: 122138
+2022-09-21 13:38:27.107       OMS: The current status is: Built (5)
+2022-09-21 13:38:27.112       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:27.338     
+2022-09-21 13:38:27.353    Processing: RS22-KED-DIF (28/68)
+2022-09-21 13:38:30.346       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:38:33.152       OMS: Linked to id: 122144
+2022-09-21 13:38:34.200       OMS: The current status is: Shipped (7)
+2022-09-21 13:38:34.204       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:38:34.451     
+2022-09-21 13:38:34.457    Processing: RS22-KEG-COM (29/68)
+2022-09-21 13:38:37.762       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:37.767       STREAMICS: Nothing to promote for RS22-KEG-COM (552222)
+2022-09-21 13:38:40.566       OMS: Linked to id: 122219
+2022-09-21 13:38:41.595       OMS: The current status is: Built (5)
+2022-09-21 13:38:41.600       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:41.850     
+2022-09-21 13:38:41.856    Processing: RS22-KIB-ZUP (30/68)
+2022-09-21 13:38:45.264       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:45.269       STREAMICS: Nothing to promote for RS22-KIB-ZUP (552123)
+2022-09-21 13:38:48.932       OMS: Linked to id: 122199
+2022-09-21 13:38:49.953       OMS: The current status is: Built (5)
+2022-09-21 13:38:49.958       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:50.175     
+2022-09-21 13:38:50.180    Processing: RS22-KIM-UXO (31/68)
+2022-09-21 13:38:53.501       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:38:53.506       STREAMICS: Nothing to promote for RS22-KIM-UXO (552181)
+2022-09-21 13:38:56.296       OMS: Linked to id: 122202
+2022-09-21 13:38:57.328       OMS: The current status is: Built (5)
+2022-09-21 13:38:57.333       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:38:57.553     
+2022-09-21 13:38:57.559    Processing: RS22-KIQ-TEB (32/68)
+2022-09-21 13:39:02.673       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:39:02.678       STREAMICS: Nothing to promote for RS22-KIQ-TEB (551409)
+2022-09-21 13:39:05.436       OMS: Linked to id: 121824
+2022-09-21 13:39:06.467       OMS: The current status is: Built (5)
+2022-09-21 13:39:06.472       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:39:06.716     
+2022-09-21 13:39:06.721    Processing: RS22-KOT-SEJ (33/68)
+2022-09-21 13:39:10.082       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:39:10.087       STREAMICS: Nothing to promote for RS22-KOT-SEJ (552079)
+2022-09-21 13:39:12.897       OMS: Linked to id: 122097
+2022-09-21 13:39:13.928       OMS: The current status is: Built (5)
+2022-09-21 13:39:13.933       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:39:14.180     
+2022-09-21 13:39:14.186    Processing: RS22-KUM-GEH (34/68)
+2022-09-21 13:39:17.539       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:39:17.544       STREAMICS: Nothing to promote for RS22-KUM-GEH (552084)
+2022-09-21 13:39:20.420       OMS: Linked to id: 122044
+2022-09-21 13:39:21.443       OMS: The current status is: Built (5)
+2022-09-21 13:39:21.448       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:39:21.666     
+2022-09-21 13:39:21.673    Processing: RS22-LAM-COF (35/68)
+2022-09-21 13:39:25.398       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:39:25.403       STREAMICS: Starting promotions
+2022-09-21 13:39:28.535       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:39:31.667       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:39:31.673       STREAMICS: Destination status has been reached.
+2022-09-21 13:39:34.482       OMS: Linked to id: 122133
+2022-09-21 13:39:35.506       OMS: The current status is: Production (4)
+2022-09-21 13:39:36.741       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:39:36.745       OMS: Clicking the "Take order" button.
+2022-09-21 13:39:38.351       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:39:40.659       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:39:40.664       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:39:40.846       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:39:53.481       OMS: The current status is: Built (5)
+2022-09-21 13:39:53.486       OMS: The destination status Built has been reached.
+2022-09-21 13:39:53.732     
+2022-09-21 13:39:53.737    Processing: RS22-LER-ROL (36/68)
+2022-09-21 13:39:57.302       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:39:57.307       STREAMICS: Starting promotions
+2022-09-21 13:40:00.433       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:40:03.561       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:40:03.566       STREAMICS: Destination status has been reached.
+2022-09-21 13:40:06.354       OMS: Linked to id: 122208
+2022-09-21 13:40:07.392       OMS: The current status is: Production (4)
+2022-09-21 13:40:08.592       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:40:08.596       OMS: Clicking the "Take order" button.
+2022-09-21 13:40:10.235       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:12.630       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:40:12.634       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:12.814       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:24.275       OMS: The current status is: Built (5)
+2022-09-21 13:40:24.280       OMS: The destination status Built has been reached.
+2022-09-21 13:40:24.525     
+2022-09-21 13:40:24.531    Processing: RS22-LOM-SOP (37/68)
+2022-09-21 13:40:28.091       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:40:28.096       STREAMICS: Starting promotions
+2022-09-21 13:40:31.219       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:40:34.352       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:40:34.357       STREAMICS: Destination status has been reached.
+2022-09-21 13:40:37.190       OMS: Linked to id: 122222
+2022-09-21 13:40:38.219       OMS: The current status is: Production (4)
+2022-09-21 13:40:39.455       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:40:39.460       OMS: Clicking the "Take order" button.
+2022-09-21 13:40:41.316       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:43.688       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:40:43.693       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:43.861       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:40:55.337       OMS: The current status is: Built (5)
+2022-09-21 13:40:55.342       OMS: The destination status Built has been reached.
+2022-09-21 13:40:55.574     
+2022-09-21 13:40:55.580    Processing: RS22-NID-ETO (38/68)
+2022-09-21 13:40:59.128       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:40:59.133       STREAMICS: Starting promotions
+2022-09-21 13:41:02.280       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:41:05.438       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:41:05.444       STREAMICS: Destination status has been reached.
+2022-09-21 13:41:12.041       OMS: Linked to id: 122104
+2022-09-21 13:41:13.096       OMS: The current status is: Production (4)
+2022-09-21 13:41:14.326       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:41:14.331       OMS: Clicking the "Take order" button.
+2022-09-21 13:41:16.740       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:41:19.079       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:41:19.084       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:41:19.262       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:41:30.722       OMS: The current status is: Built (5)
+2022-09-21 13:41:30.727       OMS: The destination status Built has been reached.
+2022-09-21 13:41:30.981     
+2022-09-21 13:41:30.992    Processing: RS22-NOX-TUJ (39/68)
+2022-09-21 13:41:34.531       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:41:34.536       STREAMICS: Starting promotions
+2022-09-21 13:41:37.674       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:41:40.801       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:41:40.806       STREAMICS: Destination status has been reached.
+2022-09-21 13:41:43.609       OMS: Linked to id: 122125
+2022-09-21 13:41:44.645       OMS: The current status is: Production (4)
+2022-09-21 13:41:45.833       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:41:45.837       OMS: Clicking the "Take order" button.
+2022-09-21 13:41:47.386       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:41:49.717       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:41:49.722       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:41:49.902       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:01.544       OMS: The current status is: Built (5)
+2022-09-21 13:42:01.550       OMS: The destination status Built has been reached.
+2022-09-21 13:42:01.793     
+2022-09-21 13:42:01.799    Processing: RS22-NUD-DOT (40/68)
+2022-09-21 13:42:05.374       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:42:05.378       STREAMICS: Starting promotions
+2022-09-21 13:42:08.522       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:42:11.644       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:42:11.649       STREAMICS: Destination status has been reached.
+2022-09-21 13:42:14.465       OMS: Linked to id: 121872
+2022-09-21 13:42:15.501       OMS: The current status is: Production (4)
+2022-09-21 13:42:16.697       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:42:16.701       OMS: Clicking the "Take order" button.
+2022-09-21 13:42:18.330       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:20.652       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:42:20.658       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:20.826       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:32.153       OMS: The current status is: Built (5)
+2022-09-21 13:42:32.158       OMS: The destination status Built has been reached.
+2022-09-21 13:42:32.403     
+2022-09-21 13:42:32.409    Processing: RS22-ODU-USE (41/68)
+2022-09-21 13:42:36.584       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:42:36.590       STREAMICS: Starting promotions
+2022-09-21 13:42:39.712       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:42:42.833       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:42:42.838       STREAMICS: Destination status has been reached.
+2022-09-21 13:42:45.686       OMS: Linked to id: 121649
+2022-09-21 13:42:46.714       OMS: The current status is: Production (4)
+2022-09-21 13:42:47.948       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:42:47.953       OMS: Clicking the "Take order" button.
+2022-09-21 13:42:49.514       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:51.901       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:42:51.906       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:42:52.090       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:03.930       OMS: The current status is: Built (5)
+2022-09-21 13:43:03.937       OMS: The destination status Built has been reached.
+2022-09-21 13:43:04.191     
+2022-09-21 13:43:04.200    Processing: RS22-OFO-OVA (42/68)
+2022-09-21 13:43:07.931       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:43:07.936       STREAMICS: Starting promotions
+2022-09-21 13:43:11.075       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:43:14.205       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:43:14.209       STREAMICS: Destination status has been reached.
+2022-09-21 13:43:17.045       OMS: Linked to id: 121800
+2022-09-21 13:43:18.078       OMS: The current status is: Production (4)
+2022-09-21 13:43:19.263       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:43:19.269       OMS: Clicking the "Take order" button.
+2022-09-21 13:43:20.841       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:23.224       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:43:23.229       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:23.409       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:35.293       OMS: The current status is: Built (5)
+2022-09-21 13:43:35.298       OMS: The destination status Built has been reached.
+2022-09-21 13:43:35.524     
+2022-09-21 13:43:35.529    Processing: RS22-OQE-KAH (43/68)
+2022-09-21 13:43:39.000       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:43:39.005       STREAMICS: Starting promotions
+2022-09-21 13:43:42.123       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:43:45.230       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:43:45.238       STREAMICS: Destination status has been reached.
+2022-09-21 13:43:47.997       OMS: Linked to id: 122146
+2022-09-21 13:43:49.024       OMS: The current status is: Production (4)
+2022-09-21 13:43:50.215       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:43:50.222       OMS: Clicking the "Take order" button.
+2022-09-21 13:43:51.897       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:54.199       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:43:54.204       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:43:54.371       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:44:05.511       OMS: The current status is: Built (5)
+2022-09-21 13:44:05.518       OMS: The destination status Built has been reached.
+2022-09-21 13:44:05.755     
+2022-09-21 13:44:05.764    Processing: RS22-PEG-GON (44/68)
+2022-09-21 13:44:09.440       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:44:09.446       STREAMICS: Starting promotions
+2022-09-21 13:44:12.568       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:44:15.694       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:44:15.701       STREAMICS: Destination status has been reached.
+2022-09-21 13:44:18.565       OMS: Linked to id: 122034
+2022-09-21 13:44:19.610       OMS: The current status is: Production (4)
+2022-09-21 13:44:20.889       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:44:20.901       OMS: Clicking the "Take order" button.
+2022-09-21 13:44:22.898       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:44:25.202       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:44:25.208       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:44:25.377       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:44:36.390       OMS: The current status is: Built (5)
+2022-09-21 13:44:36.395       OMS: The destination status Built has been reached.
+2022-09-21 13:44:36.618     
+2022-09-21 13:44:36.624    Processing: RS22-POJ-EME (45/68)
+2022-09-21 13:44:40.053       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:44:42.791       OMS: Linked to id: 121751
+2022-09-21 13:44:43.817       OMS: The current status is: Shipped (7)
+2022-09-21 13:44:43.822       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:44:44.038     
+2022-09-21 13:44:44.043    Processing: RS22-QAK-FIT (46/68)
+2022-09-21 13:44:47.377       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:44:47.384       STREAMICS: Starting promotions
+2022-09-21 13:44:50.506       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:44:53.621       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:44:53.626       STREAMICS: Destination status has been reached.
+2022-09-21 13:44:56.369       OMS: Linked to id: 122159
+2022-09-21 13:44:57.398       OMS: The current status is: Production (4)
+2022-09-21 13:44:58.608       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:44:58.613       OMS: Clicking the "Take order" button.
+2022-09-21 13:45:00.193       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:02.533       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:45:02.538       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:02.716       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:14.164       OMS: The current status is: Built (5)
+2022-09-21 13:45:14.170       OMS: The destination status Built has been reached.
+2022-09-21 13:45:14.419     
+2022-09-21 13:45:14.425    Processing: RS22-SEF-NUK (47/68)
+2022-09-21 13:45:17.573       STREAMICS: The parts are already in status "Post processing finished".
+2022-09-21 13:45:20.352       OMS: Linked to id: 122107
+2022-09-21 13:45:21.386       OMS: The current status is: Shipped (7)
+2022-09-21 13:45:21.391       OMS: This case is already has the correct status (Shipped). Added to valid cases.
+2022-09-21 13:45:21.637     
+2022-09-21 13:45:21.643    Processing: RS22-SIZ-OTO (48/68)
+2022-09-21 13:45:27.476       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:45:27.481       STREAMICS: Starting promotions
+2022-09-21 13:45:30.613       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:45:33.724       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:45:33.729       STREAMICS: Destination status has been reached.
+2022-09-21 13:45:36.525       OMS: Linked to id: 121689
+2022-09-21 13:45:37.584       OMS: The current status is: Production (4)
+2022-09-21 13:45:38.772       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:45:38.777       OMS: Clicking the "Take order" button.
+2022-09-21 13:45:41.081       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:43.483       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:45:43.487       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:43.664       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:45:55.065       OMS: The current status is: Built (5)
+2022-09-21 13:45:55.070       OMS: The destination status Built has been reached.
+2022-09-21 13:45:55.325     
+2022-09-21 13:45:55.337    Processing: RS22-SOV-TOF (49/68)
+2022-09-21 13:46:00.176       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:46:00.181       STREAMICS: Starting promotions
+2022-09-21 13:46:03.304       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:46:06.431       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:46:06.436       STREAMICS: Destination status has been reached.
+2022-09-21 13:46:09.257       OMS: Linked to id: 122136
+2022-09-21 13:46:10.292       OMS: The current status is: Production (4)
+2022-09-21 13:46:11.486       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:46:11.490       OMS: Clicking the "Take order" button.
+2022-09-21 13:46:13.392       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:15.757       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:46:15.762       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:15.942       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:27.458       OMS: The current status is: Built (5)
+2022-09-21 13:46:27.464       OMS: The destination status Built has been reached.
+2022-09-21 13:46:27.702     
+2022-09-21 13:46:27.712    Processing: RS22-TOT-SOS (50/68)
+2022-09-21 13:46:31.538       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:46:31.543       STREAMICS: Starting promotions
+2022-09-21 13:46:34.667       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:46:37.794       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:46:37.800       STREAMICS: Destination status has been reached.
+2022-09-21 13:46:40.659       OMS: Linked to id: 122149
+2022-09-21 13:46:41.690       OMS: The current status is: Production (4)
+2022-09-21 13:46:42.912       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:46:42.917       OMS: Clicking the "Take order" button.
+2022-09-21 13:46:45.561       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:47.943       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:46:47.948       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:48.126       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:46:59.567       OMS: The current status is: Built (5)
+2022-09-21 13:46:59.572       OMS: The destination status Built has been reached.
+2022-09-21 13:46:59.826     
+2022-09-21 13:46:59.836    Processing: RS22-UCU-KAH (51/68)
+2022-09-21 13:47:03.487       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:47:03.492       STREAMICS: Starting promotions
+2022-09-21 13:47:06.622       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:47:09.788       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:47:09.793       STREAMICS: Destination status has been reached.
+2022-09-21 13:47:12.625       OMS: Linked to id: 122038
+2022-09-21 13:47:13.655       OMS: The current status is: Production (4)
+2022-09-21 13:47:14.884       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:47:14.889       OMS: Clicking the "Take order" button.
+2022-09-21 13:47:16.840       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:47:19.221       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:47:19.226       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:47:19.414       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:47:30.635       OMS: The current status is: Built (5)
+2022-09-21 13:47:30.640       OMS: The destination status Built has been reached.
+2022-09-21 13:47:30.893     
+2022-09-21 13:47:30.903    Processing: RS22-UDE-KEX (52/68)
+2022-09-21 13:47:34.481       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:47:34.485       STREAMICS: Starting promotions
+2022-09-21 13:47:37.619       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:47:40.774       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:47:40.778       STREAMICS: Destination status has been reached.
+2022-09-21 13:47:43.595       OMS: Linked to id: 122012
+2022-09-21 13:47:44.624       OMS: The current status is: Production (4)
+2022-09-21 13:47:45.842       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:47:45.848       OMS: Clicking the "Take order" button.
+2022-09-21 13:47:48.612       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:47:50.969       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:47:50.974       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:47:51.155       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:03.033       OMS: The current status is: Built (5)
+2022-09-21 13:48:03.039       OMS: The destination status Built has been reached.
+2022-09-21 13:48:03.290     
+2022-09-21 13:48:03.296    Processing: RS22-UVI-TOR (53/68)
+2022-09-21 13:48:07.171       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:48:07.176       STREAMICS: Starting promotions
+2022-09-21 13:48:10.305       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:48:13.428       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:48:13.432       STREAMICS: Destination status has been reached.
+2022-09-21 13:48:16.257       OMS: Linked to id: 121456
+2022-09-21 13:48:17.286       OMS: The current status is: Production (4)
+2022-09-21 13:48:18.476       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:48:18.481       OMS: Clicking the "Take order" button.
+2022-09-21 13:48:20.379       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:22.714       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:48:22.719       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:22.886       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:34.745       OMS: The current status is: Built (5)
+2022-09-21 13:48:34.750       OMS: The destination status Built has been reached.
+2022-09-21 13:48:34.973     
+2022-09-21 13:48:34.978    Processing: RS22-UZE-ISE (54/68)
+2022-09-21 13:48:39.221       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:48:39.226       STREAMICS: Starting promotions
+2022-09-21 13:48:42.352       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:48:45.479       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:48:45.484       STREAMICS: Destination status has been reached.
+2022-09-21 13:48:48.311       OMS: Linked to id: 122103
+2022-09-21 13:48:49.347       OMS: The current status is: Production (4)
+2022-09-21 13:48:50.569       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:48:50.574       OMS: Clicking the "Take order" button.
+2022-09-21 13:48:53.714       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:56.123       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:48:56.128       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:48:56.305       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:49:07.764       OMS: The current status is: Built (5)
+2022-09-21 13:49:07.769       OMS: The destination status Built has been reached.
+2022-09-21 13:49:08.015     
+2022-09-21 13:49:08.020    Processing: RS22-VAM-CET (55/68)
+2022-09-21 13:49:11.879       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:49:11.884       STREAMICS: Starting promotions
+2022-09-21 13:49:15.034       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:49:18.161       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:49:18.165       STREAMICS: Destination status has been reached.
+2022-09-21 13:49:21.028       OMS: Linked to id: 122139
+2022-09-21 13:49:22.060       OMS: The current status is: Production (4)
+2022-09-21 13:49:23.292       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:49:23.297       OMS: Clicking the "Take order" button.
+2022-09-21 13:49:25.465       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:49:27.863       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:49:27.868       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:49:28.040       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:49:39.655       OMS: The current status is: Built (5)
+2022-09-21 13:49:39.660       OMS: The destination status Built has been reached.
+2022-09-21 13:49:39.890     
+2022-09-21 13:49:39.895    Processing: RS22-VIK-OMI (56/68)
+2022-09-21 13:49:43.356       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:49:43.361       STREAMICS: Starting promotions
+2022-09-21 13:49:46.551       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:49:49.804       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:49:49.812       STREAMICS: Destination status has been reached.
+2022-09-21 13:49:54.423       OMS: Linked to id: 122016
+2022-09-21 13:49:56.647       OMS: The current status is: Production (4)
+2022-09-21 13:49:58.721       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:49:58.736       OMS: Clicking the "Take order" button.
+2022-09-21 13:50:00.638       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:02.985       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:50:02.991       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:03.169       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:14.604       OMS: The current status is: Built (5)
+2022-09-21 13:50:14.609       OMS: The destination status Built has been reached.
+2022-09-21 13:50:14.853     
+2022-09-21 13:50:14.860    Processing: RS22-VOS-XID (57/68)
+2022-09-21 13:50:18.519       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:50:18.524       STREAMICS: Starting promotions
+2022-09-21 13:50:21.688       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:50:24.809       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:50:24.814       STREAMICS: Destination status has been reached.
+2022-09-21 13:50:27.619       OMS: Linked to id: 122206
+2022-09-21 13:50:28.664       OMS: The current status is: Production (4)
+2022-09-21 13:50:29.882       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:50:29.888       OMS: Clicking the "Take order" button.
+2022-09-21 13:50:31.459       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:33.802       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:50:33.806       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:33.977       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:50:45.360       OMS: The current status is: Built (5)
+2022-09-21 13:50:45.365       OMS: The destination status Built has been reached.
+2022-09-21 13:50:45.607     
+2022-09-21 13:50:45.620    Processing: RS22-VUB-COM (58/68)
+2022-09-21 13:50:49.165       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:50:49.170       STREAMICS: Starting promotions
+2022-09-21 13:50:52.298       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:50:55.404       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:50:55.409       STREAMICS: Destination status has been reached.
+2022-09-21 13:51:09.612       OMS: Linked to id: 122218
+2022-09-21 13:51:10.649       OMS: The current status is: Production (4)
+2022-09-21 13:51:11.834       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:51:11.839       OMS: Clicking the "Take order" button.
+2022-09-21 13:51:13.504       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:15.849       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:51:15.855       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:16.025       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:27.716       OMS: The current status is: Built (5)
+2022-09-21 13:51:27.721       OMS: The destination status Built has been reached.
+2022-09-21 13:51:27.965     
+2022-09-21 13:51:27.970    Processing: RS22-VUM-PER (59/68)
+2022-09-21 13:51:31.865       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:51:31.870       STREAMICS: Starting promotions
+2022-09-21 13:51:35.036       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:51:38.155       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:51:38.160       STREAMICS: Destination status has been reached.
+2022-09-21 13:51:40.981       OMS: Linked to id: 122041
+2022-09-21 13:51:42.014       OMS: The current status is: Production (4)
+2022-09-21 13:51:43.203       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:51:43.208       OMS: Clicking the "Take order" button.
+2022-09-21 13:51:44.835       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:47.206       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:51:47.211       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:47.381       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:51:58.717       OMS: The current status is: Built (5)
+2022-09-21 13:51:58.722       OMS: The destination status Built has been reached.
+2022-09-21 13:51:58.967     
+2022-09-21 13:51:58.973    Processing: RS22-XAF-GEN (60/68)
+2022-09-21 13:52:02.687       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:52:02.692       STREAMICS: Starting promotions
+2022-09-21 13:52:05.856       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:52:08.976       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:52:08.982       STREAMICS: Destination status has been reached.
+2022-09-21 13:52:11.861       OMS: Linked to id: 121395
+2022-09-21 13:52:12.890       OMS: The current status is: Built (5)
+2022-09-21 13:52:12.894       OMS: This case is already has the correct status (Built). Added to valid cases.
+2022-09-21 13:52:13.139     
+2022-09-21 13:52:13.149    Processing: RS22-XET-DUR (61/68)
+2022-09-21 13:52:16.903       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:52:16.908       STREAMICS: Starting promotions
+2022-09-21 13:52:20.066       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:52:23.241       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:52:23.247       STREAMICS: Destination status has been reached.
+2022-09-21 13:52:26.067       OMS: Linked to id: 122151
+2022-09-21 13:52:27.093       OMS: The current status is: Production (4)
+2022-09-21 13:52:28.301       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:52:28.308       OMS: Clicking the "Take order" button.
+2022-09-21 13:52:30.733       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:52:33.075       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:52:33.083       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:52:33.258       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:52:44.836       OMS: The current status is: Built (5)
+2022-09-21 13:52:44.841       OMS: The destination status Built has been reached.
+2022-09-21 13:52:45.073     
+2022-09-21 13:52:45.079    Processing: RS22-XEZ-LAJ (62/68)
+2022-09-21 13:52:49.006       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:52:49.011       STREAMICS: Starting promotions
+2022-09-21 13:52:52.131       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:52:55.273       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:52:55.278       STREAMICS: Destination status has been reached.
+2022-09-21 13:52:58.107       OMS: Linked to id: 122108
+2022-09-21 13:52:59.146       OMS: The current status is: Production (4)
+2022-09-21 13:53:00.343       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:53:00.348       OMS: Clicking the "Take order" button.
+2022-09-21 13:53:02.109       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:04.497       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:53:04.502       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:04.683       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:16.579       OMS: The current status is: Built (5)
+2022-09-21 13:53:16.583       OMS: The destination status Built has been reached.
+2022-09-21 13:53:16.825     
+2022-09-21 13:53:16.831    Processing: RS22-XIZ-ROG (63/68)
+2022-09-21 13:53:21.705       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:53:21.710       STREAMICS: Starting promotions
+2022-09-21 13:53:24.858       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:53:28.016       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:53:28.022       STREAMICS: Destination status has been reached.
+2022-09-21 13:53:30.782       OMS: Linked to id: 121983
+2022-09-21 13:53:31.816       OMS: The current status is: Production (4)
+2022-09-21 13:53:33.006       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:53:33.010       OMS: Clicking the "Take order" button.
+2022-09-21 13:53:34.671       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:37.006       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:53:37.011       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:37.181       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:53:48.519       OMS: The current status is: Built (5)
+2022-09-21 13:53:48.524       OMS: The destination status Built has been reached.
+2022-09-21 13:53:48.769     
+2022-09-21 13:53:48.778    Processing: RS22-ZAL-NUS (64/68)
+2022-09-21 13:53:52.705       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:53:52.710       STREAMICS: Starting promotions
+2022-09-21 13:53:55.868       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:53:59.013       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:53:59.018       STREAMICS: Destination status has been reached.
+2022-09-21 13:54:01.860       OMS: Linked to id: 122093
+2022-09-21 13:54:02.901       OMS: The current status is: Production (4)
+2022-09-21 13:54:04.115       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:54:04.120       OMS: Clicking the "Take order" button.
+2022-09-21 13:54:05.800       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:08.119       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:54:08.124       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:08.296       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:19.650       OMS: The current status is: Built (5)
+2022-09-21 13:54:19.656       OMS: The destination status Built has been reached.
+2022-09-21 13:54:19.889     
+2022-09-21 13:54:19.896    Processing: RS22-ZAQ-GIM (65/68)
+2022-09-21 13:54:24.029       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:54:24.034       STREAMICS: Starting promotions
+2022-09-21 13:54:27.216       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:54:30.333       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:54:30.339       STREAMICS: Destination status has been reached.
+2022-09-21 13:54:33.180       OMS: Linked to id: 122135
+2022-09-21 13:54:34.207       OMS: The current status is: Production (4)
+2022-09-21 13:54:35.411       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:54:35.418       OMS: Clicking the "Take order" button.
+2022-09-21 13:54:37.017       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:39.337       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:54:39.342       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:39.511       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:54:50.801       OMS: The current status is: Built (5)
+2022-09-21 13:54:50.807       OMS: The destination status Built has been reached.
+2022-09-21 13:54:51.040     
+2022-09-21 13:54:51.052    Processing: RS22-ZAS-POH (66/68)
+2022-09-21 13:54:54.573       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:54:54.578       STREAMICS: Starting promotions
+2022-09-21 13:54:57.703       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:55:00.831       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:55:00.837       STREAMICS: Destination status has been reached.
+2022-09-21 13:55:03.778       OMS: Linked to id: 122221
+2022-09-21 13:55:04.814       OMS: The current status is: Production (4)
+2022-09-21 13:55:06.028       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:55:06.036       OMS: Clicking the "Take order" button.
+2022-09-21 13:55:07.945       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:10.296       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:55:10.300       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:10.471       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:21.832       OMS: The current status is: Built (5)
+2022-09-21 13:55:21.837       OMS: The destination status Built has been reached.
+2022-09-21 13:55:22.069     
+2022-09-21 13:55:22.074    Processing: RS22-ZED-VUC (67/68)
+2022-09-21 13:55:25.694       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:55:25.700       STREAMICS: Starting promotions
+2022-09-21 13:55:28.820       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:55:31.966       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:55:31.971       STREAMICS: Destination status has been reached.
+2022-09-21 13:55:34.824       OMS: Linked to id: 122230
+2022-09-21 13:55:35.854       OMS: The current status is: Production (4)
+2022-09-21 13:55:37.090       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:55:37.097       OMS: Clicking the "Take order" button.
+2022-09-21 13:55:40.425       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:42.843       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:55:42.849       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:43.032       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:55:55.176       OMS: The current status is: Built (5)
+2022-09-21 13:55:55.180       OMS: The destination status Built has been reached.
+2022-09-21 13:55:55.420     
+2022-09-21 13:55:55.425    Processing: RS22-ZIH-LUP (68/68)
+2022-09-21 13:55:59.126       STREAMICS: Destination status is "9430 MOT Built"
+2022-09-21 13:55:59.131       STREAMICS: Starting promotions
+2022-09-21 13:56:02.296       STREAMICS: Promoted to "9420 MOT Incoming cap QC"
+2022-09-21 13:56:05.454       STREAMICS: Promoted to "9430 MOT Built"
+2022-09-21 13:56:05.459       STREAMICS: Destination status has been reached.
+2022-09-21 13:56:08.396       OMS: Linked to id: 121682
+2022-09-21 13:56:09.444       OMS: The current status is: Production (4)
+2022-09-21 13:56:10.672       OMS: The element with id take-case-button exists. So we need to click the "Take order" button.
+2022-09-21 13:56:10.677       OMS: Clicking the "Take order" button.
+2022-09-21 13:56:12.255       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:56:14.665       OMS: The current production substatus is: Streamics (Built)
+2022-09-21 13:56:14.669       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:56:14.839       OMS: The destination status is Built (5). We need to further promote this case.
+2022-09-21 13:56:26.261       OMS: The current status is: Built (5)
+2022-09-21 13:56:26.267       OMS: The destination status Built has been reached.
+2022-09-21 13:56:26.520     
+2022-09-21 13:56:26.530     
+2022-09-21 13:56:26.537    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.543    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.549    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.553     
+2022-09-21 13:56:26.558    Full summary
+2022-09-21 13:56:26.564     
+2022-09-21 13:56:26.569    Scrapped parts
+2022-09-21 13:56:26.573    --------------
+2022-09-21 13:56:26.578    None
+2022-09-21 13:56:26.583     
+2022-09-21 13:56:26.588    Promotions         Streamics                           OMS
+2022-09-21 13:56:26.593    -----------------------------------------------------------------------
+2022-09-21 13:56:26.599    RS22-AJO-KOX:      Nothing to promote                  Valid
+2022-09-21 13:56:26.603    RS22-ALI-ZOQ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.608    RS22-BAP-SAF:      Nothing to promote                  Valid
+2022-09-21 13:56:26.613    RS22-BOG-MUD:      Nothing to promote                  Valid
+2022-09-21 13:56:26.617    RS22-BOK-XAQ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.624    RS22-CAK-TIG:      Nothing to promote                  Valid
+2022-09-21 13:56:26.628    RS22-CIP-LOJ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.634    RS22-CIS-DIH:      Nothing to promote                  Valid
+2022-09-21 13:56:26.638    RS22-COD-UVI:      Nothing to promote                  Valid
+2022-09-21 13:56:26.642    RS22-DAF-UGU:      Parts are finished already          Valid
+2022-09-21 13:56:26.647    RS22-DEQ-XAS:      Parts are finished already          Valid
+2022-09-21 13:56:26.652    RS22-DIR-QOG:      Nothing to promote                  Valid
+2022-09-21 13:56:26.656    RS22-DOX-UPO:      Nothing to promote                  Valid
+2022-09-21 13:56:26.661    RS22-ECO-HOB:      Nothing to promote                  Valid
+2022-09-21 13:56:26.667    RS22-EFE-ZOV:      Nothing to promote                  Valid
+2022-09-21 13:56:26.671    RS22-EXE-VUT:      Nothing to promote                  Valid
+2022-09-21 13:56:26.676    RS22-EZA-SIV:      Nothing to promote                  Valid
+2022-09-21 13:56:26.681    RS22-FAD-KAK:      Nothing to promote                  Valid
+2022-09-21 13:56:26.685    RS22-FED-BOZ:      Parts are finished already          Valid
+2022-09-21 13:56:26.690    RS22-FIC-USI:      Nothing to promote                  Valid
+2022-09-21 13:56:26.694    RS22-FOS-EQO:      Nothing to promote                  Valid
+2022-09-21 13:56:26.699    RS22-FUK-ZAM:      Nothing to promote                  Valid
+2022-09-21 13:56:26.704    RS22-GIT-IFO:      Nothing to promote                  Valid
+2022-09-21 13:56:26.708    RS22-GUF-RIJ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.713    RS22-IDI-JAV:      Nothing to promote                  Valid
+2022-09-21 13:56:26.718    RS22-IXA-EVO:      Nothing to promote                  Valid
+2022-09-21 13:56:26.722    RS22-JER-DOZ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.726    RS22-KED-DIF:      Parts are finished already          Valid
+2022-09-21 13:56:26.731    RS22-KEG-COM:      Nothing to promote                  Valid
+2022-09-21 13:56:26.735    RS22-KIB-ZUP:      Nothing to promote                  Valid
+2022-09-21 13:56:26.740    RS22-KIM-UXO:      Nothing to promote                  Valid
+2022-09-21 13:56:26.744    RS22-KIQ-TEB:      Nothing to promote                  Valid
+2022-09-21 13:56:26.749    RS22-KOT-SEJ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.754    RS22-KUM-GEH:      Nothing to promote                  Valid
+2022-09-21 13:56:26.758    RS22-LAM-COF:      Valid                               Valid
+2022-09-21 13:56:26.763    RS22-LER-ROL:      Valid                               Valid
+2022-09-21 13:56:26.768    RS22-LOM-SOP:      Valid                               Valid
+2022-09-21 13:56:26.772    RS22-NID-ETO:      Valid                               Valid
+2022-09-21 13:56:26.777    RS22-NOX-TUJ:      Valid                               Valid
+2022-09-21 13:56:26.781    RS22-NUD-DOT:      Valid                               Valid
+2022-09-21 13:56:26.786    RS22-ODU-USE:      Valid                               Valid
+2022-09-21 13:56:26.790    RS22-OFO-OVA:      Valid                               Valid
+2022-09-21 13:56:26.794    RS22-OQE-KAH:      Valid                               Valid
+2022-09-21 13:56:26.799    RS22-PEG-GON:      Valid                               Valid
+2022-09-21 13:56:26.804    RS22-POJ-EME:      Parts are finished already          Valid
+2022-09-21 13:56:26.808    RS22-QAK-FIT:      Valid                               Valid
+2022-09-21 13:56:26.813    RS22-SEF-NUK:      Parts are finished already          Valid
+2022-09-21 13:56:26.817    RS22-SIZ-OTO:      Valid                               Valid
+2022-09-21 13:56:26.821    RS22-SOV-TOF:      Valid                               Valid
+2022-09-21 13:56:26.826    RS22-TOT-SOS:      Valid                               Valid
+2022-09-21 13:56:26.831    RS22-UCU-KAH:      Valid                               Valid
+2022-09-21 13:56:26.835    RS22-UDE-KEX:      Valid                               Valid
+2022-09-21 13:56:26.839    RS22-UVI-TOR:      Valid                               Valid
+2022-09-21 13:56:26.845    RS22-UZE-ISE:      Valid                               Valid
+2022-09-21 13:56:26.849    RS22-VAM-CET:      Valid                               Valid
+2022-09-21 13:56:26.854    RS22-VIK-OMI:      Valid                               Valid
+2022-09-21 13:56:26.858    RS22-VOS-XID:      Valid                               Valid
+2022-09-21 13:56:26.863    RS22-VUB-COM:      Valid                               Valid
+2022-09-21 13:56:26.868    RS22-VUM-PER:      Valid                               Valid
+2022-09-21 13:56:26.872    RS22-XAF-GEN:      Valid                               Valid
+2022-09-21 13:56:26.876    RS22-XET-DUR:      Valid                               Valid
+2022-09-21 13:56:26.881    RS22-XEZ-LAJ:      Valid                               Valid
+2022-09-21 13:56:26.885    RS22-XIZ-ROG:      Valid                               Valid
+2022-09-21 13:56:26.890    RS22-ZAL-NUS:      Valid                               Valid
+2022-09-21 13:56:26.894    RS22-ZAQ-GIM:      Valid                               Valid
+2022-09-21 13:56:26.899    RS22-ZAS-POH:      Valid                               Valid
+2022-09-21 13:56:26.903    RS22-ZED-VUC:      Valid                               Valid
+2022-09-21 13:56:26.908    RS22-ZIH-LUP:      Valid                               Valid
+2022-09-21 13:56:26.913     
+2022-09-21 13:56:26.917    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.922    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.927    ---------------------------------------------------------------------- 
+2022-09-21 13:56:26.933     
+2022-09-21 13:56:26.937    Take action for the following cases
+2022-09-21 13:56:26.942     
+2022-09-21 13:56:26.946    Scrapped parts
+2022-09-21 13:56:26.951    --------------
+2022-09-21 13:56:26.955    None
+2022-09-21 13:56:26.959     
+2022-09-21 13:56:26.965    Promotions         Streamics                           OMS
+2022-09-21 13:56:26.968    -----------------------------------------------------------------------
+2022-09-21 13:56:26.973    RS22-AJO-KOX:      Nothing to promote                  Valid
+2022-09-21 13:56:26.978    RS22-ALI-ZOQ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.983    RS22-BAP-SAF:      Nothing to promote                  Valid
+2022-09-21 13:56:26.987    RS22-BOG-MUD:      Nothing to promote                  Valid
+2022-09-21 13:56:26.991    RS22-BOK-XAQ:      Nothing to promote                  Valid
+2022-09-21 13:56:26.996    RS22-CAK-TIG:      Nothing to promote                  Valid
+2022-09-21 13:56:27.001    RS22-CIP-LOJ:      Nothing to promote                  Valid
+2022-09-21 13:56:27.005    RS22-CIS-DIH:      Nothing to promote                  Valid
+2022-09-21 13:56:27.009    RS22-COD-UVI:      Nothing to promote                  Valid
+2022-09-21 13:56:27.015    RS22-DAF-UGU:      Parts are finished already          Valid
+2022-09-21 13:56:27.019    RS22-DEQ-XAS:      Parts are finished already          Valid
+2022-09-21 13:56:27.023    RS22-DIR-QOG:      Nothing to promote                  Valid
+2022-09-21 13:56:27.028    RS22-DOX-UPO:      Nothing to promote                  Valid
+2022-09-21 13:56:27.033    RS22-ECO-HOB:      Nothing to promote                  Valid
+2022-09-21 13:56:27.037    RS22-EFE-ZOV:      Nothing to promote                  Valid
+2022-09-21 13:56:27.041    RS22-EXE-VUT:      Nothing to promote                  Valid
+2022-09-21 13:56:27.046    RS22-EZA-SIV:      Nothing to promote                  Valid
+2022-09-21 13:56:27.051    RS22-FAD-KAK:      Nothing to promote                  Valid
+2022-09-21 13:56:27.055    RS22-FED-BOZ:      Parts are finished already          Valid
+2022-09-21 13:56:27.060    RS22-FIC-USI:      Nothing to promote                  Valid
+2022-09-21 13:56:27.064    RS22-FOS-EQO:      Nothing to promote                  Valid
+2022-09-21 13:56:27.069    RS22-FUK-ZAM:      Nothing to promote                  Valid
+2022-09-21 13:56:27.074    RS22-GIT-IFO:      Nothing to promote                  Valid
+2022-09-21 13:56:27.079    RS22-GUF-RIJ:      Nothing to promote                  Valid
+2022-09-21 13:56:27.083    RS22-IDI-JAV:      Nothing to promote                  Valid
+2022-09-21 13:56:27.088    RS22-IXA-EVO:      Nothing to promote                  Valid
+2022-09-21 13:56:27.092    RS22-JER-DOZ:      Nothing to promote                  Valid
+2022-09-21 13:56:27.098    RS22-KED-DIF:      Parts are finished already          Valid
+2022-09-21 13:56:27.103    RS22-KEG-COM:      Nothing to promote                  Valid
+2022-09-21 13:56:27.107    RS22-KIB-ZUP:      Nothing to promote                  Valid
+2022-09-21 13:56:27.115    RS22-KIM-UXO:      Nothing to promote                  Valid
+2022-09-21 13:56:27.121    RS22-KIQ-TEB:      Nothing to promote                  Valid
+2022-09-21 13:56:27.126    RS22-KOT-SEJ:      Nothing to promote                  Valid
+2022-09-21 13:56:27.131    RS22-KUM-GEH:      Nothing to promote                  Valid
+2022-09-21 13:56:27.136    RS22-POJ-EME:      Parts are finished already          Valid
+2022-09-21 13:56:27.140    RS22-SEF-NUK:      Parts are finished already          Valid
+2022-09-21 13:56:27.146     
