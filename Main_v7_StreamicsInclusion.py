@@ -49,14 +49,14 @@ testenvironment = 0
 
 if testenvironment == 0:
     # Live environment
-    streamics_postprocessing_path_general = 'http://leumamsp00001/STREAMICS/PostProcessing'
+    streamics_postprocessing_path_general = 'http://stx-cprod-prd/STREAMICS/PostProcessing'
     oms_portal = 'https://portal.rsprint.com'
     oms_batch_promotion_path = oms_portal + '/Public/CaseManagement/ViewBatchCaseList.aspx'
     streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
     streamics_scrap_part_base = 1
 else:
     # Test environment
-    streamics_postprocessing_path_general = 'http://leumamsv00001/STREAMICSV/PostProcessing'
+    streamics_postprocessing_path_general = 'http://leumappvucpro/STREAMICSV/PostProcessing'
     oms_portal = 'https://rsprintuat.materialise.net/rsprint/Public'
     oms_batch_promotion_path = oms_portal + '/CaseManagement/ViewBatchCaseList.aspx'
     streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_CaseIdOrderIdMatch.xlsm'
