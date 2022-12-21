@@ -49,14 +49,14 @@ testenvironment = 0
 
 if testenvironment == 0:
     # Live environment
-    streamics_postprocessing_path_general = 'http://leumamsp00001/STREAMICS/PostProcessing'
+    streamics_postprocessing_path_general = 'http://stx-cprod-prd/STREAMICS/PostProcessing'
     oms_portal = 'https://portal.rsprint.com'
     oms_batch_promotion_path = oms_portal + '/Public/CaseManagement/ViewBatchCaseList.aspx'
     streamicsOrderFile_path = os.getcwd() + '/input/CaseIdOrderIdMatch.xlsm'
     streamics_scrap_part_base = 1
 else:
     # Test environment
-    streamics_postprocessing_path_general = 'http://leumamsv00001/STREAMICSV/PostProcessing'
+    streamics_postprocessing_path_general = 'http://leumappvucpro/STREAMICSV/PostProcessing'
     oms_portal = 'https://rsprintuat.materialise.net/rsprint/Public'
     oms_batch_promotion_path = oms_portal + '/CaseManagement/ViewBatchCaseList.aspx'
     streamicsOrderFile_path = os.getcwd() + '/input/TestEnvironment_CaseIdOrderIdMatch.xlsm'
@@ -960,13 +960,18 @@ if len(caseids) > 0 or len(caseids_rebuilt) > 0:
                         current_production_substatus = get_production_substatus()
                         if current_production_substatus != 'Streamics (Built)':
                             # Click the update all button
-                            xpathsearch_update_allbutton = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[4]/div/input[6]'
+                            xpathsearch_update_allbutton = '/html/body/form/div[3]/div[3]/div/div[2]/div[2]/div/div[6]/div[4]/div/input[7]'
                             wait_until_element_is_present('xpath',xpathsearch_update_allbutton,20)
                             button = driver.find_element(By.XPATH, xpathsearch_update_allbutton)
                             time.sleep(1)
                             button.click()
                             time.sleep(1) # 5
                             print_with_timestamp('   OMS: The case should be promoted to Streamics (Built)')
+                            time.sleep(0.1)
+                            button = driver.find_element(By.XPATH, xpathsearch_partslist_button)
+                            button.click()
+                            time.sleep(1)
+                            wait_until_element_is_present('xpath',xpathsearch_update_allbutton,20)
                             current_production_substatus = get_production_substatus()
                             if current_production_substatus != 'Streamics (Built)':
                                 # The promotion didn't work for some reason
