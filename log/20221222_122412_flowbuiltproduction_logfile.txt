@@ -1,0 +1,30 @@
+2022-12-22 12:24:42.330    User: flowbuiltproduction
+2022-12-22 12:24:42.338    Destination status Streamics: 9430 MOT Built
+2022-12-22 12:24:42.347    Destination status OMS: Built
+2022-12-22 12:24:42.352     
+2022-12-22 12:24:42.357    The cases to be processed for promotion:
+2022-12-22 12:24:42.365921    RS22-KIH-GAT
+2022-12-22 12:24:42.372     
+2022-12-22 12:24:42.379    The cases to be processed for rebuilt:
+2022-12-22 12:24:42.386864    
+2022-12-22 12:24:42.391     
+2022-12-22 12:24:42.400    Setting up the browser and checking compatability
+2022-12-22 12:24:45.837    Chrome browser version: 108
+2022-12-22 12:24:45.848    Chromedriver version: 108
+2022-12-22 12:24:45.856    Versions match
+2022-12-22 12:24:49.282     
+2022-12-22 12:24:49.288    Focus on the "view orders" button and click it
+2022-12-22 12:24:49.295     
+2022-12-22 12:24:52.664    Focus on the first "all" button and click it
+2022-12-22 12:24:52.735    Focus on the second "all" button and click it
+2022-12-22 12:24:52.919     
+2022-12-22 12:24:54.602    Opening batch promotion in a new tab
+2022-12-22 12:24:57.484    Focus on the batch promotion "all" button and click it
+2022-12-22 12:24:57.496     
+2022-12-22 12:25:00.686     
+2022-12-22 12:25:00.695    Processing: RS22-KIH-GAT (1/1)
+2022-12-22 12:25:03.629       OMS: Linked to id: 128489
+2022-12-22 12:25:04.663       OMS: The current status is: Production (4)
+2022-12-22 12:25:06.045       OMS: The element with id take-case-button does not exist. So we do not need to click the "Take order" button.
+2022-12-22 12:25:06.057       OMS: The destination status is Built (5). We need to further promote this case.
+2022-12-22 12:25:08.394       OMS: The current production substatus is: Streamics (New)
